@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Situaciones DGT</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene"></canvas>
+
+    <!-- Menú de escenarios -->
+    <div id="menu" class="overlay">
+      <div class="panel">
+        <h1 id="menu-title">Situaciones DGT</h1>
+        <p class="subtitle" id="menu-subtitle"></p>
+        <div id="scenario-list"></div>
+      </div>
+    </div>
+
+    <!-- Salpicadero en primera persona -->
+    <div id="dash" class="hidden"><div id="wheel"></div></div>
+
+    <!-- HUD durante la conducción -->
+    <div id="hud" class="hidden">
+      <div id="hud-title"></div>
+      <div id="hud-hint">Observa la situación…</div>
+    </div>
+
+    <!-- Pregunta -->
+    <div id="question" class="overlay hidden">
+      <div class="panel">
+        <h2 id="question-text"></h2>
+        <div id="options"></div>
+      </div>
+    </div>
+
+    <!-- Explicación -->
+    <div id="feedback" class="overlay hidden">
+      <div class="panel">
+        <h2 id="feedback-result"></h2>
+        <p id="feedback-explanation"></p>
+        <p id="feedback-rule" class="rule"></p>
+        <div class="actions">
+          <button id="btn-replay">Repetir</button>
+          <button id="btn-next">Siguiente situación</button>
+          <button id="btn-menu">Menú</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body, #app { width: 100%; height: 100%; overflow: hidden; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #1a1a2e;
+  color: #fff;
+}
+
+#scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+.hidden { display: none !important; }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 12, 24, 0.55);
+  z-index: 10;
+}
+
+/* La pregunta no tapa la escena: panel abajo, sin oscurecer el fondo */
+#question {
+  align-items: flex-end;
+  background: transparent;
+  padding-bottom: 4vh;
+  pointer-events: none;
+}
+
+#question .panel {
+  pointer-events: auto;
+  background: rgba(22, 24, 43, 0.94);
+  max-width: 640px;
+}
+
+/* Panel a un lado cuando el elemento clave está en el centro de la escena */
+#question.side-left { justify-content: flex-start; padding-left: 3vw; }
+#question.side-right { justify-content: flex-end; padding-right: 3vw; }
+#question.side-left .panel, #question.side-right .panel { max-width: 460px; }
+
+.panel {
+  background: #16182b;
+  border: 1px solid #2e3250;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 560px;
+  width: calc(100% - 40px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.panel h1 { font-size: 28px; margin-bottom: 8px; }
+.panel h2 { font-size: 20px; margin-bottom: 20px; line-height: 1.4; }
+.subtitle { color: #9aa0c3; margin-bottom: 24px; line-height: 1.5; }
+
+#scenario-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.scenario-btn.back { background: transparent; border-style: dashed; }
+.scenario-btn.random .tag { color: #ffd479; }
+
+.scenario-btn, #options button, .actions button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #232748;
+  color: #fff;
+  border: 1px solid #363c6b;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 15px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.scenario-btn:hover, #options button:hover, .actions button:hover {
+  background: #2e3460;
+  border-color: #5560a8;
+}
+
+.scenario-btn .tag {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8fd0ff;
+  margin-bottom: 4px;
+}
+
+#options { display: flex; flex-direction: column; gap: 10px; }
+
+#options button .key {
+  display: inline-block;
+  font-weight: 700;
+  color: #8fd0ff;
+  margin-right: 8px;
+}
+
+/* Salpicadero: franja curva + volante insinuado */
+#dash {
+  position: absolute;
+  bottom: 0;
+  left: -4%;
+  width: 108%;
+  height: 11vh;
+  background: #23252f;
+  border-radius: 45% 45% 0 0 / 100% 100% 0 0;
+  box-shadow: inset 0 8px 14px rgba(255, 255, 255, 0.05);
+  z-index: 4;
+  pointer-events: none;
+  overflow: visible;
+}
+
+#wheel {
+  position: absolute;
+  left: 50%;
+  bottom: -30vh;
+  transform: translateX(-50%);
+  width: 38vh;
+  height: 38vh;
+  border: 2.6vh solid #15161d;
+  border-radius: 50%;
+}
+
+#hud {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 5;
+  pointer-events: none;
+}
+
+#hud-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #cfd6ff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+#hud-hint {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #ffffffcc;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+#feedback-result.ok { color: #6fe3a1; }
+#feedback-result.ko { color: #ff7b7b; }
+
+#feedback-explanation { line-height: 1.6; margin-bottom: 14px; color: #dfe3ff; }
+
+.rule {
+  font-size: 13px;
+  color: #9aa0c3;
+  border-left: 3px solid #5560a8;
+  padding-left: 10px;
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+
+.actions { display: flex; gap: 10px; }
+.actions button { text-align: center; }
