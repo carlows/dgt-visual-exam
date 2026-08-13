@@ -35,6 +35,8 @@ const ui = {
   result: document.getElementById('feedback-result'),
   explanation: document.getElementById('feedback-explanation'),
   rule: document.getElementById('feedback-rule'),
+  app: document.getElementById('app'),
+  btnPeek: document.getElementById('btn-peek'),
   btnReplay: document.getElementById('btn-replay'),
   btnNext: document.getElementById('btn-next'),
   btnMenu: document.getElementById('btn-menu'),
@@ -64,6 +66,9 @@ function loadScenario(index) {
   scene = createBaseScene(current.env ?? {});
   npcs = current.build(scene) || [];
   elapsed = 0;
+  resetView();
+  setPeek(false);
+  hide(ui.btnPeek);
 
   // Faros del vehículo propio en escenas oscuras
   const mode = current.env?.mode ?? 'day';
@@ -85,6 +90,8 @@ function loadScenario(index) {
 function showQuestion() {
   state = 'question';
   hide(ui.hud);
+  show(ui.btnPeek);
+  setPeek(false);
   ui.question.classList.remove('side-left', 'side-right');
   if (current.panel === 'left') ui.question.classList.add('side-left');
   if (current.panel === 'right') ui.question.classList.add('side-right');
@@ -103,6 +110,7 @@ function showQuestion() {
 function answer(opt) {
   state = 'feedback';
   hide(ui.question);
+  setPeek(false);
   if (opt.correct) {
     ui.result.textContent = '✔ Correcto';
     ui.result.className = 'ok';
@@ -121,10 +129,50 @@ function answer(opt) {
 
 function showMenu() {
   state = 'menu';
-  hide(ui.hud); hide(ui.dash); hide(ui.question); hide(ui.feedback);
+  hide(ui.hud); hide(ui.dash); hide(ui.question); hide(ui.feedback); hide(ui.btnPeek);
+  setPeek(false);
   renderTemaMenu();
   show(ui.menu);
 }
+
+// ---------------------------------------------------------------------------
+// Ver escena (ocultar panel) y mirar alrededor arrastrando
+
+let peeking = false;
+function setPeek(on) {
+  peeking = on;
+  ui.app.classList.toggle('peeking', on);
+  ui.btnPeek.textContent = on
+    ? (state === 'feedback' ? '❓ Volver a la explicación' : '❓ Volver a la pregunta')
+    : '👁 Ver escena';
+}
+ui.btnPeek.addEventListener('click', () => setPeek(!peeking));
+
+let yaw = 0, pitch = 0, dragging = false, lastX = 0, lastY = 0;
+camera.rotation.order = 'YXZ';
+function resetView() {
+  yaw = 0; pitch = 0; dragging = false;
+  camera.rotation.set(0, 0, 0);
+}
+function panActive() { return state === 'question' || state === 'feedback'; }
+
+canvas.addEventListener('pointerdown', (e) => {
+  if (!panActive()) return;
+  dragging = true;
+  lastX = e.clientX; lastY = e.clientY;
+  canvas.setPointerCapture(e.pointerId);
+});
+canvas.addEventListener('pointermove', (e) => {
+  if (!dragging || !panActive()) return;
+  yaw -= (e.clientX - lastX) * 0.005;
+  pitch -= (e.clientY - lastY) * 0.005;
+  pitch = Math.max(-0.7, Math.min(0.7, pitch));
+  lastX = e.clientX; lastY = e.clientY;
+  camera.rotation.y = yaw;
+  camera.rotation.x = pitch;
+});
+canvas.addEventListener('pointerup', () => { dragging = false; });
+canvas.addEventListener('pointercancel', () => { dragging = false; });
 
 function renderTemaMenu() {
   ui.menuTitle.textContent = 'Situaciones DGT';
