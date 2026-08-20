@@ -1,0 +1,4196 @@
+[
+ {
+  "test": 11,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "880074",
+    "question": "En caso de niebla no espesa, ¿qué alumbrado antiniebla está permitido encender en un turismo?",
+    "options": {
+     "A": "La luz antiniebla trasera, únicamente.",
+     "B": "La luz antiniebla delantera, únicamente.",
+     "C": "Sí, deben llevar una o dos luces."
+    },
+    "correct": "B",
+    "image": "IMG_1891.jpg",
+    "imageDesc": "Turismo rojo circulando por una carretera con nieve en los márgenes",
+    "examWrongPick": "A"
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100058440",
+    "question": "Para evitar un accidente, un conductor con fatiga al volante debe parar a descansar de forma adecuada cuanto antes porque...",
+    "options": {
+     "A": "la agudeza visual aumenta y se ven los objetos borrosos.",
+     "B": "los efectos de la fatiga hacen que el conductor dé positivo en un control de alcoholemia.",
+     "C": "el sueño puede aparecer de un momento a otro."
+    },
+    "correct": "C",
+    "image": "IMG_1892.jpg",
+    "imageDesc": "Conductor bostezando dentro de un coche con la puerta abierta",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "90005529",
+    "question": "Tras ingerir medicamentos tranquilizantes, el tiempo de reacción...",
+    "options": {
+     "A": "aumenta.",
+     "B": "no varía.",
+     "C": "disminuye."
+    },
+    "correct": "A",
+    "image": "IMG_1893.jpg",
+    "imageDesc": "Varios medicamentos, blísteres y cajas sobre una mesa de madera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "90006523",
+    "question": "Uno de los problemas que afectan a la capacidad para conducir de las personas mayores es la disminución...",
+    "options": {
+     "A": "de la visión y del oído.",
+     "B": "del tiempo de reacción.",
+     "C": "de la visión únicamente."
+    },
+    "correct": "A",
+    "image": "IMG_1894.jpg",
+    "imageDesc": "Persona mayor al volante de un coche rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "852116601",
+    "question": "¿Qué usuarios están obligados a someterse a las pruebas de alcoholemia en un control preventivo?",
+    "options": {
+     "A": "Sólo los conductores de automóviles y motocicletas.",
+     "B": "Los conductores de vehículos que sean requeridos por la autoridad o sus agentes.",
+     "C": "Todos los usuarios de la vía, aunque no estén implicados en un accidente."
+    },
+    "correct": "B",
+    "image": "IMG_1895.jpg",
+    "imageDesc": "Control de alcoholemia de la Guardia Civil en carretera con agentes y vehículos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "100057913",
+    "question": "En la maniobra de marcha atrás, ¿está obligado el conductor a utilizar el cinturón de seguridad?",
+    "options": {
+     "A": "Solo cuando realice la maniobra en una vía urbana.",
+     "B": "Sí, debe llevarlo siempre abrochado.",
+     "C": "No, está exento."
+    },
+    "correct": "C",
+    "image": "IMG_1896.jpg",
+    "imageDesc": "Conductora mirando hacia atrás mientras hace marcha atrás",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "825519",
+    "question": "De los siguientes, ¿cuál es un síntoma característico de la aparición de la fatiga durante la conducción?",
+    "options": {
+     "A": "Se distingue mejor la información relevante de la irrelevante.",
+     "B": "El incremento de la agudeza visual.",
+     "C": "La disminución en el número de correcciones de la dirección."
+    },
+    "correct": "C",
+    "image": "IMG_1897.jpg",
+    "imageDesc": "Conductor estirándose con las manos detrás de la cabeza dentro del coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "100024883",
+    "question": "Durante el día, ¿es recomendable llevar encendida la luz de posición y cruce?",
+    "options": {
+     "A": "Sí, especialmente si nuestro vehículo no dispone de sistema de luces diurnas (DRL).",
+     "B": "No, durante el día está prohibido llevar encendido el alumbrado de posición y cruce si no existen condiciones de baja visibilidad.",
+     "C": "Sí, es obligatorio llevarlo encendido durante el invierno."
+    },
+    "correct": "A",
+    "image": "IMG_1898.jpg",
+    "imageDesc": "Coche circulando de día por carretera mojada con cielo nublado y palmeras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "846738",
+    "question": "¿En qué territorio podrá acreditar ante la policía de tráfico, que es titular de un permiso de conducción, presentándolo en formato digital a través de la aplicación móvil miDGT?",
+    "options": {
+     "A": "En todo el territorio de la Unión Europea.",
+     "B": "En todo el territorio español.",
+     "C": "En todos los países del mundo."
+    },
+    "correct": "B",
+    "image": "IMG_1899.jpg",
+    "imageDesc": "Teléfono móvil junto a un permiso de circulación sobre una mesa",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "100111552",
+    "question": "En el esquema de actuación de la regla PAS que se ha de seguir en el caso de accidente, el concepto Proteger debe realizarse respetando el siguiente orden de actuación.",
+    "options": {
+     "A": "Autoprotegerse, proteger a las víctimas y proteger el lugar del accidente.",
+     "B": "Autoprotegerse, proteger el lugar del accidente y proteger a las víctimas.",
+     "C": "Proteger el lugar del accidente, proteger a las víctimas y autoprotegerse."
+    },
+    "correct": "B",
+    "image": "IMG_1900.jpg",
+    "imageDesc": "Escena de accidente en autovía con vehículos detenidos y personal de emergencias",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "100121660",
+    "question": "Circula a 90 kilómetros por hora, ¿por qué carril debe hacerlo si encuentra esta señal?",
+    "options": {
+     "A": "Por el carril izquierdo porque circula a más de 70 km/h.",
+     "B": "Por el carril derecho, siempre que sea posible.",
+     "C": "Por el carril que más convenga a su destino."
+    },
+    "correct": "B",
+    "image": "IMG_1901.jpg",
+    "imageDesc": "Señal azul de carriles con velocidad mínima de 70 en el carril izquierdo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "90008175",
+    "question": "Esta señal, ¿a qué vehículos prohíbe el paso?",
+    "options": {
+     "A": "Solamente a los automóviles cuya longitud supere los 10 metros.",
+     "B": "Sólo a los camiones cuya longitud, incluida la carga, supere la indicada en la señal.",
+     "C": "A los vehículos o conjuntos de vehículos cuya longitud máxima, incluida la carga, supere la indicada."
+    },
+    "correct": "C",
+    "image": "IMG_1902.jpg",
+    "imageDesc": "Señal de prohibición con un camión y la indicación 10 m",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "100010669",
+    "question": "Si un herido tiene una hemorragia en el brazo, ¿qué debe hacer?",
+    "options": {
+     "A": "Darle pomada en la herida.",
+     "B": "Hacer un torniquete, como norma general.",
+     "C": "Taponar la herida y levantarle el brazo."
+    },
+    "correct": "C",
+    "image": "IMG_1903.jpg",
+    "imageDesc": "Persona atendiendo a un herido tumbado en el suelo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100011415",
+    "question": "En una vía urbana de sentido único, si los carriles no están delimitados por marcas viales, ¿por dónde está obligado a circular el conductor de un turismo?",
+    "options": {
+     "A": "Por el carril que mejor convenga a su destino.",
+     "B": "Por el centro de la calzada.",
+     "C": "Por el carril derecho, pudiendo utilizar el resto cuando las circunstancias lo aconsejen."
+    },
+    "correct": "C",
+    "image": "IMG_1904.jpg",
+    "imageDesc": "Avenida urbana de sentido único con edificios y furgoneta a la izquierda",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "884564",
+    "question": "En una vía urbana de un único carril por sentido de circulación, ¿se puede circular a una velocidad máxima de 50 kilómetros por hora?",
+    "options": {
+     "A": "Sólo si existe señalización específica que lo permita.",
+     "B": "No, en ningún caso, en este tipo de vías las velocidad máxima es de 30 km/h.",
+     "C": "Sí, como norma general; en este tipo de vías la velocidad máxima es de 50 km/h."
+    },
+    "correct": "A",
+    "image": "IMG_1905.jpg",
+    "imageDesc": "Camioneta pickup blanca estacionada en un camino de tierra con montañas al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "321385",
+    "question": "¿Qué indica esta señal?",
+    "options": {
+     "A": "Estacionamiento para usuarios de autobús.",
+     "B": "Estacionamiento para usuarios de ferrocarril.",
+     "C": "Zona reservada para el estacionamiento de autobuses."
+    },
+    "correct": "A",
+    "image": "IMG_1906.jpg",
+    "imageDesc": "Señal azul de estacionamiento con símbolo P más autobús",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "100057268",
+    "question": "Esta señalización, le indica la distancia...",
+    "options": {
+     "A": "al lugar donde tiene que ceder el paso en la próxima intersección.",
+     "B": "a la que se encuentra la señal de detención obligatoria de la próxima intersección.",
+     "C": "a la próxima intersección regulada por una señal de ceda el paso."
+    },
+    "correct": "B",
+    "image": "IMG_1907.jpg",
+    "imageDesc": "Señal de ceda el paso con panel complementario STOP 150 m",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "100087227",
+    "question": "En caso de siniestro, el seguro obligatorio del vehículo responsable del accidente, ¿cubre los daños producidos a la parte contraria?",
+    "options": {
+     "A": "Sí, y también cubre los daños producidos en el vehículo asegurado aunque sea responsable del accidente.",
+     "B": "No; solo cubre los daños producidos en el vehículo asegurado.",
+     "C": "Sí, excepto si el vehículo responsable del accidente hubiera sido robado."
+    },
+    "correct": "C",
+    "image": "IMG_1908.jpg",
+    "imageDesc": "Dos conductores rellenando un parte de accidente sobre el capó de un coche rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "100055984",
+    "question": "¿Qué indica esta señal?",
+    "options": {
+     "A": "Entrada a una autovía o a un ramal que conduce a ella.",
+     "B": "Salida de autopista.",
+     "C": "Entrada a una autopista o a un ramal que conduce a ella."
+    },
+    "correct": "C",
+    "image": "IMG_1909.jpg",
+    "imageDesc": "Señal cuadrada azul de autopista (S-1)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "85213428",
+    "question": "En general, el sueño aparece con mayor frecuencia...",
+    "options": {
+     "A": "en las primeras horas de la mañana y al final de la tarde.",
+     "B": "durante la madrugada y en las primeras horas de la tarde.",
+     "C": "durante las horas centrales de la mañana y en las primeras horas de la tarde."
+    },
+    "correct": "B",
+    "image": "IMG_1910.jpg",
+    "imageDesc": "Conductor bostezando al volante dentro de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "90007984",
+    "question": "En los coches con motor de gasolina es recomendable, para reducir las emisiones contaminantes, iniciar la marcha...",
+    "options": {
+     "A": "inmediatamente después de arrancar el motor.",
+     "B": "esperando unos segundos una vez arrancado el motor.",
+     "C": "tras arrancar el motor acelerando a fondo."
+    },
+    "correct": "A",
+    "image": "IMG_1911.jpg",
+    "imageDesc": "Mujer al volante de un coche con la mano en el volante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "100058342",
+    "question": "En caso de que, por avería, una motocicleta quede inmovilizada en la calzada de una vía con un carril para cada sentido de la circulación, ¿cómo debe señalizarla?",
+    "options": {
+     "A": "Con un triángulo de preseñalización de peligro, que está obligado a llevar.",
+     "B": "Con los dos triángulos de preseñalización de peligro que está obligado a llevar.",
+     "C": "Con la señal de emergencia, si la tiene instalada."
+    },
+    "correct": "C",
+    "image": "IMG_1912.jpg",
+    "imageDesc": "Motocicleta de turismo blanca con maletas laterales sobre fondo azul",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "8509217",
+    "question": "¿Cuál de las siguientes es una técnica propia de la conducción eficiente?",
+    "options": {
+     "A": "Cambiar de marcha a más alta revoluciones.",
+     "B": "Utilizar marchas largas a más bajas revoluciones.",
+     "C": "Circular 10 km/h por debajo de la velocidad máxima permitida en cada tipo de vía."
+    },
+    "correct": "B",
+    "image": "IMG_1913.jpg",
+    "imageDesc": "Mano introduciendo una moneda en una hucha con forma de cerdito",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "822875",
+    "question": "Este turismo circula por una autovía a 100 km/h, ¿circula a una velocidad adecuada?",
+    "options": {
+     "A": "No, porque lo aconsejado es circular a 120 km/h.",
+     "B": "Sí, siempre que no entorpezca la circulación.",
+     "C": "Sí, siempre que lo permitan las circunstancias del tráfico y de la vía."
+    },
+    "correct": "C",
+    "image": "IMG_1914.jpg",
+    "imageDesc": "Turismo rojo circulando por una autovía",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "100086697",
+    "question": "¿En qué momento del día sufren más siniestralidad los furgones?",
+    "options": {
+     "A": "A las 7:00 horas o al anochecer.",
+     "B": "De 15:00 a 16:00 horas.",
+     "C": "Festivos."
+    },
+    "correct": "B",
+    "image": "IMG_1915.jpg",
+    "imageDesc": "Furgón de reparto con rotulación AEOL aparcado en una calle",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "100058390",
+    "question": "Si circula de noche por una vía urbana insuficientemente iluminada, ¿qué alumbrado deberá llevar encendido?",
+    "options": {
+     "A": "Las luces de posición y las de carretera.",
+     "B": "Las luces de posición solamente.",
+     "C": "Las luces de posición y las de cruce."
+    },
+    "correct": "C",
+    "image": "IMG_1916.jpg",
+    "imageDesc": "Calle urbana de noche con tráfico y coches aparcados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "100040969",
+    "question": "¿En qué tipo de vías se produce la mayor parte de los accidentes de tráfico con víctimas mortales?",
+    "options": {
+     "A": "En travesías.",
+     "B": "En vías interurbanas.",
+     "C": "En vías urbanas."
+    },
+    "correct": "B",
+    "image": "IMG_1917.jpg",
+    "imageDesc": "Turismo blanco con la parte frontal dañada tras un accidente",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "745154",
+    "question": "¿Cuándo puede estacionar a la vista de esta señal?",
+    "options": {
+     "A": "A partir de las 9 horas del día 1 y hasta las 9 horas del día 16.",
+     "B": "A partir de las 9 horas del día 16 y hasta las 9 horas del día 1.",
+     "C": "Nunca, ya que esta señal prohíbe el estacionamiento permanentemente."
+    },
+    "correct": "A",
+    "image": "IMG_1918.jpg",
+    "imageDesc": "Señal de estacionamiento prohibido la segunda quincena con el texto 16-31",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "100058437",
+    "question": "En una vía urbana con dos carriles de circulación para el mismo sentido de la marcha, ¿le está permitido a un ciclista adelantar por la derecha a un turismo?",
+    "options": {
+     "A": "No, deberá adelantarle por la izquierda.",
+     "B": "Sí, siempre que no exista peligro para los demás usuarios.",
+     "C": "Solo si el turismo se encuentra detenido o en caso de retención."
+    },
+    "correct": "B",
+    "image": "IMG_1919.jpg",
+    "imageDesc": "Calle urbana con coches circulando y un ciclista entre ellos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "892003",
+    "question": "¿Qué vehículo de dos ruedas conducen la mayoría de los jóvenes entre 18 y 24 años implicados en accidentes de tráfico con víctimas?",
+    "options": {
+     "A": "Un ciclomotor.",
+     "B": "Una bicicleta.",
+     "C": "Una motocicleta."
+    },
+    "correct": "C",
+    "image": "IMG_1920.jpg",
+    "imageDesc": "Motocicleta caída en el suelo de un camino tras un accidente",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 12,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "321672",
+    "question": "En esta intersección los vehículos están obligados a detenerse...",
+    "options": {
+     "A": "ante la línea de detención, sin rebasarla.",
+     "B": "sobre la línea de detención, justo antes de la intersección.",
+     "C": "justo antes de la señal de stop."
+    },
+    "correct": "A",
+    "image": "IMG_1921.jpg",
+    "imageDesc": "Vista aérea de una intersección con señal de stop y marcas viales",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100087204",
+    "question": "¿En qué tipo de vía su titular podrá fijar una velocidad máxima de 100 km/h a turismos, motocicletas y autocaravanas de M.M.A. no superior a 3.500 kg?",
+    "options": {
+     "A": "En las convencionales con arcenes de anchura superior a 1,5 metros.",
+     "B": "En las convencionales con tres o más carriles de circulación.",
+     "C": "En las convencionales con separación física de los dos sentidos de circulación."
+    },
+    "correct": "C",
+    "image": "IMG_1922.jpg",
+    "imageDesc": "Señal circular de limitación de velocidad a 100",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "90007806",
+    "question": "Colocar una sillita para niños en un asiento con airbag frontal, ¿es correcto?",
+    "options": {
+     "A": "No, es algo que nunca debe hacerse.",
+     "B": "Sí, para proteger al niño en caso de impacto frontal.",
+     "C": "Sí, cuando el airbag se ha desconectado previamente y el vehículo no disponga de asientos traseros."
+    },
+    "correct": "C",
+    "image": "IMG_1923.jpg",
+    "imageDesc": "Sillita infantil con bebé colocada en el asiento delantero de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "90001046",
+    "question": "Si un conductor circula a velocidad inadecuada, ¿lo hace siempre por encima de la velocidad máxima permitida o por debajo de la velocidad mínima establecida?",
+    "options": {
+     "A": "Sí, la velocidad inadecuada siempre es superior a la velocidad máxima establecida.",
+     "B": "No, la velocidad puede ser inadecuada aunque esté dentro de los límites establecidos.",
+     "C": "Sí, la velocidad inadecuada siempre es inferior a la velocidad mínima establecida."
+    },
+    "correct": "B",
+    "image": "IMG_1924.jpg",
+    "imageDesc": "Turismo rojo circulando por una carretera de montaña estrecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "100086785",
+    "question": "En los vehículos comerciales y pesados, ¿es obligatorio colocar la señal de advertencia de peligro de ángulos muertos para advertir del riesgo a los usuarios vulnerables?",
+    "options": {
+     "A": "No; es obligatoria para los vehículos pesados, pero es voluntaria para los comerciales.",
+     "B": "Sí; es obligatoria su colocación para poder circular.",
+     "C": "No; es una señal que se colocará de forma voluntaria en algunos de ellos."
+    },
+    "correct": "C",
+    "image": "IMG_1925.jpg",
+    "imageDesc": "Señal triangular de peligro por ángulo muerto con camión y ciclista",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "100057179",
+    "question": "Una vez termine de adelantar, el vehículo verde, ¿puede seguir circulando por el carril izquierdo?",
+    "options": {
+     "A": "No, debe circular por el carril derecho.",
+     "B": "Sí, porque en autopista se puede circular por cualquier carril.",
+     "C": "No, porque por el segundo carril sólo se puede circular para adelantar."
+    },
+    "correct": "A",
+    "image": "IMG_1926.jpg",
+    "imageDesc": "Gráfico 3D de una autopista con un turismo blanco adelantando a un camión rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "90010057",
+    "question": "¿Cuáles son los daños no cubiertos por el seguro obligatorio al causante de un accidente?",
+    "options": {
+     "A": "Los daños personales que sufra el conductor responsable.",
+     "B": "Los daños personales que sufran los ocupantes del vehículo causante del accidente.",
+     "C": "Los daños que se produzcan en el vehículo contrario."
+    },
+    "correct": "A",
+    "image": "IMG_1927.jpg",
+    "imageDesc": "Documentos de seguro y parte de accidente sobre fondo oscuro",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "100020387",
+    "question": "En esta vía urbana, para advertir al conductor del vehículo blanco su intención de adelantarle, ¿puede usar las señales acústicas?",
+    "options": {
+     "A": "Sí, excepto cuando hay una señal que lo prohibe.",
+     "B": "No, porque está prohibido.",
+     "C": "Sí, pero solamente en caso de avería de las luces de mi vehiculo."
+    },
+    "correct": "B",
+    "image": "IMG_1928.jpg",
+    "imageDesc": "Vía urbana con varios coches circulando, entre ellos un coche blanco delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "85213431",
+    "question": "En esta vía, la separación entre los trazos de la línea discontinua es sensiblemente más corta que en el caso general; ¿qué puede anunciar?",
+    "options": {
+     "A": "La proximidad de un tramo de vía que presenta un riesgo especial.",
+     "B": "La proximidad de una travesía.",
+     "C": "La proximidad de un carril especial."
+    },
+    "correct": "A",
+    "image": "IMG_1929.jpg",
+    "imageDesc": "Carretera convencional con coche oscuro incorporándose desde la izquierda y señal de dirección obligatoria",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "90006622",
+    "question": "Si circula por una autopista con un camión de 3.000 kg de MMA, ¿que distancia es obligatorio dejar con el vehículo que va delante si no pretende adelantar?",
+    "options": {
+     "A": "50 metros.",
+     "B": "100 metros.",
+     "C": "La que permita detenerse, en caso de frenado brusco, sin colisionar con él."
+    },
+    "correct": "C",
+    "image": "IMG_1930.jpg",
+    "imageDesc": "Camión de reparto blanco con rotulación AEOL aparcado en una calle",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "893877",
+    "question": "Al estacionar un vehículo con caja de cambios manual en una pendiente descendente, ¿qué precauciones debe adoptar?",
+    "options": {
+     "A": "Parar el motor, poner el freno de estacionamiento y dejar colocada la 1ª marcha.",
+     "B": "Parar el motor, poner el freno de estacionamiento y dejar colocada la marcha atrás.",
+     "C": "Parar el motor, poner el freno de estacionamiento y dejar puesta una marcha."
+    },
+    "correct": "B",
+    "image": "IMG_1931.jpg",
+    "imageDesc": "Calle urbana en pendiente con coches estacionados y paso de peatones",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "90012970",
+    "question": "Se considera que un estacionamiento obstaculiza gravemente la circulación cuando se realiza...",
+    "options": {
+     "A": "en doble fila, aunque permanezca el conductor en el interior del vehículo.",
+     "B": "en zonas señalizadas para uso exclusivo de personas con movilidad reducida.",
+     "C": "en medio de la calzada."
+    },
+    "correct": "C",
+    "image": "IMG_1933.jpg",
+    "imageDesc": "Coches estacionados en línea junto a la acera, con un coche de policía local circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "100057922",
+    "question": "¿Cuál es el accidente más frecuente que sufren los ciclistas?",
+    "options": {
+     "A": "Los atropellos.",
+     "B": "La colisión fronto-lateral con otro vehiculo.",
+     "C": "Las salidas de via."
+    },
+    "correct": "B",
+    "image": "IMG_1934.jpg",
+    "imageDesc": "Grupo de ciclistas circulando por una plaza urbana",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "90006552",
+    "question": "La señal que se observa en la fotografía obliga a mantener esa velocidad máxima en todo el poblado...",
+    "options": {
+     "A": "pudiendo rebasarla en 20 km/h para adelantar.",
+     "B": "independientemente de otras señales de velocidad que encuentre dentro de él.",
+     "C": "excepto donde se indique otra velocidad."
+    },
+    "correct": "C",
+    "image": "IMG_1935.jpg",
+    "imageDesc": "Carretera de entrada a poblado con señal de límite 50 y un motorista delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "85209318",
+    "question": "¿Qué está obligado a llevar en su vehículo si el resultado de la inspección técnica periódica es favorable?",
+    "options": {
+     "A": "El distintivo acreditativo de la ITV y el informe de la inspección.",
+     "B": "La tarjeta de inspección técnica del vehículo sellada únicamente.",
+     "C": "El distintivo acreditativo en el lado izquierdo del parabrisas y la tarjeta ITV."
+    },
+    "correct": "A",
+    "image": "IMG_1936.jpg",
+    "imageDesc": "Furgoneta blanca dentro de una nave de inspección técnica de vehículos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "90001400",
+    "question": "Hay niebla y circula con la luz antiniebla delantera encendida. ¿Le está permitido llevar encendida al mismo tiempo la luz de largo alcance?",
+    "options": {
+     "A": "No, está prohibido.",
+     "B": "Solo en caso de niebla espesa.",
+     "C": "Sí, está permitido, pero no es aconsejable."
+    },
+    "correct": "C",
+    "image": "IMG_1937.jpg",
+    "imageDesc": "Coche circulando con luces encendidas entre niebla densa",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "90008256",
+    "question": "A la actitud ante la conducción que permite circular de una manera segura se le llama conducción...",
+    "options": {
+     "A": "prudente.",
+     "B": "eficiente.",
+     "C": "preventiva."
+    },
+    "correct": "C",
+    "image": "IMG_1938.jpg",
+    "imageDesc": "Mujer sentada al volante de un coche con las manos en el volante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "852113761",
+    "question": "¿Debe detenerse ante estas marcas viales?",
+    "options": {
+     "A": "Sí, siempre, para ceder el paso.",
+     "B": "No, ya que no es un paso para peatones ni una marca de detención.",
+     "C": "Sí, cuando pase algún ciclista, porque tiene prioridad de paso."
+    },
+    "correct": "C",
+    "image": "IMG_1939.jpg",
+    "imageDesc": "Carretera con marcas viales blancas discontinuas atravesando la calzada en una zona urbana",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "100057418",
+    "question": "Está prohibido realizar un cambio de sentido...",
+    "options": {
+     "A": "donde haya que atravesar una marca longitudinal.",
+     "B": "en los tramos de vía afectados por la señal \"túnel\".",
+     "C": "en los tramos de vía en los que no esté prohibido adelantar."
+    },
+    "correct": "B",
+    "image": "IMG_1940.jpg",
+    "imageDesc": "Coche rojo estacionado en una explanada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "320366",
+    "question": "¿Qué indica esta señal?",
+    "options": {
+     "A": "Vía pública calificada de atención preferente.",
+     "B": "Calzada con prioridad de paso en las intersecciones sobre los vehiculos que circulen por otra calzada.",
+     "C": "Calzada en la que se debe ceder el paso a los vehículos que se aproximen por la derecha."
+    },
+    "correct": "B",
+    "image": "IMG_1941.jpg",
+    "imageDesc": "Señal de calzada con prioridad: rombo blanco con centro amarillo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "885090",
+    "question": "En esta curva de visibilidad reducida, ¿está permitido parar?",
+    "options": {
+     "A": "En la curva no, pero sí en sus proximidades.",
+     "B": "No, ni en la curva, ni en sus proximidades.",
+     "C": "Sí."
+    },
+    "correct": "B",
+    "image": "IMG_1942.jpg",
+    "imageDesc": "Carretera de montaña con señal de curvas peligrosas hacia la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "85209029",
+    "question": "En una vía de doble sentido un vehículo va a girar a la izquierda, ¿debe facilitar el adelantamiento por la derecha a los demás vehículos?",
+    "options": {
+     "A": "Sí, arrimándose todo lo posible al lado izquierdo de la calzada.",
+     "B": "No, ya que deben adelantar por la izquierda.",
+     "C": "Sí, arrimándose a la izquierda de su carril todo lo posible, pero sin obstaculizar a los vehiculos que circulen en sentido contrario."
+    },
+    "correct": "C",
+    "image": "IMG_1943.jpg",
+    "imageDesc": "Vía urbana de doble sentido con flechas de selección de carril pintadas en la calzada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "6418",
+    "question": "Cuando no sea delito, conducir un vehículo con presencia de drogas en el organismo es una infracción...",
+    "options": {
+     "A": "grave con pérdida de 4 puntos del permiso de conducción.",
+     "B": "muy grave con pérdida de 8 puntos del permiso de conducción.",
+     "C": "muy grave con pérdida de 6 puntos del permiso de conducción."
+    },
+    "correct": "C",
+    "image": "IMG_1944.jpg",
+    "imageDesc": "Guardia civil realizando una prueba de detección a un conductor junto a su vehículo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "100041178",
+    "question": "Fumar al volante...",
+    "options": {
+     "A": "relaja y proporciona serenidad al fumador, lo que repercute positivamente en la conducción.",
+     "B": "es la principal causa de distracción durante la conducción.",
+     "C": "es una conducta que puede interferir en la conducción y provocar un accidente."
+    },
+    "correct": "C",
+    "image": "IMG_1945.jpg",
+    "imageDesc": "Conductor encendiendo un cigarrillo dentro del coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "100087157",
+    "question": "El conductor de una motocicleta, ¿puede llevar instalado en su casco un dispositivo inalámbrico homologado que le permita hablar por teléfono mientras circula?",
+    "options": {
+     "A": "No, está prohibido.",
+     "B": "Sí, siempre que su uso no afecte a la seguridad en la conducción.",
+     "C": "Sólo si el control del volumen del dispositivo está integrado en los mandos de la motocicleta."
+    },
+    "correct": "B",
+    "image": "IMG_1946.jpg",
+    "imageDesc": "Motorista con casco integral blanco visto de perfil en un camino",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "100010785",
+    "question": "Para evitar atropellos a peatones hay que tener especial cuidado...",
+    "options": {
+     "A": "cuando se circula por una autopista o autovía.",
+     "B": "siempre que se realiza una maniobra.",
+     "C": "al circular marcha atrás."
+    },
+    "correct": "C",
+    "image": "IMG_1947.jpg",
+    "imageDesc": "Peatones cruzando por un paso de cebra en una avenida urbana con palmeras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "85209338",
+    "question": "El campo visual de los niños es limitado debido a...",
+    "options": {
+     "A": "su falta de atención.",
+     "B": "su baja estatura.",
+     "C": "su escaso desarrollo del sentido de la vista, principalmente."
+    },
+    "correct": "B",
+    "image": "IMG_1948.jpg",
+    "imageDesc": "Ilustración 3D de un niño jugando con un balón entre coches aparcados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "100056867",
+    "question": "En un tramo de vía con muchas curvas señalizado con la señal de \"curvas peligrosas\", podrá utilizar la luz antiniebla delantera siempre que...",
+    "options": {
+     "A": "el vehículo esté pintado de oscuro y la calzada sea de doble sentido.",
+     "B": "la calzada sea de sentido único.",
+     "C": "la calzada tenga una anchura igual o inferior a 6,50 metros."
+    },
+    "correct": "C",
+    "image": "IMG_1949.jpg",
+    "imageDesc": "Coche de noche con las luces encendidas en una carretera oscura",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "8509340",
+    "question": "Un vehículo de policía en servicio urgente, ¿podrá circular en sentido contrario por el arcén de una autopista?",
+    "options": {
+     "A": "Sí, siempre que no exista peligro para los demás usuarios.",
+     "B": "Sólo cuando esté persiguiendo a otro vehículo.",
+     "C": "No."
+    },
+    "correct": "A",
+    "image": "IMG_1950.jpg",
+    "imageDesc": "Coche de policía circulando por una calle urbana",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "100057926",
+    "question": "Los distribuidores de mercancías, cuando realicen las sucesivas operaciones de carga y descarga en recorridos cortos, ¿están exentos de utilizar el cinturón de seguridad?",
+    "options": {
+     "A": "Sí, en todo tipo de vías.",
+     "B": "Sí, en poblado.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "B",
+    "image": "IMG_1951.jpg",
+    "imageDesc": "Furgonetas de reparto detenidas en una calle urbana con carga y descarga",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 13,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "100086702",
+    "question": "Entre los sistemas de seguridad pasiva se incluye el parabrisas del vehículo, en caso de accidente, ¿qué tipo de vidrio es más seguro?",
+    "options": {
+     "A": "El laminado.",
+     "B": "El templado.",
+     "C": "El tintado."
+    },
+    "correct": "A",
+    "image": "IMG_1952.jpg",
+    "imageDesc": "Vista desde el interior de un coche con el salpicadero y una carretera recta",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100057397",
+    "question": "Siempre que se haga a velocidad tan reducida que permita detenerse en caso de peligro de atropello, en los pasos para peatones señalizados se podrá adelantar a...",
+    "options": {
+     "A": "vehículos de dos ruedas que no impidan la visibilidad lateral, únicamente.",
+     "B": "todo tipo de vehículos.",
+     "C": "ciclos y ciclomotores, únicamente."
+    },
+    "correct": "B",
+    "image": "IMG_1953.jpg",
+    "imageDesc": "Ilustración 3D de un coche claro junto a un paso de peatones con un peatón",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "85208064",
+    "question": "¿Qué indica este panel bajo la señal de ceda el paso?",
+    "options": {
+     "A": "El lugar en el que hay que detenerse en la próxima intersección.",
+     "B": "La distancia a la que se encuentra la señal de stop en la próxima intersección.",
+     "C": "El sitio exacto donde hay que ceder el paso en la próxima intersección."
+    },
+    "correct": "B",
+    "image": "IMG_1954.jpg",
+    "imageDesc": "Señal de ceda el paso con panel complementario \"STOP 150 m\"",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "100034579",
+    "question": "¿Qué le indica la señal?",
+    "options": {
+     "A": "Prohíbe el paso y me informa del sentido de la circulación pudiendo atravesar la línea que forman los conos si quiero adelantar.",
+     "B": "Me indica un peligro y me informa del sentido de la circulación.",
+     "C": "Prohíbe el paso y me informa del sentido de la circulación, no pudiendo atravesar la línea que forman los conos."
+    },
+    "correct": "C",
+    "image": "IMG_1955.jpg",
+    "imageDesc": "Obras en carretera con conos y señales de dirección obligatoria junto a un camión",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "100024903",
+    "question": "Como norma general, una motocicleta, ¿puede circular por el arcén?",
+    "options": {
+     "A": "No, debe circular por la calzada.",
+     "B": "Sí, pero no puede hacerlo en paralelo con otros vehículos.",
+     "C": "Sí, pero solo si su cilindrada es igual o inferior a 125 c.c."
+    },
+    "correct": "A",
+    "image": "IMG_1956.jpg",
+    "imageDesc": "Motorista con scooter circulando por una calle urbana con edificios clásicos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "100057123",
+    "question": "El conductor del vehículo verde, ¿puede adelantar por la derecha?",
+    "options": {
+     "A": "No, en ningún caso.",
+     "B": "Sí, si existe espacio suficiente.",
+     "C": "Sí, aunque solo si circula por poblado."
+    },
+    "correct": "B",
+    "image": "IMG_1957.jpg",
+    "imageDesc": "Ilustración 3D de una vía con un coche verde y otros vehículos, uno girando a la izquierda",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "90007868",
+    "question": "Un turismo con remolque, ¿es obligatorio que lleve una rueda de repuesto del remolque?",
+    "options": {
+     "A": "Sí, cuando el remolque no es ligero.",
+     "B": "Sí.",
+     "C": "No."
+    },
+    "correct": "C",
+    "image": "IMG_1958.jpg",
+    "imageDesc": "Turismo con caravana circulando por una autovía visto desde otro coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "85208897",
+    "question": "La tasa máxima de alcohol para un conductor de autobús es de...",
+    "options": {
+     "A": "0,25 miligramos por litro de aire espirado.",
+     "B": "0,15 miligramos por litro de aire espirado.",
+     "C": "0,40 miligramos por litro de aire espirado."
+    },
+    "correct": "B",
+    "image": "IMG_1959.jpg",
+    "imageDesc": "Agentes de policía realizando un control de alcoholemia a un conductor",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "90007867",
+    "question": "En esta vía urbana de sentido único, el conductor del turismo amarillo...",
+    "options": {
+     "A": "debe circular por el carril situado más a su derecha.",
+     "B": "una vez elegido un carril, no puede abandonarlo para adelantar.",
+     "C": "puede utilizar el carril que mejor convenga a su destino."
+    },
+    "correct": "C",
+    "image": "IMG_1960.jpg",
+    "imageDesc": "Ilustración 3D de una vía urbana de varios carriles con un coche amarillo y vehículos aparcados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "100087147",
+    "question": "Con el permiso de conducción de la clase B, ¿se puede conducir un automóvil de más de 3.500 kilogramos de masa máxima autorizada?",
+    "options": {
+     "A": "No, como norma general.",
+     "B": "Sí, cuando el permiso tenga una antigüedad superior a 3 años.",
+     "C": "Sí, siempre que su masa máxima autorizada no supere los 4.250 kilogramos."
+    },
+    "correct": "A",
+    "image": "IMG_1961.jpg",
+    "imageDesc": "Autocaravana blanca vista por detrás circulando por una carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "320355",
+    "question": "El conductor de este turismo pretende seguir recto pero los vehículos situados detrás de él quieren girar a la derecha, ¿qué debe hacer?",
+    "options": {
+     "A": "Seguir de frente sin esperar a que cambie el semáforo.",
+     "B": "Esperar a que el semáforo cambie para seguir recto.",
+     "C": "Girar a la derecha."
+    },
+    "correct": "C",
+    "image": "IMG_1962.jpg",
+    "imageDesc": "Ilustración 3D de un coche detenido ante un semáforo en rojo con flecha verde de giro a la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "85209001",
+    "question": "En este tramo de vía de visibilidad reducida, ¿está permitido realizar un cambio de sentido?",
+    "options": {
+     "A": "Sí, cuando no hay circulación en sentido contrario.",
+     "B": "No, está prohibido.",
+     "C": "Sí, señalizando la maniobra convenientemente."
+    },
+    "correct": "B",
+    "image": "IMG_1963.jpg",
+    "imageDesc": "Carretera convencional estrecha con un coche circulando y poca visibilidad",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "85208874",
+    "question": "El permiso de circulación es obligatorio para los remolques y semirremolques...",
+    "options": {
+     "A": "que tengan una MMA. no superior a 750 kg.",
+     "B": "cualquiera que sea su MMA.",
+     "C": "que tengan una MMA. superior a 750 kg."
+    },
+    "correct": "C",
+    "image": "IMG_1964.jpg",
+    "imageDesc": "Documento del permiso de circulación del Reino de España",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "114432",
+    "question": "Los reposacabezas sirven fundamentalmente para...",
+    "options": {
+     "A": "proteger el cuello en caso de accidente.",
+     "B": "apoyar la cabeza y evitar la aparición de la fatiga en el cuello.",
+     "C": "instalar reproductores de vídeo para los ocupantes de los asientos traseros."
+    },
+    "correct": "A",
+    "image": "IMG_1965.jpg",
+    "imageDesc": "Reposacabezas de un asiento delantero visto desde el interior del coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "7508600",
+    "question": "Los sistemas de seguridad activa ayudan al conductor a...",
+    "options": {
+     "A": "reducir al mínimo las lesiones cuando se produce un accidente.",
+     "B": "reducir la posibilidad de que se produzca un accidente.",
+     "C": "conducir de una manera más relajada."
+    },
+    "correct": "B",
+    "image": "IMG_1966.jpg",
+    "imageDesc": "Pies de un conductor con vaqueros sobre los pedales del coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "100085987",
+    "question": "Mientras conduces, ¿puedes usar el teléfono móvil con un dispositivo de manos libres?",
+    "options": {
+     "A": "No, está prohibido.",
+     "B": "Solo si la conversación no dura más de dos minutos.",
+     "C": "Sí, mientras no utilice las manos, ni cascos ni auriculares."
+    },
+    "correct": "C",
+    "image": "IMG_1967.jpg",
+    "imageDesc": "Mano de un conductor manipulando un teléfono móvil sobre el salpicadero",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "90007915",
+    "question": "Circulando por esta vía y a la vista de la señal, ¿tiene prioridad de paso?",
+    "options": {
+     "A": "Sí.",
+     "B": "En un paso estrecho siempre tiene prioridad el vehículo que entra el primero.",
+     "C": "No, la señal indica prioridad de paso en sentido contrario."
+    },
+    "correct": "A",
+    "image": "IMG_1968.jpg",
+    "imageDesc": "Coche rojo en un paso estrecho con señal azul de prioridad respecto al sentido contrario",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "852115956",
+    "question": "¿Está permitido estacionar en doble fila?",
+    "options": {
+     "A": "Sí, siempre que no haya espacio libre en las proximidades.",
+     "B": "Sólo en vías urbanas y por un tiempo inferior a dos minutos.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "C",
+    "image": "IMG_1969.jpg",
+    "imageDesc": "Calle urbana con coches estacionados a ambos lados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "321116",
+    "question": "Circula a 70 km/h, ¿por qué carril es obligatorio circular?",
+    "options": {
+     "A": "Por el que mejor convenga a mi destino.",
+     "B": "Por el del centro.",
+     "C": "Por el de la derecha."
+    },
+    "correct": "C",
+    "image": "IMG_1970.jpg",
+    "imageDesc": "Señal azul de tres carriles con velocidades mínimas 100, 100 y 80",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "90013034",
+    "question": "Si circula de noche por una vía urbana, y no puede ver un vehículo pintado de oscuro a 50 metros, ¿qué alumbrado debe utilizar, además del de posición?",
+    "options": {
+     "A": "El alumbrado de corto o el de largo alcance, indistintamente.",
+     "B": "El alumbrado de corto alcance.",
+     "C": "El alumbrado de largo alcance."
+    },
+    "correct": "B",
+    "image": "IMG_1971.jpg",
+    "imageDesc": "Calle urbana de noche con coches aparcados poco iluminados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "100087151",
+    "question": "En general, un conductor que circula bajo los efectos del LSD...",
+    "options": {
+     "A": "puede sufrir alucinaciones y alteraciones emocionales.",
+     "B": "tiene una fuerte sensación de fatiga y sueño.",
+     "C": "sobrevalora sus capacidades al volante."
+    },
+    "correct": "A",
+    "image": "IMG_1972.jpg",
+    "imageDesc": "Conductor al volante llevándose la mano a la cara con gesto de malestar",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "100086780",
+    "question": "A la vista de la imagen, el conductor del vehículo amarillo, ¿está obligado siempre a detenerse?",
+    "options": {
+     "A": "Sólo si se aproxima algún vehículo al que deba ceder el paso.",
+     "B": "Sólo si sigue de frente.",
+     "C": "Sí, en todo caso."
+    },
+    "correct": "A",
+    "image": "IMG_1973.jpg",
+    "imageDesc": "Ilustración 3D de un cruce con coche amarillo ante un ceda el paso",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "826201",
+    "question": "Si no obstaculiza la marcha de otro vehículo que le sigue, ¿actúa correctamente?",
+    "options": {
+     "A": "Sí, porque deja libre el carril izquierdo para los adelantamientos.",
+     "B": "No, debe circular por el carril de la derecha.",
+     "C": "Sí."
+    },
+    "correct": "B",
+    "image": "IMG_1974.jpg",
+    "imageDesc": "Furgoneta blanca circulando por el carril central de una autovía",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "85208589",
+    "question": "La distancia de reacción...",
+    "options": {
+     "A": "es siempre la misma para todos los conductores.",
+     "B": "depende únicamente del estado psicofísico del conductor.",
+     "C": "depende, entre otros factores, de la velocidad a la que se circule."
+    },
+    "correct": "C",
+    "image": "IMG_1975.jpg",
+    "imageDesc": "Cinta métrica extendida sobre el asfalto",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "90003068",
+    "question": "A baja velocidad, la dirección asistida progresiva...",
+    "options": {
+     "A": "permite un control más preciso del vehículo.",
+     "B": "hace que la dirección se endurezca.",
+     "C": "reduce al mínimo el esfuerzo necesario para mover el volante."
+    },
+    "correct": "C",
+    "image": "IMG_1976.jpg",
+    "imageDesc": "Conductora al volante de un coche vista desde el asiento trasero",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "852114164",
+    "question": "¿Cuál es la velocidad máxima a la que está permitido circular por esta carretera convencional con un pick-up?",
+    "options": {
+     "A": "100 km/h.",
+     "B": "80 km/h.",
+     "C": "90 km/h."
+    },
+    "correct": "C",
+    "image": "IMG_1977.jpg",
+    "imageDesc": "Carretera convencional estrecha entre árboles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "852115816",
+    "question": "El titular de un permiso de la clase B con una antigüedad superior a tres años, ¿puede conducir una motocicleta dentro del territorio nacional?",
+    "options": {
+     "A": "Sí, puede conducir una motocicleta de las que autoriza el permiso de la clase A1.",
+     "B": "Sí, puede conducir cualquier tipo de motocicleta.",
+     "C": "No, no puede conducir ningún tipo de motocicleta."
+    },
+    "correct": "A",
+    "image": "IMG_1978.jpg",
+    "imageDesc": "Permiso de conducción español con datos y foto pixelados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "90008012",
+    "question": "Esta señal, ¿prohíbe la entrada a los camiones?",
+    "options": {
+     "A": "Sí, en cualquier caso.",
+     "B": "No.",
+     "C": "Sólo si la masa máxima del camión no supera las 2 toneladas."
+    },
+    "correct": "B",
+    "image": "IMG_1979.jpg",
+    "imageDesc": "Señal circular roja de prohibición con remolque y la indicación 2 t",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "100010800",
+    "question": "Hasta el 1 de enero del 2026, en caso de no disponer de dispositivo luminoso, los triángulos de preseñalización de peligro se colocarán a...",
+    "options": {
+     "A": "100 metros de distancia, al menos, del vehículo o la carga.",
+     "B": "50 metros de distancia como máximo, del vehículo o la carga.",
+     "C": "50 metros de distancia, al menos, del vehículo o la carga."
+    },
+    "correct": "C",
+    "image": "IMG_1980.jpg",
+    "imageDesc": "Carretera con curva junto a un muro y un triángulo de preseñalización en el arcén",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "90007897",
+    "question": "La obligación de dejar espacio suficiente para permitir el adelantamiento no será aplicable...",
+    "options": {
+     "A": "donde esté prohibido el adelantamiento.",
+     "B": "en vías con un único carril para cada sentido.",
+     "C": "en carreteras convencionales."
+    },
+    "correct": "A",
+    "image": "IMG_1981.jpg",
+    "imageDesc": "Ilustración 3D de un coche verde siguiendo a un coche blanco en una carretera de dos sentidos",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 14,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "85209653",
+    "question": "Si entra en una curva a la izquierda a velocidad excesiva, la fuerza centrífuga, ¿puede afectar a la trayectoria del vehículo?",
+    "options": {
+     "A": "Sí, se desplazará hacia la izquierda de la calzada.",
+     "B": "No, la fuerza centrífuga no afecta a la trayectoria del vehículo.",
+     "C": "Sí, se desplazará hacia la derecha de calzada."
+    },
+    "correct": "C",
+    "image": "IMG_1982.jpg",
+    "imageDesc": "Carretera con curva a la izquierda señalizada con paneles de curvas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100111559",
+    "question": "Estaciona en el arcén de una travesía insuficientemente iluminada, ¿qué luces debe dejar encendidas?",
+    "options": {
+     "A": "Ninguna.",
+     "B": "Las luces de corto alcance y las de emergencia.",
+     "C": "Las luces de posición o las de estacionamiento."
+    },
+    "correct": "C",
+    "image": "IMG_1983.jpg",
+    "imageDesc": "Vehículo de noche con luces traseras rojas encendidas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "321486",
+    "question": "Si debido a una avería circula por una autopista a velocidad anormalmente reducida perturbando la circulación, ¿qué debe hacer?",
+    "options": {
+     "A": "Detenerse en el arcén y solicitar ayuda.",
+     "B": "Circular por el arcén y abandonarla por la primera salida.",
+     "C": "Circular por el arcén hasta la zona de servicios más próxima."
+    },
+    "correct": "B",
+    "image": "IMG_1984.jpg",
+    "imageDesc": "Autopista despejada con señales azules de indicación",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "90007943",
+    "question": "En un cambio de rasante, ¿está prohibido parar y estacionar?",
+    "options": {
+     "A": "Sí.",
+     "B": "No, salvo en los de visibilidad reducida.",
+     "C": "Parar no, pero estacionar sí."
+    },
+    "correct": "B",
+    "image": "IMG_1985.jpg",
+    "imageDesc": "Carretera convencional recta en paisaje árido con cambio de rasante al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "100087217",
+    "question": "¿Cuantas señales de advertencia de peligro de ángulos muertos de carácter voluntario se colocarán en una furgoneta?",
+    "options": {
+     "A": "Tres; una en cada lateral y una en la parte trasera.",
+     "B": "Una en la parte delantera.",
+     "C": "Dos; una en cada lateral."
+    },
+    "correct": "A",
+    "image": "IMG_1986.jpg",
+    "imageDesc": "Señal triangular de peligro por ángulo muerto con furgoneta y ciclista, texto PELIGRO ¡ÁNGULO MUERTO!",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "320309",
+    "question": "El freno de pie, ¿para qué sirve?",
+    "options": {
+     "A": "Para que no se mueva el vehículo cuando no está dentro el conductor.",
+     "B": "Para reducir la velocidad y detener el vehículo.",
+     "C": "Para reducir la velocidad y detener el vehículo cuando no funciona el freno de mano."
+    },
+    "correct": "B",
+    "image": "IMG_1987.jpg",
+    "imageDesc": "Esquema transparente de un coche mostrando el sistema de frenos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "835806",
+    "question": "Conducir con sueño, con fatiga o bajo los efectos del alcohol, ¿puede influir en la capacidad de reacción del conductor ante una situación de emergencia?",
+    "options": {
+     "A": "Sí, disminuyendo la distancia de reacción.",
+     "B": "Sí, aumentando la distancia de reacción.",
+     "C": "No."
+    },
+    "correct": "B",
+    "image": "IMG_1988.jpg",
+    "imageDesc": "Conductor con acompañante dentro de un coche, la mujer se lleva la mano a la cara",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "100041179",
+    "question": "Un catadióptrico es...",
+    "options": {
+     "A": "un dispositivo de alumbrado del vehículo.",
+     "B": "una placa de matricula reflectante.",
+     "C": "un dispositivo que refleja la luz de otros vehículos."
+    },
+    "correct": "C",
+    "image": "IMG_1989.jpg",
+    "imageDesc": "Parte trasera de un turismo con rotulación AEOL y matrícula 4517 FKH",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "100057955",
+    "question": "Los agentes de la autoridad encargados de la vigilancia del tráfico podrán inmovilizar un vehículo cuando...",
+    "options": {
+     "A": "su conductor no disponga del permiso de circulación original.",
+     "B": "su conductor sea sancionado dos veces en el mismo día.",
+     "C": "supere los niveles de gases, humos y ruidos permitidos reglamentariamente."
+    },
+    "correct": "C",
+    "image": "IMG_1990.jpg",
+    "imageDesc": "Agente de policía con chaleco amarillo tocando el silbato",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "90007919",
+    "question": "Los accidentes de tráfico...",
+    "options": {
+     "A": "son una de las principales causas de mortalidad en nuestro pais.",
+     "B": "no tienen una gran importancia.",
+     "C": "son la causa principal de muerte a nivel mundial."
+    },
+    "correct": "A",
+    "image": "IMG_1991.jpg",
+    "imageDesc": "Escena 3D de carretera con un coche rojo accidentado contra un árbol y otro coche circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "320761",
+    "question": "¿Cuándo debe tenerse más precaución con la lluvia?",
+    "options": {
+     "A": "Después de haber llovido mucho.",
+     "B": "Cuando caen las primeras gotas.",
+     "C": "Cuando ha llovido de manera continuada."
+    },
+    "correct": "B",
+    "image": "IMG_1992.jpg",
+    "imageDesc": "Carretera mojada bajo lluvia con un coche delante con luces traseras encendidas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "320267",
+    "question": "Esta señal indica la obligación de circular utilizando el alumbrado de...",
+    "options": {
+     "A": "largo alcance, al menos, con independencia de las condiciones de visibilidad e iluminación de la via.",
+     "B": "corto o largo alcance, dependiendo de las condiciones de visibilidad e iluminación de la vía.",
+     "C": "corto alcance, al menos, con independencia de las condiciones de visibilidad e iluminación de la vía."
+    },
+    "correct": "C",
+    "image": "IMG_1993.jpg",
+    "imageDesc": "Señal circular azul de obligación con símbolo de faro encendido (alumbrado de corto alcance)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "100086776",
+    "question": "¿Qué sanción conlleva la utilización de dispositivos de intercomunicación no autorizados en las pruebas de obtención de un permiso de conducción con el fin de cometer fraude?",
+    "options": {
+     "A": "Multa de 200 euros y la prohibición de presentarse a las pruebas en el plazo de seis meses.",
+     "B": "Multa de 500 euros y la prohibición de presentarse a las pruebas en el plazo de tres meses.",
+     "C": "Multa de 500 euros y la prohibición de presentarse a las pruebas en el plazo de seis meses."
+    },
+    "correct": "C",
+    "image": "IMG_1994.jpg",
+    "imageDesc": "Captura de pantalla de un ordenador mostrando un test de examen DGT",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100021860",
+    "question": "En un túnel, ¿qué distancia de seguridad mínima debe mantener el conductor de un turismo con el vehículo de delante si no pretende adelantar?",
+    "options": {
+     "A": "50 metros o un intervalo de 3 segundos.",
+     "B": "100 metros o un intervalo de 4 segundos.",
+     "C": "200 metros o un intervalo de 10 segundos."
+    },
+    "correct": "B",
+    "image": "IMG_1995.jpg",
+    "imageDesc": "Interior de un túnel iluminado con vehículos circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "33384",
+    "question": "¿A qué se dedica el vehículo que lleva esta señal?",
+    "options": {
+     "A": "Principalmente al rescate y transporte de vehículos accidentados o averiados.",
+     "B": "Solamente al rescate de vehículos accidentados o averiados.",
+     "C": "Principalmente al transporte de vehículos accidentados o averiados."
+    },
+    "correct": "A",
+    "image": "IMG_1996.jpg",
+    "imageDesc": "Placa azul de empresa de auxilio en vías públicas con dibujo de grúa, REAV y matrícula",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "893315",
+    "question": "Si circula y tiene dudas sobre las condiciones de luminosidad, ¿qué debe hacer?",
+    "options": {
+     "A": "Ante la duda, encender las luces de cruce.",
+     "B": "Ante la duda, apagar las luces para no provocar deslumbramientos.",
+     "C": "Ante la duda, encender las luces de carretera."
+    },
+    "correct": "A",
+    "image": "IMG_1997.jpg",
+    "imageDesc": "Autopista con varios carriles y tráfico visto desde un puente",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "100057600",
+    "question": "Hasta el 1 de enero del 2026, en caso de no disponer del dispositivo luminoso V-16, el conductor de un turismo averiado colocará un solo triangulo de preseñalización de peligro...",
+    "options": {
+     "A": "en calzadas de dos sentidos.",
+     "B": "en todo tipo de calzadas.",
+     "C": "en calzadas de sentido único o de más de tres carriles."
+    },
+    "correct": "C",
+    "image": "IMG_1998.jpg",
+    "imageDesc": "Triángulo de preseñalización de peligro rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "100056210",
+    "question": "¿Cuáles son los principales grupos vulnerables en el tráfico?",
+    "options": {
+     "A": "Únicamente, los grupos que van a pie.",
+     "B": "Los niños, los jóvenes y las personas mayores.",
+     "C": "Sólo los niños y las personas mayores."
+    },
+    "correct": "B",
+    "image": "IMG_1999.jpg",
+    "imageDesc": "Calle urbana de un pueblo con coches circulando y aparcados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "320495",
+    "question": "Para comprobar que no hay ningún vehículo en el ángulo muerto de su retrovisor, ¿qué debe hacer?",
+    "options": {
+     "A": "Reglar adecuadamente los retrovisores.",
+     "B": "Instalar un retrovisor interior panorámico.",
+     "C": "Girar la cabeza brevemente para mirar a través de las ventanillas laterales."
+    },
+    "correct": "C",
+    "image": "IMG_2001.jpg",
+    "imageDesc": "Retrovisor exterior de un coche reflejando vehículos detrás",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "852117408",
+    "question": "En la próxima intersección, ¿es obligatorio ceder el paso a los que entran por la izquierda?",
+    "options": {
+     "A": "Sólo cuando no circulen vehículos en sentido contrario.",
+     "B": "Si.",
+     "C": "No."
+    },
+    "correct": "C",
+    "image": "IMG_2002.jpg",
+    "imageDesc": "Escena 3D de carretera con coche amarillo y señal de intersección con prioridad",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "320639",
+    "question": "En vía urbana con varios carriles para cada sentido, ¿por cuál de ellos circulará como norma general?",
+    "options": {
+     "A": "Por el que más convenga a su destino, cuando los carriles estén delimitados por marcas longitudinales.",
+     "B": "Por el que más convenga a su destino, estén o no delimitados los carriles.",
+     "C": "Por el carril de la derecha, siempre."
+    },
+    "correct": "A",
+    "image": "IMG_2003.jpg",
+    "imageDesc": "Vía urbana con varios carriles y flechas de dirección pintadas en la calzada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "85210828",
+    "question": "Por la noche, la agudeza visual...",
+    "options": {
+     "A": "no varia.",
+     "B": "se reduce.",
+     "C": "aumenta."
+    },
+    "correct": "B",
+    "image": "IMG_2004.jpg",
+    "imageDesc": "Escena nocturna muy oscura de una carretera con luces lejanas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "884401",
+    "question": "¿Por qué no se debe pisar el pedal de embrague durante más tiempo que el necesario para realizar los cambios de marcha?",
+    "options": {
+     "A": "Porque se disminuye la adherencia de los neumáticos.",
+     "B": "Porque se aumenta el desgaste del mecanismo del embrague.",
+     "C": "Porque se aumenta el desgaste de la caja de velocidades."
+    },
+    "correct": "B",
+    "image": "IMG_2005.jpg",
+    "imageDesc": "Vista de los pedales de un coche (embrague, freno y acelerador) desde el asiento del conductor.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "852115907",
+    "question": "¿Qué equipamiento, entre otros, debe llevar un conjunto de vehículos no agrícolas cuando esté circulando?",
+    "options": {
+     "A": "Una rueda de repuesto para el remolque o semirremolque.",
+     "B": "Dos chalecos reflectantes de alta visibilidad.",
+     "C": "Un equipo homologado de extinción de incendios, adecuado y en condiciones de uso."
+    },
+    "correct": "C",
+    "image": "IMG_2006.jpg",
+    "imageDesc": "Camión con remolque circulando por una autovía visto desde el vehículo que va detrás.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "100057522",
+    "question": "Si en su ciclomotor lleva como pasajero a un menor debe...",
+    "options": {
+     "A": "utilizar un sistema de retención infantil homologado.",
+     "B": "ir sentado a horcajadas entre el conductor y el manillar.",
+     "C": "utilizar el asiento correspondiente detrás del conductor."
+    },
+    "correct": "C",
+    "image": "IMG_2007.jpg",
+    "imageDesc": "Conductor de ciclomotor con casco circulando por una calle urbana junto a un paso de peatones.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "884364",
+    "question": "Por un carril para vehículos de alta ocupación (VAO), ¿le está permitido circular a un vehículo mixto adaptable?",
+    "options": {
+     "A": "Sí.",
+     "B": "Sólo si el vehículo lleva la señal de persona con movilidad reducida.",
+     "C": "No."
+    },
+    "correct": "A",
+    "image": "IMG_2008.jpg",
+    "imageDesc": "Autovía con pórticos de señalización sobre los carriles.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "90005521",
+    "question": "Cuando no exista zona peatonal o ésta no sea practicable, los peatones, ¿pueden circular por el arcén?",
+    "options": {
+     "A": "Sí, o en su defecto, por la calzada.",
+     "B": "No, deben circular por la calzada.",
+     "C": "Sólo en vías urbanas; fuera de poblado no podrán circular."
+    },
+    "correct": "A",
+    "image": "IMG_2009.jpg",
+    "imageDesc": "Carretera convencional con curvas y una señal en el margen derecho.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "100057265",
+    "question": "En un cambio de rasante, ¿está permitido parar o estacionar?",
+    "options": {
+     "A": "No, en ningún caso.",
+     "B": "Está permitido parar, pero no estacionar.",
+     "C": "Sí, salvo que tenga visibilidad reducida."
+    },
+    "correct": "C",
+    "image": "IMG_2011.jpg",
+    "imageDesc": "Carretera convencional recta con cambio de rasante en un paisaje árido.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "826344",
+    "question": "Si va a realizar un viaje, ¿es importante elegir la hora de salida?",
+    "options": {
+     "A": "Sí, entre otras razones para evitar que el sol deslumbre.",
+     "B": "No, no es necesario.",
+     "C": "Sí, con el fin de realizar el viaje sin tener que hacer descansos."
+    },
+    "correct": "A",
+    "image": "IMG_2012.jpg",
+    "imageDesc": "Avenida urbana con coches y una motocicleta circulando por delante.",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 15,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "90008251",
+    "question": "Los conductores jóvenes suelen tener más accidentes...",
+    "options": {
+     "A": "porque se distraen con mayor facilidad.",
+     "B": "por un comportamiento exhibicionista cuando van en grupo.",
+     "C": "por su desconocimiento de las normas."
+    },
+    "correct": "B",
+    "image": "IMG_2013.jpg",
+    "imageDesc": "Mujer joven sentada al volante de un coche con la puerta abierta.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "320430",
+    "question": "La distancia de reacción es:",
+    "options": {
+     "A": "La distancia que recorre el vehículo durante el tiempo de reacción.",
+     "B": "La distancia que recorre el vehículo desde que empieza a frenar hasta que se detiene.",
+     "C": "La distancia que debe guardarse con el vehículo que va delante."
+    },
+    "correct": "A",
+    "image": "IMG_2014.jpg",
+    "imageDesc": "Autovía con un camión rojo circulando delante.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "852116612",
+    "question": "¿Está permitido llevar cortinillas contra el sol en la ventanilla posterior de un turismo?",
+    "options": {
+     "A": "Sí, siempre que el espejo interior sea panorámico.",
+     "B": "Sólo si el turismo lleva un espejo retrovisor exterior en el lado izquierdo y otro en el derecho.",
+     "C": "No, está completamente prohibida la instalación de cortinillas contra el sol."
+    },
+    "correct": "B",
+    "image": "IMG_2015.jpg",
+    "imageDesc": "Vista de la luna trasera de un turismo con los reposacabezas desde el interior.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "100057253",
+    "question": "En esta intersección sin señalizar, ¿qué vehículo pasará primero?",
+    "options": {
+     "A": "El turismo.",
+     "B": "El ciclomotor.",
+     "C": "El camión."
+    },
+    "correct": "C",
+    "image": "IMG_2016.jpg",
+    "imageDesc": "Gráfico 3D de una intersección sin señalizar con un turismo rojo, un camión azul y un ciclomotor.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "90007906",
+    "question": "¿Qué indica esta señal?",
+    "options": {
+     "A": "Entrada a una travesía.",
+     "B": "Fin de poblado, aunque las normas relativas al mismo rigen hasta la próxima señal de \"Fin de prohibiciones\".",
+     "C": "Fin de poblado, dejando de aplicarse las normas relativas al mismo."
+    },
+    "correct": "C",
+    "image": "IMG_2017.jpg",
+    "imageDesc": "Señal de fin de poblado \"LOS CORRALES DE BUELNA\" con el nombre tachado por una franja roja.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "886950",
+    "question": "Por obras en la calzada se ha abierto un carril en sentido contrario al normal. ¿Puede circular por él un turismo con remolque?",
+    "options": {
+     "A": "Sí, pero solo si el remolque es ligero.",
+     "B": "Sí, cuando no lo prohíban otras señales.",
+     "C": "No, sólo pueden hacerlo turismos y motocicletas."
+    },
+    "correct": "B",
+    "image": "IMG_2018.jpg",
+    "imageDesc": "Carretera con zona de obras, balizamiento y señalización amarilla en el margen.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "8509355",
+    "question": "El conductor de un vehículo detenido en un paso inferior por un tiempo superior a dos minutos está obligado a...",
+    "options": {
+     "A": "apagar el motor y conservar encendido el alumbrado de posición.",
+     "B": "conservar encendido tanto el motor como la luz de posición.",
+     "C": "apagar la luz de posición y conservar encendido el motor."
+    },
+    "correct": "A",
+    "image": "IMG_2019.jpg",
+    "imageDesc": "Coches detenidos dentro de un paso inferior con las luces traseras encendidas.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "884957",
+    "question": "Cuando se produce un accidente de tráfico, una actuación rápida y eficaz supone...",
+    "options": {
+     "A": "trasladar a los heridos rápidamente a un centro sanitario.",
+     "B": "minimizar los daños al máximo.",
+     "C": "poner en práctica nuestros conocimientos sobre primeros auxilios."
+    },
+    "correct": "B",
+    "image": "IMG_2020.jpg",
+    "imageDesc": "Gráfico 3D de un accidente entre dos coches junto a una glorieta, con una persona tendida en el suelo.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "895335",
+    "question": "¿Le está permitido circular con un turismo a más de 90 km/h por esta carretera convencional?",
+    "options": {
+     "A": "No, salvo para adelantar, caso en que podrá alcanzar los 110 km/h.",
+     "B": "Sí, cuando la circulación sea fluida.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "C",
+    "image": "IMG_2021.jpg",
+    "imageDesc": "Carretera convencional recta en un entorno llano con postes eléctricos.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "321564",
+    "question": "Enciende el intermitente izquierdo para cambiar de carril. ¿Cuándo debe apagarlo?",
+    "options": {
+     "A": "Al recorrer 200 metros por el nuevo carril.",
+     "B": "Cuando vuelva al carril derecho.",
+     "C": "Cuando ya he cambiado de carril."
+    },
+    "correct": "C",
+    "image": "IMG_2022.jpg",
+    "imageDesc": "Gráfico 3D de un coche verde con el intermitente encendido cambiando de carril en una carretera.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "8520515",
+    "question": "Si una nube de polvo disminuye sensiblemente la visibilidad, ¿qué alumbrado debe utilizar, además de la luz de posición?",
+    "options": {
+     "A": "La luz antiniebla delantera y trasera y, la luz de largo alcance.",
+     "B": "La luz antiniebla delantera o la luz de corto o largo alcance.",
+     "C": "La luz antiniebla trasera y la luz de corto o largo alcance."
+    },
+    "correct": "B",
+    "image": "IMG_2023.jpg",
+    "imageDesc": "Carretera con visibilidad muy reducida por una nube de polvo, con un vehículo apenas visible al fondo.",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "852115991",
+    "question": "Conforme a los datos de accidentalidad, en las carreteras convencionales se producen...",
+    "options": {
+     "A": "más accidentes con víctimas mortales que en autopistas y autovías.",
+     "B": "menos accidentes con víctimas mortales que en vías urbanas y travesías.",
+     "C": "menos accidentes con víctimas mortales que en autopistas y autovías."
+    },
+    "correct": "A",
+    "image": "IMG_2024.jpg",
+    "imageDesc": "Carretera convencional con varios coches circulando y pasos de cebra",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "100010774",
+    "question": "Un conductor, ¿puede ser condenado a penas de prisión por conducir bajo los efectos del alcohol?",
+    "options": {
+     "A": "No, el consumo de alcohol no está regulado en el Código Penal.",
+     "B": "Sí, conducir bajo los efectos del alcohol puede ser un delito contra la seguridad vial.",
+     "C": "Solo si el conductor es el responsable de un accidente con víctimas mortales."
+    },
+    "correct": "B",
+    "image": "IMG_2025.jpg",
+    "imageDesc": "Control policial con conos naranjas y varios vehículos detenidos",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100058018",
+    "question": "Un turismo de nueva matriculación de uso privado, ¿cuándo deberá pasar su primera inspección técnica periódica (ITV)?",
+    "options": {
+     "A": "A los 3 años a contar desde la fecha de expedición de la tarjeta de inspección técnica.",
+     "B": "A los 4 años a contar desde la fecha de matriculación.",
+     "C": "A los 5 años a contar desde la fecha de matriculación."
+    },
+    "correct": "B",
+    "image": "IMG_2026.jpg",
+    "imageDesc": "Pegatinas de la ITV de la Comunidad de Madrid con calendarios y número 18",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "100020430",
+    "question": "Conduce un camión de MMA inferior a 3.500 kg por el interior de un túnel en el que está prohibido adelantar, ¿qué distancia de seguridad debe mantener con el vehículo que circula delante?",
+    "options": {
+     "A": "Al menos 100 metros.",
+     "B": "Al menos 50 metros.",
+     "C": "Al menos 150 metros."
+    },
+    "correct": "A",
+    "image": "IMG_2027.jpg",
+    "imageDesc": "Interior de un túnel iluminado con vehículos circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "886030",
+    "question": "¿Está permitido que un turismo utilice un tramo de carril reservado para autobuses, delimitado por línea discontinua?",
+    "options": {
+     "A": "Sí, pero sólo para cambiar de dirección a la derecha.",
+     "B": "Sí, para realizar alguna maniobra que no sea parar, estacionar, cambiar de sentido o adelantar.",
+     "C": "No, siempre está prohibido."
+    },
+    "correct": "B",
+    "image": "IMG_2028.jpg",
+    "imageDesc": "Calle urbana con carril reservado marcado BUS TAXI y señal de taxi",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "33850",
+    "question": "¿Cuál es una de las causas que originan los accidentes de tráfico en los conductores jóvenes?",
+    "options": {
+     "A": "La falta de reflejos.",
+     "B": "La mayor percepción del riesgo.",
+     "C": "No respetar las normas de circulación."
+    },
+    "correct": "C",
+    "image": "IMG_2029.jpg",
+    "imageDesc": "Mujer joven conduciendo un coche con las manos en el volante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "825945",
+    "question": "En una autopista o autovía, remolcar un vehículo averiado con el suyo, hasta la próxima salida, ¿está permitido?",
+    "options": {
+     "A": "Sí, siempre que no sea un obstáculo.",
+     "B": "No.",
+     "C": "Sí, siempre que lo haga con precaución y a una velocidad moderada."
+    },
+    "correct": "B",
+    "image": "IMG_2030.jpg",
+    "imageDesc": null,
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "100007449",
+    "question": "¿Está correctamente inmovilizada esta furgoneta?",
+    "options": {
+     "A": "Sí, ya que ha encendido las luces de emergencia y permite el paso.",
+     "B": "Sólo si se trata de una parada y el conductor está en su puesto.",
+     "C": "No, entre la furgoneta y la marca continua hay una distancia inferior a 3 metros."
+    },
+    "correct": "C",
+    "image": "IMG_2031.jpg",
+    "imageDesc": "Furgoneta blanca detenida en una calle urbana junto a un paso de peatones",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "100115260",
+    "question": "Se considera que un vehículo estacionado perturba gravemente la circulación cuando...",
+    "options": {
+     "A": "estacione en medianas, isletas u otros elementos de canalización del tráfico.",
+     "B": "la distancia entre el vehículo y el borde opuesto de la calzada sea inferior a cinco metros.",
+     "C": "estacione en una zona reservada a carga y descarga, fuera de las horas de utilización."
+    },
+    "correct": "A",
+    "image": "IMG_2032.jpg",
+    "imageDesc": "Coche rojo estacionado en una explanada junto a otros vehículos aparcados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "8520461",
+    "question": "Si prevé que puede llover, ¿qué es conveniente revisar?",
+    "options": {
+     "A": "El líquido de frenos y la presión de los neumáticos.",
+     "B": "Nada, no es necesario realizar ninguna revisión.",
+     "C": "El estado de los neumáticos y los limpiaparabrisas."
+    },
+    "correct": "C",
+    "image": "IMG_2033.jpg",
+    "imageDesc": "Carretera mojada por la lluvia junto a un acantilado rocoso",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "887444",
+    "question": "Un semáforo cambia de rojo a verde. ¿Está permitido emplear el claxon para advertir a otro conductor que ya se puede pasar?",
+    "options": {
+     "A": "Sí, cuando se trate de una vía interurbana.",
+     "B": "Sí, cuando se trate de una vía urbana.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "C",
+    "image": "IMG_2034.jpg",
+    "imageDesc": "Vehículos detenidos ante un semáforo en verde en una avenida urbana con palmeras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "90007725",
+    "question": "¿Qué alumbrado debe dejar encendido durante la noche el conductor de un vehículo estacionado en línea en el arcén de una travesía insuficientemente iluminada?",
+    "options": {
+     "A": "Ninguno, ya que el vehículo no ocupa la calzada.",
+     "B": "La luz de posición, o bien la de estacionamiento o las dos de posición del lado de la calzada.",
+     "C": "La luz de posición y las de estacionamiento, o bien los indicadores de dirección del lado de la calzada."
+    },
+    "correct": "B",
+    "image": "IMG_2035.jpg",
+    "imageDesc": "Escena nocturna oscura con vehículos apenas visibles y luces al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "100058236",
+    "question": "En una autopista un conductor circula por el carril izquierdo porque acaba de adelantar, ¿debe regresar inmediatamente al carril derecho?",
+    "options": {
+     "A": "Solo si se convierte en un obstáculo para los vehículos que le siguen.",
+     "B": "Sí, si el carril derecho está libre y las condiciones de la circulación lo permiten.",
+     "C": "No, cuando no le siga ningún vehículo, aunque el carril derecho esté libre."
+    },
+    "correct": "B",
+    "image": "IMG_2036.jpg",
+    "imageDesc": "Coche negro circulando por una autopista junto a montañas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "321139",
+    "question": "El accidente de motocicleta más frecuente es...",
+    "options": {
+     "A": "la colisión por alcance de vehículos que van a más velocidad.",
+     "B": "la colisión frontal con otras motocicletas.",
+     "C": "la colisión frontal o frontolateral con otro vehículo."
+    },
+    "correct": "C",
+    "image": "IMG_2037.jpg",
+    "imageDesc": "Motorista circulando por una calle con un camión rojo detrás",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "100007664",
+    "question": "En una carretera convencional, se prohíbe circular a los turismos a una velocidad inferior a...",
+    "options": {
+     "A": "45 km/h.",
+     "B": "60 km/h.",
+     "C": "55 km/h."
+    },
+    "correct": "A",
+    "image": "IMG_2038.jpg",
+    "imageDesc": "Carretera convencional junto a una ladera rocosa con vehículos al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "85209301",
+    "question": "En un estrechamiento sin señales de prioridad se encuentran un turismo que arrastra un remolque y un autobús, sin que se sepa cual entró primero, ¿qué vehículo tiene preferencia?",
+    "options": {
+     "A": "El turismo que arrastra el remolque.",
+     "B": "El autobús.",
+     "C": "El que tenga que dar marcha atrás más distancia."
+    },
+    "correct": "A",
+    "image": "IMG_2039.jpg",
+    "imageDesc": "Señal de advertencia de estrechamiento de calzada (4,50 m) entre árboles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "321676",
+    "question": "En los vehículos de anchura inferior a un metro, la carga no debe sobresalir por la parte posterior más de...",
+    "options": {
+     "A": "0,25 metros.",
+     "B": "0,40 metros.",
+     "C": "0,50 metros."
+    },
+    "correct": "A",
+    "image": "IMG_2040.jpg",
+    "imageDesc": "Motorista con baúl trasero circulando por una plaza urbana con coches",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "100041080",
+    "question": "En caso de emergencia, ¿cómo se debe frenar?",
+    "options": {
+     "A": "Pisando el pedal de freno suavemente y de forma continua.",
+     "B": "Pisando el pedal del freno con la máxima fuerza, pero sin llegar a bloquear las ruedas.",
+     "C": "Pisando y soltando de forma intermitente hasta detener el vehículo."
+    },
+    "correct": "B",
+    "image": "IMG_2041.jpg",
+    "imageDesc": "Carretera con niebla densa y un coche circulando delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "100086710",
+    "question": "¿Puede circular por la calzada de una vía urbana con un vehículo de movilidad personal?",
+    "options": {
+     "A": "No, en ningún caso.",
+     "B": "Sí, excepto por travesías y túneles urbanos.",
+     "C": "No, debo circular por la acera."
+    },
+    "correct": "B",
+    "image": "IMG_2042.jpg",
+    "imageDesc": "Persona circulando con un patinete eléctrico por una zona adoquinada",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 16,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "85209528",
+    "question": "Los camiones de MMA que no excedan de 3.500 kg, ¿pueden utilizar un carril abierto a la circulación en sentido contrario al normal?",
+    "options": {
+     "A": "No, nunca.",
+     "B": "Sí, siempre que circulen con la luz de cruce encendida.",
+     "C": "Sí, cuando el carril se ha abierto por obras en la calzada."
+    },
+    "correct": "C",
+    "image": "IMG_2043.jpg",
+    "imageDesc": "Autovía con conos delimitando obras y vehículos circulando por carriles habilitados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "7508551",
+    "question": "Circula con un turismo, ¿le prohíbe esta señal efectuar un adelantamiento?",
+    "options": {
+     "A": "No, la señal sólo prohíbe que se adelante a los camiones por la derecha.",
+     "B": "Sí, la señal prohíbe adelantar a todos los vehículos en general y especialmente a los camiones.",
+     "C": "No."
+    },
+    "correct": "C",
+    "image": "IMG_2044.jpg",
+    "imageDesc": "Señal circular de prohibición: camión rojo junto a coche negro (adelantamiento prohibido para camiones)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "6180",
+    "question": "Conforme a los datos de accidentalidad, ¿en qué tipo de vehículo fallece un mayor número de conductores en accidentes de tráfico?",
+    "options": {
+     "A": "Turismo.",
+     "B": "Furgoneta.",
+     "C": "Motocicleta."
+    },
+    "correct": "A",
+    "image": "IMG_2045.jpg",
+    "imageDesc": "Bomberos y sanitarios trasladando a una persona en camilla junto a una ambulancia",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "90007980",
+    "question": "Esta señal, ¿permite a un autobús adelantar a un camión que circula delante de él?",
+    "options": {
+     "A": "Sólo si el camión no supera los 3.500 kg de MMA.",
+     "B": "Sí.",
+     "C": "No, nunca."
+    },
+    "correct": "B",
+    "image": "IMG_2046.jpg",
+    "imageDesc": "Señal circular de prohibición: camión rojo junto a coche negro (adelantamiento prohibido para camiones)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "320341",
+    "question": "Una marca longitudinal formada por dos líneas continuas adosadas...",
+    "options": {
+     "A": "indica que circulamos por un carril reversible.",
+     "B": "tiene el mismo significado que una marca longitudinal continua.",
+     "C": "indica que circulamos por un carril adicional circunstancial."
+    },
+    "correct": "B",
+    "image": "IMG_2047.jpg",
+    "imageDesc": "Carretera con doble línea continua en el centro de la calzada y vehículos circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "100010604",
+    "question": "¿Qué debe hacer para avisar de que va a disminuir la velocidad de su vehículo de modo considerable?",
+    "options": {
+     "A": "Encender las luces de posición.",
+     "B": "Encender el intermitente izquierdo.",
+     "C": "Pisar varias veces el pedal de freno."
+    },
+    "correct": "C",
+    "image": "IMG_2048.jpg",
+    "imageDesc": "Tráfico denso en autopista visto desde el interior de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "7508529",
+    "question": "A la vista de esta señalización, ¿está permitido circular por el carril derecho a 90 kilómetros por hora?",
+    "options": {
+     "A": "No, lo prohíbe la señal.",
+     "B": "No, porque no hay señal que lo indique.",
+     "C": "Sí."
+    },
+    "correct": "C",
+    "image": "IMG_2049.jpg",
+    "imageDesc": "Vista desde el puesto del conductor de una carretera convencional sin señales visibles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "33729",
+    "question": "Según el porcentaje de accidentalidad, ¿qué dos factores son los principales, en un accidente con víctimas en vías interurbanas, donde una furgoneta esté implicada?",
+    "options": {
+     "A": "Consumo de drogas y relación con el sueño.",
+     "B": "Distracciones y falta de distancia de seguridad.",
+     "C": "Agresividad y velocidad excesiva."
+    },
+    "correct": "B",
+    "image": "IMG_2050.jpg",
+    "imageDesc": "Furgoneta roja aparcada frente a un edificio industrial",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "100058346",
+    "question": "Si su permiso para conducir de la clase B tiene una antigüedad de un año y medio, ¿cuál es la tasa máxima de alcohol permitida para poder circular?",
+    "options": {
+     "A": "0,5 gramos por litro de sangre.",
+     "B": "0,25 gramos por litro de sangre.",
+     "C": "0,3 gramos por litro de sangre."
+    },
+    "correct": "C",
+    "image": "IMG_2051.jpg",
+    "imageDesc": "Mano sosteniendo un etilómetro azul que marca 0.30",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "90007996",
+    "question": "El conductor de un vehículo podrá adelantar en un túnel cuando...",
+    "options": {
+     "A": "exista más de un carril en su sentido de circulación.",
+     "B": "exista más de un carril en el sentido contrario de su marcha.",
+     "C": "exista un carril para cada sentido, siempre que el túnel esté bien iluminado."
+    },
+    "correct": "A",
+    "image": "IMG_2052.jpg",
+    "imageDesc": "Interior de un túnel iluminado con vehículos circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "847504",
+    "question": "¿Qué líquido se debe utilizar para rellenar los vasos o celdas de una batería?",
+    "options": {
+     "A": "Agua destilada.",
+     "B": "Agua y anticongelante.",
+     "C": "Agua y aceite."
+    },
+    "correct": "A",
+    "image": "IMG_2053.jpg",
+    "imageDesc": "Batería de coche en el vano motor de un vehículo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "33269",
+    "question": "¿Con qué dos factores suelen relacionarse muchos de los accidentes más graves que sufren los jóvenes conductores?",
+    "options": {
+     "A": "Con el consumo de alcohol y drogas y una actitud prudente al volante.",
+     "B": "Con la velocidad excesiva y una adecuada percepción del riesgo.",
+     "C": "Con la falta de experiencia al volante y el consumo de alcohol y drogas."
+    },
+    "correct": "C",
+    "image": "IMG_2054.jpg",
+    "imageDesc": "Conductor novel colocando la placa L en la luna trasera de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "886951",
+    "question": "Los antihistamínicos modernos, ¿son más seguros para la conducción?",
+    "options": {
+     "A": "No, producen somnolencia como todos los antihistamínicos.",
+     "B": "Sí, ya que pueden mezclarse sin problemas con otros medicamentos.",
+     "C": "Sí, pero no deben mezclarse con alcohol o con otros medicamentos."
+    },
+    "correct": "C",
+    "image": "IMG_2055.jpg",
+    "imageDesc": "Mujer estornudando o sonándose la nariz mientras conduce",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "852113673",
+    "question": "Entre la puesta y la salida del sol, ¿puede encender el alumbrado de largo alcance en caso de niebla?",
+    "options": {
+     "A": "No, está prohibido.",
+     "B": "Sólo en carreteras con un carril para cada sentido de la circulación.",
+     "C": "Sí, procurando no deslumbrar a otros usuarios de la vía."
+    },
+    "correct": "C",
+    "image": "IMG_2056.jpg",
+    "imageDesc": "Vehículo circulando con niebla densa con las luces encendidas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "85208843",
+    "question": "Cuando un neumático tiene mucho aire, ¿qué ocurre?",
+    "options": {
+     "A": "Se agarra peor a la calzada.",
+     "B": "Se agarra mejor a la calzada.",
+     "C": "Se desgasta más por los lados."
+    },
+    "correct": "A",
+    "image": "IMG_2057.jpg",
+    "imageDesc": "Diagrama de la sección de un neumático sobreinflado con la etiqueta \"Superficie de contacto\"",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "892088",
+    "question": "¿A qué vehículos identifica el distintivo de la imagen?",
+    "options": {
+     "A": "A los vehículos destinados al transporte público de viajeros.",
+     "B": "A los vehículos de uso compartido.",
+     "C": "A los vehículos que no emiten gases contaminantes."
+    },
+    "correct": "B",
+    "image": "IMG_2058.jpg",
+    "imageDesc": "Distintivo azul circular de la DGT con un coche y varias personas (vehículo de uso compartido)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "100057032",
+    "question": "La carga de este camión sobresale por su parte trasera, ¿cómo debe transportarse?",
+    "options": {
+     "A": "Protegida y señalizada con una luz blanca o amarilla auto.",
+     "B": "Señalizada con una luz roja y un dispositivo reflectante rojo.",
+     "C": "Señalizada y protegida en la parte que sobresale."
+    },
+    "correct": "C",
+    "image": "IMG_2059.jpg",
+    "imageDesc": "Camión con carga que sobresale por detrás señalizada con panel de franjas rojas y blancas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "6298",
+    "question": "En caso de \"aquaplaning\", ¿qué debe hacer para no perder el control del vehículo?",
+    "options": {
+     "A": "Pisar con fuerza el acelerador para eliminar el agua de los neumáticos.",
+     "B": "Girar el volante a la izquierda con suavidad para corregir la trayectoria.",
+     "C": "No frenar a fondo y desacelerar hasta que el vehículo recupere la tracción."
+    },
+    "correct": "C",
+    "image": "IMG_2060.jpg",
+    "imageDesc": "Coche circulando por una calle mojada por la lluvia con palmeras en la acera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "825069",
+    "question": "Si circula de noche por un tramo con muchas curvas señalizado con la señal de la imagen, ¿le está permitido encender la luz antiniebla delantera?",
+    "options": {
+     "A": "No.",
+     "B": "Sí, cuando la anchura de la calzada sea igual o inferior a 6,50 metros.",
+     "C": "Sólo en caso de que las condiciones meteorológicas sean adversas."
+    },
+    "correct": "B",
+    "image": "IMG_2061.jpg",
+    "imageDesc": "Señal triangular de advertencia de curvas peligrosas, la primera hacia la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "90013035",
+    "question": "¿Qué indica esta señal situada en la parte posterior de un vehículo?",
+    "options": {
+     "A": "Que transporta mercancías peligrosas.",
+     "B": "Que es un vehículo especial y está realizando trabajos en la vía.",
+     "C": "Que es un vehículo lento y no puede superar la velocidad de 40 km/h."
+    },
+    "correct": "C",
+    "image": "IMG_2062.jpg",
+    "imageDesc": "Triángulo rojo reflectante (placa de vehículo lento)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "886036",
+    "question": "Si hay dos señales de distinto tipo con indicaciones que parezcan estar en contradicción, ¿cuál prevalece?",
+    "options": {
+     "A": "La prioritaria, según el orden de prioridad entre señales.",
+     "B": "La señal menos restrictiva.",
+     "C": "La señal más restrictiva."
+    },
+    "correct": "A",
+    "image": "IMG_2063.jpg",
+    "imageDesc": "Calle urbana con un agente de tráfico regulando la circulación en un cruce",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "90002063",
+    "question": "Un vehículo circula a velocidad anormalmente reducida cuando...",
+    "options": {
+     "A": "no se adapta a las circunstancias de la vía.",
+     "B": "circula a velocidad inferior a la mínima permitida en esa vía.",
+     "C": "circula a velocidad inferior a la del resto de los conductores."
+    },
+    "correct": "B",
+    "image": "IMG_2064.jpg",
+    "imageDesc": "Carretera con un camión azul circulando despacio por el carril derecho",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "85212591",
+    "question": "Una furgoneta con una antigüedad de 8 años, ¿con qué frecuencia debe pasar la inspección técnica periódica?",
+    "options": {
+     "A": "Semestral.",
+     "B": "Bienal.",
+     "C": "Anual."
+    },
+    "correct": "C",
+    "image": "IMG_2065.jpg",
+    "imageDesc": "Estación de ITV vista desde el exterior",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "8510149",
+    "question": "¿Qué es una detención?",
+    "options": {
+     "A": "La inmovilización del vehículo por necesidades de la circulación.",
+     "B": "Una parada por cualquier causa.",
+     "C": "Un estacionamiento sin bajarse del vehículo."
+    },
+    "correct": "A",
+    "image": "IMG_2066.jpg",
+    "imageDesc": "Vía con varios coches detenidos en fila por la circulación",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "1167",
+    "question": "La distancia de detención es el espacio que recorre el vehículo desde que el conductor...",
+    "options": {
+     "A": "pisa el pedal de freno hasta que se detiene el vehículo.",
+     "B": "percibe un peligro hasta que se detiene el vehículo.",
+     "C": "percibe un peligro hasta que pisa el pedal de freno."
+    },
+    "correct": "B",
+    "image": "IMG_2067.jpg",
+    "imageDesc": "Zona urbana con obras y vallas rojas y blancas junto a la calzada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "100058111",
+    "question": "Está prohibido parar...",
+    "options": {
+     "A": "en las proximidades de los pasos para peatones.",
+     "B": "donde se ocasione riesgo para el resto de usuarios.",
+     "C": "delante de los vados señalizados correctamente."
+    },
+    "correct": "B",
+    "image": "IMG_2068.jpg",
+    "imageDesc": "Calle urbana con coches aparcados a ambos lados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "884399",
+    "question": "Un conductor obtiene el permiso de la clase B justo un año después de haber obtenido el de la clase A2, ¿cuál será la tasa máxima de alcohol que se le permitirá para poder conducir?",
+    "options": {
+     "A": "0,5 gramos de alcohol por litro de sangre.",
+     "B": "0,3 gramos de alcohol por litro en sangre durante un año.",
+     "C": "0,3 gramos de alcohol por litro de sangre en los dos próximos años."
+    },
+    "correct": "B",
+    "image": "IMG_2069.jpg",
+    "imageDesc": "Conductora realizando una prueba de alcoholemia con etilómetro ante un agente",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "85209393",
+    "question": "El semáforo cuadrado tiene la flecha verde encendida y el semáforo circular está rojo. ¿Qué debe hacer?",
+    "options": {
+     "A": "Circular sin detenerme.",
+     "B": "Detener el vehículo antes del semáforo cuadrado con flecha verde.",
+     "C": "Detener el vehículo antes del semáforo circular en rojo."
+    },
+    "correct": "C",
+    "image": "IMG_2070.jpg",
+    "imageDesc": "Avenida urbana con semáforos: aspas rojas y flechas verdes de carril",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "85208774",
+    "question": "Un botiquín de primeros auxilios, ¿se encuentra entre la dotación obligatoria de los vehículos de hasta nueve plazas?",
+    "options": {
+     "A": "No, un botiquín es solamente recomendable.",
+     "B": "Es obligatorio dependiendo del número de pasajeros transportados.",
+     "C": "Sí, es obligatorio."
+    },
+    "correct": "A",
+    "image": "IMG_2071.jpg",
+    "imageDesc": "Furgoneta amarilla aparcada delante de un edificio",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "852115201",
+    "question": "Un niño de doce años que mide más de 150 centímetros de alto, ¿qué asientos puede ocupar en un turismo?",
+    "options": {
+     "A": "Sólo los traseros.",
+     "B": "Tanto el delantero como los traseros.",
+     "C": "El delantero, con preferencia sobre los asientos traseros."
+    },
+    "correct": "B",
+    "image": "IMG_2072.jpg",
+    "imageDesc": "Niño sentado en el asiento trasero de un coche con el cinturón puesto",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 17,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "100041456",
+    "question": "Como excepción a la norma general, está permitido adelantar en una intersección cuando...",
+    "options": {
+     "A": "la calzada goza de prioridad en la intersección y hay una señal que lo indique.",
+     "B": "el adelantamiento tenga que efectuarse por el carril izquierdo.",
+     "C": "exista visibilidad suficiente."
+    },
+    "correct": "A",
+    "image": "IMG_2073.jpg",
+    "imageDesc": "Carretera con señal de ceda el paso y cartel de STOP a 100 m",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "852115269",
+    "question": "¿Qué documento acredita la matriculación de un turismo y autoriza su circulación por las vías públicas?",
+    "options": {
+     "A": "El certificado del seguro obligatorio.",
+     "B": "El permiso de circulación.",
+     "C": "La tarjeta de inspección técnica."
+    },
+    "correct": "B",
+    "image": "IMG_2074.jpg",
+    "imageDesc": "Documentación del vehículo: varios impresos y documentos sobre fondo oscuro",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "100057062",
+    "question": "Si estaciona en línea en el arcén de una travesía insuficientemente iluminada, ¿debe dejar encendidas las luces de posición de su turismo?",
+    "options": {
+     "A": "Sí, y también las luces de cruce o las de emergencia.",
+     "B": "Sí, o bien la de estacionamiento, o las de posición correspondientes al lado de la calzada.",
+     "C": "No, no es necesario dejar encendido el alumbrado."
+    },
+    "correct": "B",
+    "image": "IMG_2075.jpg",
+    "imageDesc": "Carretera al atardecer con poca luz y árboles a los lados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "90007313",
+    "question": "En la autopista hay muchos vehículos. Los vehículos del carril derecho circulan más deprisa que los del carril izquierdo. ¿Está permitido?",
+    "options": {
+     "A": "Sí, solamente a los vehículos prioritarios.",
+     "B": "No, porque está prohibido adelantar por la derecha.",
+     "C": "Sí, porque cuando están todos los carriles ocupados no es adelantamiento."
+    },
+    "correct": "C",
+    "image": "IMG_2076.jpg",
+    "imageDesc": "Autopista congestionada con muchos coches en varios carriles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "90007995",
+    "question": "Esta marca amarilla prohíbe...",
+    "options": {
+     "A": "parar y estacionar.",
+     "B": "únicamente parar.",
+     "C": "únicamente estacionar."
+    },
+    "correct": "C",
+    "image": "IMG_2077.jpg",
+    "imageDesc": "Marca vial amarilla en zigzag junto al bordillo de la calzada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "320363",
+    "question": "Como norma general, está prohibido cambiar el sentido de la marcha cuando...",
+    "options": {
+     "A": "se aproxime a un paso a nivel.",
+     "B": "no se pueda marchar hacia adelante.",
+     "C": "está prohibido adelantar, salvo que el cambio de sentido esté autorizado."
+    },
+    "correct": "C",
+    "image": "IMG_2078.jpg",
+    "imageDesc": "Ilustración de un coche en carretera con flecha amarilla de cambio de sentido",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "90006592",
+    "question": "El exceso de velocidad hace que la capacidad de anticipación ante una situación de tráfico sea...",
+    "options": {
+     "A": "mayor.",
+     "B": "menor.",
+     "C": "la misma que a poca velocidad."
+    },
+    "correct": "B",
+    "image": "IMG_2079.jpg",
+    "imageDesc": "Coche oscuro circulando por una carretera en zona rural",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "90007322",
+    "question": "Cuando las ruedas llevan poco aire...",
+    "options": {
+     "A": "se desgastan más por el centro.",
+     "B": "se desgastan más por los lados.",
+     "C": "se desgastan igual por los lados que por el centro."
+    },
+    "correct": "B",
+    "image": "IMG_2080.jpg",
+    "imageDesc": "Esquema de la sección de un neumático con poca presión y su superficie de contacto",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "90007587",
+    "question": "Esta señal prohíbe la entrada a los vehículos que transporten...",
+    "options": {
+     "A": "más de mil litros de productos capaces de contaminar el agua.",
+     "B": "cisternas.",
+     "C": "mercancías peligrosas."
+    },
+    "correct": "A",
+    "image": "IMG_2081.jpg",
+    "imageDesc": "Señal redonda de prohibición con un vehículo cisterna y líneas de agua (prohibida la entrada a vehículos que transporten productos contaminantes del agua)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "852115261",
+    "question": "¿Qué condiciones tienen que tener los neumáticos de una motocicleta?",
+    "options": {
+     "A": "No deben presentar ampollas, deformaciones anormales ni roturas.",
+     "B": "Las ranuras de la banda de rodadura tienen que tener una profundidad mínima de 1,6 milímetros.",
+     "C": "Las dos ruedas tienen que ser del mismo modelo y características."
+    },
+    "correct": "A",
+    "image": "IMG_2082.jpg",
+    "imageDesc": "Rueda delantera de una motocicleta vista desde arriba",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "85209508",
+    "question": "En un vehículo de más de 5 metros, destinado al transporte de mercancías, una carga de longitud indivisible puede sobresalir...",
+    "options": {
+     "A": "2 metros por la parte anterior y 3 por la posterior.",
+     "B": "3 metros por la parte anterior y 2 por la posterior.",
+     "C": "el 15% de la longitud del vehículo por delante y por detrás."
+    },
+    "correct": "A",
+    "image": "IMG_2083.jpg",
+    "imageDesc": "Dibujo de un camión con una carga larga que sobresale por delante y por detrás, marcada en rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "886566",
+    "question": "El efecto túnel provocado por una velocidad excesiva es especialmente peligroso en...",
+    "options": {
+     "A": "los adelantamientos.",
+     "B": "las intersecciones.",
+     "C": "las autopista y autovías."
+    },
+    "correct": "B",
+    "image": "IMG_2084.jpg",
+    "imageDesc": "Carretera convencional recta con flecha en la calzada y paisaje llano",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "100117335",
+    "question": "Si un vehículo se avería, ¿está permitido hacerle una reparación en la vía pública?",
+    "options": {
+     "A": "Sí, si es un operario o alguien de la grúa.",
+     "B": "No.",
+     "C": "Sí, sino obstaculiza la circulación."
+    },
+    "correct": "B",
+    "image": "IMG_2085.jpg",
+    "imageDesc": null,
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "90007673",
+    "question": "Para conducir con hielo en la calzada de una forma preventiva debe...",
+    "options": {
+     "A": "disminuir la velocidad y utilizar marchas cortas.",
+     "B": "tener especial cuidado durante el día.",
+     "C": "disminuir la velocidad y utilizar marchas largas."
+    },
+    "correct": "C",
+    "image": "IMG_2086.jpg",
+    "imageDesc": "Carretera con señal triangular de peligro por calzada deslizante y un coche circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "90007285",
+    "question": "Los cinturones de seguridad y los airbags son sistemas de...",
+    "options": {
+     "A": "conducción eficiente.",
+     "B": "seguridad activa.",
+     "C": "seguridad pasiva."
+    },
+    "correct": "C",
+    "image": "IMG_2087.jpg",
+    "imageDesc": "Interior de un coche con los airbags delanteros desplegados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "90008198",
+    "question": "Está prohibido realizar un cambio de dirección a la izquierda cuando no exista...",
+    "options": {
+     "A": "una señal que lo autorice expresamente.",
+     "B": "un lugar acondicionado expresamente para realizarlo.",
+     "C": "visibilidad suficiente."
+    },
+    "correct": "C",
+    "image": "IMG_2088.jpg",
+    "imageDesc": "Carretera convencional recta entre campos y montañas al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "878103",
+    "question": "¿Está permitido realizar competiciones de velocidad en las vías públicas?",
+    "options": {
+     "A": "No, nunca.",
+     "B": "Sí, en vias acotadas para ello por la autoridad competente.",
+     "C": "Sí, pero todas estas pruebas autorizadas irán precedidas por un agente de la autoridad con la bandera de color verde."
+    },
+    "correct": "B",
+    "image": "IMG_2089.jpg",
+    "imageDesc": "Autovía urbana con varios vehículos y una motocicleta circulando",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "90008210",
+    "question": "Esta señal indica que...",
+    "options": {
+     "A": "a su altura puede realizar un cambio de sentido de la marcha a la derecha.",
+     "B": "debe seguir una de las direcciones y sentidos que señalan las flechas.",
+     "C": "las únicas direcciones aconsejadas son seguir de frente o girar a la derecha."
+    },
+    "correct": "B",
+    "image": "IMG_2090.jpg",
+    "imageDesc": "Señal azul circular de obligación con flechas de frente y giro a la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "852114390",
+    "question": "Un conductor ha estacionado su vehículo en la parte transitable del arcén de una vía interurbana, ¿ha estacionado de forma correcta?",
+    "options": {
+     "A": "No, en el arcén no se puede estacionar.",
+     "B": "Sí, porque el vehículo está fuera de la calzada.",
+     "C": "Solo si el estacionamiento es inferior a 2 minutos."
+    },
+    "correct": "A",
+    "image": "IMG_2091.jpg",
+    "imageDesc": "Carretera interurbana con línea continua doble y montañas al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "893261",
+    "question": "En una calzada con un sentido de circulación, en el centro hay una isleta. ¿Por dónde se puede circular?",
+    "options": {
+     "A": "Solamente por la parte derecha del refugio.",
+     "B": "Por la derecha o por la izquierda, indistintamente.",
+     "C": "Solamente por la parte izquierda del refugio."
+    },
+    "correct": "B",
+    "image": "IMG_2092.jpg",
+    "imageDesc": "Gráfico 3D de una calle de sentido único con una isleta central y un coche verde",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "100057937",
+    "question": "En un carril de aceleración, ¿dónde debe detenerse de tener que ceder el paso?",
+    "options": {
+     "A": "Justo antes de entrar en la via.",
+     "B": "Donde tenga que ceder el paso.",
+     "C": "Al principio del carril."
+    },
+    "correct": "C",
+    "image": "IMG_2093.jpg",
+    "imageDesc": "Autovía con carril de aceleración, señal azul de intersección y un coche rojo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "100010849",
+    "question": "Si se puede hacer la maniobra sin riesgo, ¿está permitido adelantar a los ciclistas de la imagen?",
+    "options": {
+     "A": "Sólo está permitido si no se ocupa el carril reservado al sentido contrario.",
+     "B": "Sí, aunque tenga que ocupar el carril reservado al sentido contrario.",
+     "C": "No, ya que lo prohíbe la línea continua."
+    },
+    "correct": "B",
+    "image": "IMG_2094.jpg",
+    "imageDesc": "Carretera convencional con dos ciclistas circulando por el arcén derecho",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "320040",
+    "question": "Al aproximarse a ciclos circulando, ¿qué precauciones se deben tomar?",
+    "options": {
+     "A": "Moderar la velocidad y si fuera preciso, detener el vehículo.",
+     "B": "Aumentar la velocidad para adelantarles cuanto antes.",
+     "C": "Mantener la velocidad y estar atento al cumplimiento de la señalización vertical."
+    },
+    "correct": "A",
+    "image": "IMG_2095.jpg",
+    "imageDesc": "Bicicleta eléctrica con cesta delantera sobre fondo blanco",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "90007659",
+    "question": "Circula con un turismo con remolque, ¿puede entrar en una vía con esta señal?",
+    "options": {
+     "A": "Sí, cuando el remolque tenga un solo eje.",
+     "B": "No, con ningún vehículo que arrastre un remolque.",
+     "C": "Sí, con cualquier conjunto de vehículos."
+    },
+    "correct": "A",
+    "image": "IMG_2096.jpg",
+    "imageDesc": "Señal redonda de prohibición con un vehículo de motor arrastrando un remolque",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "825664",
+    "question": "En esta vía de dos carriles en el mismo sentido, al vehículo de la imagen, como norma general, ¿le está permitido mantenerse en el carril de la izquierda una vez finalizado el adelantamiento?",
+    "options": {
+     "A": "Sí, porque la via no está saturada.",
+     "B": "No, debe circular por el carril de la derecha.",
+     "C": "Solo si no entorpece la marcha de otros vehículos."
+    },
+    "correct": "B",
+    "image": "IMG_2097.jpg",
+    "imageDesc": "Turismo oscuro circulando por el carril izquierdo de una autovía junto a una montaña",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "90010045",
+    "question": "Esta señal, ¿qué indica?",
+    "options": {
+     "A": "Intersección por la derecha en la que debo ceder el paso a los que entran.",
+     "B": "Intersección donde puedo girar a la derecha.",
+     "C": "Intersección con entrada por la derecha en la que tengo preferencia."
+    },
+    "correct": "C",
+    "image": "IMG_2098.jpg",
+    "imageDesc": "Señal triangular de peligro por intersección con prioridad sobre vía a la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "100011045",
+    "question": "Si desea conocer la fecha de matriculación de un vehículo, consultará...",
+    "options": {
+     "A": "el permiso de circulación.",
+     "B": "el distintivo de la ITV del vehículo.",
+     "C": "el permiso de conducción."
+    },
+    "correct": "A",
+    "image": "IMG_2099.jpg",
+    "imageDesc": "Documentación de un vehículo: permiso de circulación y otros documentos oficiales",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "100034345",
+    "question": "¿Qué es la hora dorada?",
+    "options": {
+     "A": "Lo que tarda la ambulancia en llegar al lugar del accidente.",
+     "B": "Es la hora inmediata posterior a sufrir un accidente.",
+     "C": "Es lo que se tarda en llegar al hospital después de sufrir un accidente."
+    },
+    "correct": "B",
+    "image": "IMG_2100.jpg",
+    "imageDesc": "Escena 3D de una glorieta con un accidente entre dos coches y una persona tendida en el suelo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "893122",
+    "question": "El conductor de un vehículo que se vea obligado a realizar un servicio de urgencia...",
+    "options": {
+     "A": "no está obligado a respetar los semáforos, pero sí las señales.",
+     "B": "está obligado a respetar las normas y las señales de circulación.",
+     "C": "no está obligado a respetar las normas de circulación, pero sí las señales."
+    },
+    "correct": "B",
+    "image": "IMG_2101.jpg",
+    "imageDesc": "Coche azul circulando por una carretera junto a una valla",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "836086",
+    "question": "El titular de esta vía ha fijado la velocidad máxima para determinados vehículos en 100 km/h. ¿A qué velocidad máxima puede circular un automóvil que arrastra un remolque?",
+    "options": {
+     "A": "90 km/h.",
+     "B": "100 km/h.",
+     "C": "80 km/h."
+    },
+    "correct": "C",
+    "image": "IMG_2102.jpg",
+    "imageDesc": "Vista aérea 3D de una autopista con varios coches y un vehículo con remolque",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 18,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "321503",
+    "question": "Un conjunto de turismo con remolque ligero, que mide menos de 7 metros, ¿por dónde debe circular?",
+    "options": {
+     "A": "Por el carril de la derecha, por ser este el único permitido para remolques.",
+     "B": "Por el carril de la derecha, aunque puede circular por cualquiera de los tres.",
+     "C": "Por cualquiera de los dos carriles de la izquierda."
+    },
+    "correct": "B",
+    "image": "IMG_2103.jpg",
+    "imageDesc": "Señal azul de carriles con límites de velocidad 100, 100 y 80",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "826469",
+    "question": "¿Qué indica la señal?",
+    "options": {
+     "A": "Cambio de sentido a distinto nivel a 300 metros.",
+     "B": "Cambio de sentido al mismo nivel a 300 metros.",
+     "C": "Cambio de dirección al mismo nivel a 300 metros."
+    },
+    "correct": "B",
+    "image": "IMG_2104.jpg",
+    "imageDesc": "Señal azul cuadrada con flecha de cambio de sentido y la indicación 300 m",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "321065",
+    "question": "Estas señales, sobre una autopista o autovía, indican salida inmediata hacia...",
+    "options": {
+     "A": "una carretera convencional.",
+     "B": "la población indicada.",
+     "C": "una autopista o autovía."
+    },
+    "correct": "C",
+    "image": "IMG_2105.jpg",
+    "imageDesc": "Paneles azules de dirección: M-40, E-5 A-4 Córdoba, A-42, A-5 y salida 21 hacia E-901 A-3 Valencia",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "100057475",
+    "question": "Circulando fuera de poblado, como norma general, ¿qué señalización deberá utilizar para advertir su propósito de adelantar?",
+    "options": {
+     "A": "La señalización óptica y en su defecto el brazo.",
+     "B": "Únicamente la señalización acústica de sonido no estridente.",
+     "C": "Únicamente la señalización óptica, utilizando de forma intermitente el alumbrado de corto o de largo alcance."
+    },
+    "correct": "A",
+    "image": "IMG_2106.jpg",
+    "imageDesc": "Escena 3D de un coche azul adelantando a un camión blanco en carretera con árboles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "90007681",
+    "question": "¿En qué vías es obligatorio dejar la distancia de seguridad con el vehículo que circula delante para permitir que otro pueda adelantar?",
+    "options": {
+     "A": "En carreteras con un carril para cada sentido.",
+     "B": "En autopistas y autovías.",
+     "C": "En vías interurbanas con dos o más carriles para cada sentido."
+    },
+    "correct": "A",
+    "image": "IMG_2107.jpg",
+    "imageDesc": "Escena 3D de un coche amarillo circulando por una carretera de doble sentido cerca de edificios",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "7508526",
+    "question": "La edad avanzada, ¿puede ser un factor que favorezca la distracción al volante?",
+    "options": {
+     "A": "Sí, si no se toman las debidas precauciones.",
+     "B": "No.",
+     "C": "Sí, siempre."
+    },
+    "correct": "A",
+    "image": "IMG_2108.jpg",
+    "imageDesc": "Persona mayor conduciendo un coche con una acompañante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "827980",
+    "question": "Está prohibido parar...",
+    "options": {
+     "A": "en las zonas señalizadas para uso exclusivo de personas de movilidad reducida.",
+     "B": "cerca de los pasos señalizados para peatones.",
+     "C": "delante de los vados señalizados correctamente."
+    },
+    "correct": "A",
+    "image": "IMG_2109.jpg",
+    "imageDesc": "Persona mayor conduciendo un coche con una acompañante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "321423",
+    "question": "La distancia de frenado es...",
+    "options": {
+     "A": "el espacio recorrido desde que el conductor ve el obstáculo hasta que acciona el freno.",
+     "B": "el espacio recorrido desde que el conductor ve el obstáculo hasta que detiene el vehículo.",
+     "C": "el espacio recorrido desde que el conductor acciona el freno hasta que el vehículo se detiene."
+    },
+    "correct": "C",
+    "image": "IMG_2110.jpg",
+    "imageDesc": "Escena 3D urbana con coches aparcados, una furgoneta amarilla y un niño con un balón",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "884396",
+    "question": "En una calle de un carril cuya calzada está a distinto nivel que la acera, ¿a qué velocidad máxima se puede circular, como norma general?",
+    "options": {
+     "A": "A 20 km/h.",
+     "B": "A 30 km/h.",
+     "C": "A 50 km/h."
+    },
+    "correct": "B",
+    "image": "IMG_2111.jpg",
+    "imageDesc": "Calle estrecha de un carril con coches aparcados y aceras a distinto nivel",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "278590",
+    "question": "En las glorietas, ¿está permitido adelantar?",
+    "options": {
+     "A": "No, son intersecciones.",
+     "B": "Solo en las que se encuentran en vías urbanas.",
+     "C": "Sí."
+    },
+    "correct": "C",
+    "image": "IMG_2112.jpg",
+    "imageDesc": null,
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "8509581",
+    "question": "Entre otros lugares, ¿dónde está prohibido estacionar en una zona urbana?",
+    "options": {
+     "A": "En cambios de rasante y en las proximidades de los pasos de peatones.",
+     "B": "Sobre las aceras y paseos destinados al paso de peatones.",
+     "C": "En vías calificadas de atención preferente."
+    },
+    "correct": "B",
+    "image": "IMG_2113.jpg",
+    "imageDesc": "Agente de policía con chaleco reflectante levantando el brazo en una calle con coches",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "100010016",
+    "question": "¿Qué grupo de riesgo es el más vulnerable y tiene mayor probabilidad de fallecer o sufrir graves lesiones en un accidente de tráfico?",
+    "options": {
+     "A": "Los peatones.",
+     "B": "Los conductores jóvenes.",
+     "C": "Los conductores profesionales."
+    },
+    "correct": "A",
+    "image": "IMG_2114.jpg",
+    "imageDesc": "Persona en silla de ruedas frente a unas escaleras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "320224",
+    "question": "En una autopista con hielo en el pavimento, ¿está permitido circular a 40 km/h?",
+    "options": {
+     "A": "Sí, pero debe circular por el arcén para no entorpecer a los vehículos que circulen más rápido.",
+     "B": "No, porque es una velocidad anormalmente reducida.",
+     "C": "Sí, porque se trata de una circunstancia especial."
+    },
+    "correct": "C",
+    "image": "IMG_2115.jpg",
+    "imageDesc": "Carretera nevada con hielo vista desde el interior de un vehículo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100057221",
+    "question": "En esta vía de doble sentido, ¿qué vehículos deben dejar una separación mínima de 50 metros con el vehículo de delante cuando no pretendan adelantar?",
+    "options": {
+     "A": "Todos los camiones, con independencia de su MMA.",
+     "B": "Los conjuntos de vehículos de más de 10 metros de longitud.",
+     "C": "Los turismos."
+    },
+    "correct": "B",
+    "image": "IMG_2116.jpg",
+    "imageDesc": "Escena 3D de carretera de doble sentido con un coche verde en primer plano y vehículos al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "100058386",
+    "question": "El vehículo rojo va a girar a la izquierda en la próxima intersección. ¿Puedo circular por el arcén para adelantarlo por la derecha?",
+    "options": {
+     "A": "No, porque el camión no me deja ver.",
+     "B": "Sí, porque es una intersección con prioridad.",
+     "C": "No, porque está prohibido circular por el arcén."
+    },
+    "correct": "C",
+    "image": "IMG_2117.jpg",
+    "imageDesc": null,
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "33613",
+    "question": "El conductor de un vehículo, ¿cómo deberá adelantar a un ciclista cuando circule por una vía con dos carriles para su sentido de la marcha?",
+    "options": {
+     "A": "Ocupando parte del carril contiguo y dejando una distancia lateral de, al menos, 1,5 metros.",
+     "B": "Cambiando por completo de carril y dejando una distancia lateral de, al menos, 1,5 metros.",
+     "C": "Ocupando parte o la totalidad del carril contiguo y dejando una distancia lateral de, al menos, 1,5 metros."
+    },
+    "correct": "B",
+    "image": "IMG_2118.jpg",
+    "imageDesc": "Ciclista circulando por una carretera vista desde el interior de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "85209518",
+    "question": "Si debido a una avería, un turismo circula a velocidad anormalmente reducida, sin interrumpir la circulación, ¿por dónde debe circular?",
+    "options": {
+     "A": "Por el arcén, obligatoriamente.",
+     "B": "No podrá seguir circulando, en ningún caso.",
+     "C": "Por la parte derecha de la calzada sin invadir el arcén."
+    },
+    "correct": "C",
+    "image": "IMG_2120.jpg",
+    "imageDesc": "Carretera convencional con un camión de frente y un tractor en el arcén derecho",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "85209420",
+    "question": "Delante de un vado, esta señal prohíbe...",
+    "options": {
+     "A": "únicamente la parada.",
+     "B": "la parada y el estacionamiento.",
+     "C": "solamente el estacionamiento."
+    },
+    "correct": "C",
+    "image": "IMG_2121.jpg",
+    "imageDesc": "Señal de estacionamiento prohibido con la palabra VADO debajo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "100040968",
+    "question": "En una vía interurbana sin iluminar, al aproximarse a un cambio de rasante, ¿qué debe hacer un conductor para saber si se aproximan otros vehículos en sentido contrario?",
+    "options": {
+     "A": "Circular con las luces apagadas durante cuatro o cinco segundos.",
+     "B": "Sustituir momentáneamente la luz de carretera por la de cruce.",
+     "C": "Sustituir momentáneamente la luz de cruce por la de posición."
+    },
+    "correct": "B",
+    "image": "IMG_2122.jpg",
+    "imageDesc": "Salpicadero de un vehículo de noche con testigo de luz de carretera encendido",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "85209277",
+    "question": "¿Cuáles de los siguientes vehículos podrán circular por un carril de alta ocupación (VAO) aunque solo esté ocupado por su conductor?",
+    "options": {
+     "A": "Los turismos que arrastren un remolque ligero.",
+     "B": "Los que lleven la señal V-15.",
+     "C": "Los cuadriciclos ligeros."
+    },
+    "correct": "B",
+    "image": "IMG_2123.jpg",
+    "imageDesc": "Autovía con pórtico de señalización azul sobre los carriles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "847500",
+    "question": "Además de estar regulado a la altura idónea, ¿qué separación debe existir entre el reposacabezas y la cabeza para que sea eficaz?",
+    "options": {
+     "A": "La máxima posible y nunca inferior a 5 centímetros.",
+     "B": "La mínima posible y nunca superior a 4 centímetros.",
+     "C": "Superior a 10 centímetros."
+    },
+    "correct": "B",
+    "image": "IMG_2124.jpg",
+    "imageDesc": "Conductor visto desde el asiento trasero dentro de un turismo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "100010381",
+    "question": "Queda atascado con su turismo en una zona de barro donde patinan las ruedas motrices. ¿Cuál es la forma más adecuada de actuar para seguir circulando?",
+    "options": {
+     "A": "Preparar un terreno estable colocando el material adecuado cerca de las ruedas motrices para que estas tengan la adherencia suficiente.",
+     "B": "Pisar a fondo el pedal acelerador para conseguir mayor tracción en las ruedas y así lograr mayor adherencia.",
+     "C": "Empujar el vehículo por uno de los laterales hacia una mejor superficie con adherencia."
+    },
+    "correct": "A",
+    "image": "IMG_2125.jpg",
+    "imageDesc": "Turismo blanco atascado en el barro en un camino de tierra",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "893121",
+    "question": "El alcohol, ¿cómo afecta a la conducción?",
+    "options": {
+     "A": "Puede reducir el tiempo de reacción.",
+     "B": "Puede retrasar la aparición del sueño.",
+     "C": "Puede favorecer la aparición del sueño."
+    },
+    "correct": "C",
+    "image": "IMG_2126.jpg",
+    "imageDesc": null,
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "100058469",
+    "question": "¿Cuándo finaliza la prohibición de circular a velocidad superior a la indicada?",
+    "options": {
+     "A": "Al rebasar la intersección.",
+     "B": "Al llegar a la intersección.",
+     "C": "Al rebasar la vertical de la próxima señal de \"fin de restricciones\"."
+    },
+    "correct": "A",
+    "image": "IMG_2127.jpg",
+    "imageDesc": "Señal de prioridad en la próxima intersección junto a señal de velocidad máxima 60",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "823522",
+    "question": "De noche, además de con el panel de la imagen, ¿con qué se señalizará una carga que sobresale por la parte trasera de un turismo?",
+    "options": {
+     "A": "Con una luz amarilla o blanca.",
+     "B": "Con una luz roja.",
+     "C": "Con una luz roja y otra amarilla o blanca."
+    },
+    "correct": "B",
+    "image": "IMG_2128.jpg",
+    "imageDesc": "Panel V-20 cuadrado con franjas diagonales rojas y blancas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "90006633",
+    "question": "¿Qué señala la flecha de la señal?",
+    "options": {
+     "A": "Sentido único.",
+     "B": "Recomienda el lado del refugio por el que los vehículos pueden pasar.",
+     "C": "El lado del refugio por el que los vehículos han de pasar."
+    },
+    "correct": "C",
+    "image": "IMG_2129.jpg",
+    "imageDesc": "Señal circular azul con flecha blanca apuntando abajo a la derecha (paso obligatorio)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "100057027",
+    "question": "En defecto de señalización, ¿cuál es la velocidad máxima que no deberá rebasar una furgoneta en una autovía dentro de poblado?",
+    "options": {
+     "A": "80 km/h.",
+     "B": "100 km/h.",
+     "C": "90 km/h."
+    },
+    "correct": "A",
+    "image": "IMG_2130.jpg",
+    "imageDesc": "Autovía urbana con varios coches y pórtico de señales azules",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "823981",
+    "question": "¿Qué vehículos deben tener concertado el Seguro Obligatorio?",
+    "options": {
+     "A": "Todos los vehículos a motor excepto los ciclomotores.",
+     "B": "Los vehículos a motor y ciclomotores.",
+     "C": "Todos los vehículos que circulen por las vías públicas."
+    },
+    "correct": "B",
+    "image": "IMG_2131.jpg",
+    "imageDesc": "Documentos y recibo del seguro del vehículo sobre una mesa",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "100121667",
+    "question": "¿Está permitido utilizar el carril sobre el que está la señal de velocidad mínima?",
+    "options": {
+     "A": "No, siempre hay que circular por la derecha.",
+     "B": "Sí, cuando la velocidad sea igual o superior a la indicada.",
+     "C": "Sí, cuando la velocidad sea inferior a la indicada."
+    },
+    "correct": "B",
+    "image": "IMG_2132.jpg",
+    "imageDesc": "Señal azul de carriles con velocidad mínima 70 en el carril izquierdo",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 19,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "85208820",
+    "question": "Un herido tiene quemaduras. ¿Qué debe hacer?",
+    "options": {
+     "A": "Tapar la quemadura con gasas húmedas.",
+     "B": "Limpiar la herida.",
+     "C": "Quitarle la ropa pegada a la quemadura."
+    },
+    "correct": "A",
+    "image": "IMG_2133.jpg",
+    "imageDesc": "Autovía con vehículo de asistencia y coches detenidos en el arcén",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100057300",
+    "question": "Si debido a una avería, un vehículo queda inmovilizado en el interior de un túnel, su conductor, siempre que sea posible deberá...",
+    "options": {
+     "A": "solicitar ayuda a otro conductor para remolcar el vehículo fuera del túnel.",
+     "B": "dirigir el vehículo a la zona de emergencia más próxima al sentido de su marcha.",
+     "C": "inmovilizar el vehículo lo más cerca posible del borde de la calzada."
+    },
+    "correct": "B",
+    "image": "IMG_2134.jpg",
+    "imageDesc": "Interior de un túnel iluminado con un vehículo al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "85209558",
+    "question": "Si la vía está acondicionada con una raqueta u otro elemento similar, ¿debe utilizar dicho elemento para realizar un giro?",
+    "options": {
+     "A": "Sí, pero sólo si lo indica una señal.",
+     "B": "Sí, aunque no haya señal que lo indique.",
+     "C": "No, es indiferente."
+    },
+    "correct": "B",
+    "image": "IMG_2135.jpg",
+    "imageDesc": "Gráfico de una intersección con un coche rojo realizando un giro mediante raqueta",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "100057161",
+    "question": "Para girar a la izquierda en una vía interurbana en la que no existe un carril especialmente acondicionado para cambiar de dirección, los conductores de ciclos deberán...",
+    "options": {
+     "A": "ceñirse a la marca longitudinal de separación entre sentidos.",
+     "B": "abstenerse de realizar la maniobra.",
+     "C": "situarse a la derecha, fuera de la calzada si fuera posible e iniciar el giro desde ahí."
+    },
+    "correct": "C",
+    "image": "IMG_2136.jpg",
+    "imageDesc": "Vía interurbana con ciclistas circulando por el arcén derecho",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "320134",
+    "question": "En una vía en la que se ha habilitado un carril adicional circunstancial, ¿qué vehículos están obligados a llevar encendida, al menos, la luz de cruce?",
+    "options": {
+     "A": "Todos.",
+     "B": "Solo los vehículos que circulen por los arcenes.",
+     "C": "Solo los vehículos que circulen por el carril adicional."
+    },
+    "correct": "A",
+    "image": "IMG_2137.jpg",
+    "imageDesc": "Gráfico 3D de una vía con carril adicional delimitado por conos y un camión averiado",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "100040951",
+    "question": "Arrojar un cigarro por la ventanilla de un turismo, ¿es una infracción?",
+    "options": {
+     "A": "Sí, pero no conlleva la pérdida de puntos.",
+     "B": "Sí, y además conlleva la pérdida de puntos.",
+     "C": "No es una infracción, pero no se debe hacer."
+    },
+    "correct": "B",
+    "image": "IMG_2138.jpg",
+    "imageDesc": "Mano de un conductor sacando un cigarro por la ventanilla de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "100041393",
+    "question": "Antes de iniciar un adelantamiento, ¿qué debe comprobar?",
+    "options": {
+     "A": "Que los vehículos que circulan por el mismo carril no llevan encendidos los intermitentes.",
+     "B": "Que los vehículos que circulan detrás mantienen la distancia de seguridad.",
+     "C": "Que ningún conductor ha iniciado la maniobra de adelantar a su vehículo."
+    },
+    "correct": "C",
+    "image": "IMG_2139.jpg",
+    "imageDesc": "Espejo retrovisor exterior mostrando un camión y coches detrás en la carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "100041078",
+    "question": "¿Dónde debe colocarse para cambiar de dirección a la izquierda en esta vía de doble sentido y tres carriles?",
+    "options": {
+     "A": "Ceñido al borde izquierdo de la calzada.",
+     "B": "En el carril central siempre que esté libre.",
+     "C": "Junto al borde derecho de la calzada."
+    },
+    "correct": "B",
+    "image": "IMG_2140.jpg",
+    "imageDesc": "Carretera de tres carriles con doble sentido y un coche circulando en sentido contrario",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "100055990",
+    "question": "Un turismo acaba de pasar satisfactoriamente la primera inspección técnica periódica, ¿cuándo debe pasar la siguiente?",
+    "options": {
+     "A": "A los cuatro años.",
+     "B": "Al año siguiente.",
+     "C": "A los dos años."
+    },
+    "correct": "C",
+    "image": "IMG_2141.jpg",
+    "imageDesc": "Estación de ITV con coches aparcados delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "33831",
+    "question": "En una vía interurbana, ¿dónde está permitido realizar una parada que no esté motivada por razones de emergencia?",
+    "options": {
+     "A": "En el lado derecho, fuera de la calzada y de la parte transitable del arcén.",
+     "B": "En la parte transitable del arcén, cuando sea por necesidades del tráfico.",
+     "C": "Fuera de la calzada, en el arcén derecho o izquierdo."
+    },
+    "correct": "A",
+    "image": "IMG_2142.jpg",
+    "imageDesc": "Carretera interurbana con curva y señal de curva peligrosa con velocidad recomendada 50",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "8509536",
+    "question": "Como norma general, ¿en qué asientos deberá instalar los sistemas de retención infantil que están obligados a utilizar los menores de edad de estatura inferior a 135 centímetros?",
+    "options": {
+     "A": "En el asiento delantero si está orientado hacia atrás, en los demás casos en los asientos traseros.",
+     "B": "En los asientos traseros.",
+     "C": "En el asiento delantero."
+    },
+    "correct": "B",
+    "image": "IMG_2144.jpg",
+    "imageDesc": "Niños sentados en los asientos traseros de un coche con sistemas de retención infantil",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "90000999",
+    "question": "En una carretera convencional, ¿está permitido cambiar el sentido de la marcha?",
+    "options": {
+     "A": "No, está siempre prohibido.",
+     "B": "Sí, en cualquier lugar.",
+     "C": "Sí, en un lugar adecuado."
+    },
+    "correct": "C",
+    "image": "IMG_2145.jpg",
+    "imageDesc": "Carretera convencional recta con una montaña al fondo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100010682",
+    "question": "¿En qué clase clasificarías a un coche eléctrico de batería y un híbrido enchufable con una autonomía mínima de 40 km?",
+    "options": {
+     "A": "0 emisiones.",
+     "B": "ECO.",
+     "C": "En la clase A."
+    },
+    "correct": "A",
+    "image": "IMG_2146.jpg",
+    "imageDesc": "Cuatro distintivos ambientales de la DGT: 0 emisiones (azul), ECO (azul-verde), B (amarillo) y C (verde)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "90005542",
+    "question": "Al estacionar un vehículo provisto de caja de cambios manual en una pendiente descendente, ¿qué velocidad dejará colocada?",
+    "options": {
+     "A": "La primera velocidad.",
+     "B": "La marcha atrás.",
+     "C": "Punto muerto."
+    },
+    "correct": "B",
+    "image": "IMG_2147.jpg",
+    "imageDesc": "Palanca de cambios manual de un coche vista desde el interior",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 16,
+    "preguntaId": "884581",
+    "question": "¿Prohíbe esta señal el acceso a turismos?",
+    "options": {
+     "A": "No, pero alerta de la presencia de animales de montura.",
+     "B": "Sí, aunque ciclos y ciclomotores están permitidos.",
+     "C": "Sí, ya que se trata de un camino reservado para animales de montura."
+    },
+    "correct": "C",
+    "image": "IMG_2148.jpg",
+    "imageDesc": "Señal circular azul de camino reservado para animales de montura (jinete a caballo)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "90007850",
+    "question": "En los cambios de carril en un mismo sentido, ¿quién tiene prioridad?",
+    "options": {
+     "A": "El vehículo que circula por el carril que se pretende ocupar.",
+     "B": "El vehículo que realiza el cambio de carril.",
+     "C": "Siempre los turismos sobre el resto de vehículos."
+    },
+    "correct": "A",
+    "image": "IMG_2149.jpg",
+    "imageDesc": "Autopista de varios carriles vista desde un puente con tráfico",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "115876",
+    "question": "De las siguientes situaciones, ¿cuál favorece la fatiga en el conductor?",
+    "options": {
+     "A": "Circular por una vía con el firme en buen estado.",
+     "B": "Mantener adecuadamente ventilado el interior del vehículo.",
+     "C": "Conducir de noche con una iluminación deficiente."
+    },
+    "correct": "C",
+    "image": "IMG_2150.jpg",
+    "imageDesc": "Conductora al volante de un coche tocándose la cara en señal de cansancio",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "85209494",
+    "question": "¿Qué velocidades o marchas dan más fuerza al vehículo?",
+    "options": {
+     "A": "La 3ª y la 4ª.",
+     "B": "La 4ª y la 5ª.",
+     "C": "La 1ª y la 2ª."
+    },
+    "correct": "C",
+    "image": "IMG_2151.jpg",
+    "imageDesc": "Mano de un conductor sobre la palanca de cambios de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "826954",
+    "question": "Como norma general, ¿a qué tipo de vehículos se prohíbe la entrada a una zona delimitada con la señal de la imagen?",
+    "options": {
+     "A": "A los vehículos a motor excepto a las motocicletas.",
+     "B": "A los vehículos a motor.",
+     "C": "A todos los vehículos excepto a las bicicletas y a los VMP."
+    },
+    "correct": "B",
+    "image": "IMG_2152.jpg",
+    "imageDesc": "Señal circular roja de entrada prohibida a vehículos a motor (coche con humo)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "825143",
+    "question": "Un turismo con el distintivo ambiental de la imagen, clasificado como C, ¿está autorizado a circular por un carril VAO si su único ocupante es el conductor?",
+    "options": {
+     "A": "No, salvo que por los paneles de señalización circunstancial se autorice su acceso.",
+     "B": "Sí, siempre que lleve el distintivo adhesivo en el parabrisas.",
+     "C": "Sí, aunque no lleve el distintivo adhesivo en el parabrisas."
+    },
+    "correct": "A",
+    "image": "IMG_2153.jpg",
+    "imageDesc": "Distintivo ambiental C de la DGT de color verde",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "85209400",
+    "question": "¿Puede sobrepasar la marca longitudinal continua central?",
+    "options": {
+     "A": "No.",
+     "B": "Sí, para realizar un cambio de dirección.",
+     "C": "Sí, si se trata de una calzada de un solo sentido."
+    },
+    "correct": "A",
+    "image": "IMG_2154.jpg",
+    "imageDesc": "Carretera con línea longitudinal continua central y una furgoneta delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "90003082",
+    "question": "Se debe circular a velocidad moderada y, si fuera preciso, detener el vehículo, al aproximarse a un...",
+    "options": {
+     "A": "vehículo inmovilizado en la calzada, fuera o dentro de poblado.",
+     "B": "paso a nivel.",
+     "C": "semáforo."
+    },
+    "correct": "B",
+    "image": "IMG_2155.jpg",
+    "imageDesc": "Calle urbana con un autobús azul detenido y un paso de peatones",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "90005624",
+    "question": "A partir de la señal, el conductor de un camión de menos de 3.500 kg de MMA, ¿puede adelantar a otros vehículos?",
+    "options": {
+     "A": "No; la señal le prohíbe adelantar a todo tipo de vehículos a motor.",
+     "B": "Solo puede adelantar a vehículos de dos ruedas.",
+     "C": "Sí, la señal afecta a camiones cuya MMA supere los 3.500 kg."
+    },
+    "correct": "C",
+    "image": "IMG_2156.jpg",
+    "imageDesc": "Señal circular roja de adelantamiento prohibido para camiones",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "85208927",
+    "question": "Uno de los efectos que pueden producir los ansiolíticos es...",
+    "options": {
+     "A": "la disminución de la sensibilidad al deslumbramiento.",
+     "B": "el aumento de la agudeza visual.",
+     "C": "la aparición de periodos de somnolencia."
+    },
+    "correct": "C",
+    "image": "IMG_2157.jpg",
+    "imageDesc": "Medicamentos: blísteres de pastillas, cápsulas y un vaso sobre una mesa",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "85208902",
+    "question": "En una frenada de emergencia con ABS, si el pedal de freno vibra debe...",
+    "options": {
+     "A": "soltar el pedal para no bloquear las ruedas.",
+     "B": "pisar el pedal de forma intermitente.",
+     "C": "seguir frenando a fondo."
+    },
+    "correct": "C",
+    "image": "IMG_2158.jpg",
+    "imageDesc": "Pies del conductor sobre los pedales del vehículo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "893305",
+    "question": "Un vehículo que dispone de la última tecnología, ¿puede sufrir un accidente?",
+    "options": {
+     "A": "Sí, cuando no se hace un uso adecuado.",
+     "B": "Sí, porque la tecnología no aumenta la seguridad, sino la comodidad en la conducción.",
+     "C": "No."
+    },
+    "correct": "A",
+    "image": "IMG_2159.jpg",
+    "imageDesc": "Furgoneta blanca vista desde atrás en una calle",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "320342",
+    "question": "Las indicaciones de este semáforo están dirigidas a...",
+    "options": {
+     "A": "peatones y ciclistas.",
+     "B": "peatones exclusivamente.",
+     "C": "todos los usuarios de la vía."
+    },
+    "correct": "B",
+    "image": "IMG_2160.jpg",
+    "imageDesc": "Cruce urbano con semáforo en rojo junto a un paso de peatones",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "836045",
+    "question": "En esta curva sin visibilidad de una carretera de doble sentido, ¿le está permitido adelantar con su turismo al vehículo rojo de delante?",
+    "options": {
+     "A": "Sólo si no invade en su totalidad el carril contrario.",
+     "B": "Sí, siempre que pueda efectuar la maniobra con seguridad.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "C",
+    "image": "IMG_2161.jpg",
+    "imageDesc": "Coche rojo circulando delante en una curva de carretera convencional",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "886024",
+    "question": "Si conduce una motocicleta, ¿qué debe tener en cuenta antes de cambiar de carril?",
+    "options": {
+     "A": "Que a ciertas velocidades es difícil ser percibido por los demás usuarios.",
+     "B": "Que señalizar la maniobra siempre da prioridad.",
+     "C": "Que al llevar el alumbrado encendido, las motocicletas siempre se ven con facilidad."
+    },
+    "correct": "A",
+    "image": "IMG_2162.jpg",
+    "imageDesc": "Avenida costera con palmeras, motocicletas y coches aparcados",
+    "examWrongPick": null
+   }
+  ]
+ },
+ {
+  "test": 20,
+  "questions": [
+   {
+    "qNum": 1,
+    "preguntaId": "100055993",
+    "question": "Está prohibido parar en...",
+    "options": {
+     "A": "todas las curvas y cambios de rasante.",
+     "B": "los tramos de vía afectados por la señal \"túnel\".",
+     "C": "las proximidades de paso a nivel y pasos para peatones."
+    },
+    "correct": "B",
+    "image": "IMG_2163.jpg",
+    "imageDesc": "Autovía con entrada de túnel al fondo y señales indicadoras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 2,
+    "preguntaId": "100087203",
+    "question": "En una vía con dos carriles para el mismo sentido, el conductor de un turismo, ¿cuándo está obligado a cambiar completamente de carril y circular por el de su izquierda?",
+    "options": {
+     "A": "Solo cuando adelante a ciclos.",
+     "B": "Cuando adelante a ciclos o ciclomotores.",
+     "C": "Cuando adelante a cualquier vehículo que circule por el arcén."
+    },
+    "correct": "B",
+    "image": "IMG_2164.jpg",
+    "imageDesc": "Vía interurbana con un coche blanco circulando y pórtico de señales",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 3,
+    "preguntaId": "90007640",
+    "question": "La carga que sobresalga de la proyección en planta del vehículo, ¿debe ir protegida?",
+    "options": {
+     "A": "Únicamente cuando se circule entre la puesta y la salida del sol.",
+     "B": "Sí, en la parte saliente para reducir los efectos de un roce o choque posibles.",
+     "C": "No, no es necesario si va debidamente señalizada."
+    },
+    "correct": "B",
+    "image": "IMG_2165.jpg",
+    "imageDesc": "Ilustración de un camión rojo con una carga larga que sobresale por detrás señalizada",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 4,
+    "preguntaId": "85209289",
+    "question": "Una persona en silla de ruedas, ¿puede circular por una carretera?",
+    "options": {
+     "A": "Sí, por el arcén si es transitable y, si no lo es, por la calzada.",
+     "B": "Sí, pero sólo si existe acera o zona peatonal.",
+     "C": "No, no puede circular."
+    },
+    "correct": "A",
+    "image": "IMG_2166.jpg",
+    "imageDesc": "Ilustración 3D de una persona en silla de ruedas circulando por el arcén de una carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 5,
+    "preguntaId": "884489",
+    "question": "Con el permiso de conducción de la clase B, ¿se puede conducir una motocicleta de 125 centímetros cúbicos?",
+    "options": {
+     "A": "Sí, se puede conducir cualquier tipo de motocicleta en toda Europa.",
+     "B": "No, en ningún caso.",
+     "C": "Sólo por España y cuando la antigüedad del permiso supere los tres años."
+    },
+    "correct": "C",
+    "image": "IMG_2167.jpg",
+    "imageDesc": "Motorista con casco circulando en un escúter blanco por una carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 6,
+    "preguntaId": "320946",
+    "question": "En vías urbanas de doble sentido de circulación, ¿en qué lado de la calzada podrá estacionar su turismo, si no existe señalización que lo prohíba?",
+    "options": {
+     "A": "En ambos lados, en todo caso.",
+     "B": "En ambos lados, pero sólo cuando no obstaculice la circulación.",
+     "C": "En el lado derecho en el sentido de mi marcha."
+    },
+    "correct": "C",
+    "image": "IMG_2168.jpg",
+    "imageDesc": "Calle urbana de doble sentido con vehículos estacionados a ambos lados",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 7,
+    "preguntaId": "100010743",
+    "question": "En esta vía de doble sentido, al inmovilizar un turismo por emergencia, ¿puede colocar el dispositivo luminoso amarillo auto de preseñalización de peligro?",
+    "options": {
+     "A": "No, basta con encender la señal de emergencia.",
+     "B": "Sí, en la parte trasera del vehículo.",
+     "C": "Sí, en la parte más alta posible del vehículo."
+    },
+    "correct": "C",
+    "image": "IMG_2169.jpg",
+    "imageDesc": "Conductor con chaleco reflectante junto a un coche detenido con el maletero abierto en una carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 8,
+    "preguntaId": "892002",
+    "question": "Como elemento de seguridad pasiva, ¿cuál es la función de la carrocería?",
+    "options": {
+     "A": "Proteger a los ocupantes del vehículo en caso de accidente.",
+     "B": "Evitar o reducir la posibilidad de que se produzcan accidentes.",
+     "C": "Mantener las ruedas del vehículo en contacto con el suelo."
+    },
+    "correct": "A",
+    "image": "IMG_2170.jpg",
+    "imageDesc": "Coche descapotable aparcado junto a una playa con palmeras",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 9,
+    "preguntaId": "8520718",
+    "question": "A la vista de esta señal, ¿debe facilitar la incorporación de los vehículos que se incorporen por la derecha?",
+    "options": {
+     "A": "No, nunca, ya que le otorga la prioridad.",
+     "B": "Sólo si se trata de vehículos de transporte colectivo de viajeros.",
+     "C": "Sí, en la medida de lo posible."
+    },
+    "correct": "C",
+    "image": "IMG_2171.jpg",
+    "imageDesc": "Carretera con señal triangular de advertencia de incorporación a la derecha",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 10,
+    "preguntaId": "852114198",
+    "question": "Conducir bajo los efectos de anfetaminas es peligroso porque...",
+    "options": {
+     "A": "aumenta la sensación de fatiga.",
+     "B": "disminuye la somnolencia y el conductor infravalora sus propias capacidades.",
+     "C": "disminuye la sensación de fatiga."
+    },
+    "correct": "C",
+    "image": "IMG_2172.jpg",
+    "imageDesc": "Medicamentos: blísteres de pastillas, cápsulas y un vaso sobre una mesa",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 11,
+    "preguntaId": "100057177",
+    "question": "Siempre que el recorrido hacia atrás no supere los 15 metros ni invada un cruce de vías, podrá circular marcha atrás...",
+    "options": {
+     "A": "cuando no sea posible marchar hacia delante ni cambiar de dirección o sentido de la marcha.",
+     "B": "como maniobra complementaria de la de incorporarse a la circulación.",
+     "C": "en autovías y autopistas que discurran por poblado."
+    },
+    "correct": "B",
+    "image": "IMG_2173.jpg",
+    "imageDesc": "Ilustración 3D desde el interior de un coche con peatones cruzando delante",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 12,
+    "preguntaId": "85209386",
+    "question": "¿La señal permite realizar la maniobra de adelantamiento?",
+    "options": {
+     "A": "No, en ningún caso.",
+     "B": "No, salvo que se adelante a motocicletas de dos ruedas y no se invada el sentido contrario.",
+     "C": "No, salvo que se adelante a un turismo."
+    },
+    "correct": "B",
+    "image": "IMG_2174.jpg",
+    "imageDesc": "Señal de prohibido adelantar (círculo rojo con coche rojo y coche negro)",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 13,
+    "preguntaId": "90007268",
+    "question": "Los carriles reversibles están delimitados por marcas longitudinales...",
+    "options": {
+     "A": "discontinuas simples a ambos lados.",
+     "B": "discontinuas con una separación sensiblemente más corta.",
+     "C": "dobles discontinuas a ambos lados."
+    },
+    "correct": "C",
+    "image": "IMG_2175.jpg",
+    "imageDesc": "Avenida urbana arbolada con varios carriles y marcas viales discontinuas",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 14,
+    "preguntaId": "100041803",
+    "question": "En esta vía de doble sentido, el conductor de un conjunto de vehículos de 11 metros de longitud, ¿qué separación debe dejar con el vehículo de delante si no pretende adelantar?",
+    "options": {
+     "A": "La que en caso de frenado brusco, permita detenerse sin colisionar.",
+     "B": "50 metros.",
+     "C": "100 metros."
+    },
+    "correct": "B",
+    "image": "IMG_2176.jpg",
+    "imageDesc": "Coche remolcando una caravana blanca por una carretera",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 15,
+    "preguntaId": "852114445",
+    "question": "En esta vía para automóviles, ¿qué velocidad se considera anormalmente reducida, sin causa justificada, para un turismo?",
+    "options": {
+     "A": "La inferior a 50 km/h.",
+     "B": "La inferior a 45 km/h.",
+     "C": "La inferior a 60 km/h."
+    },
+    "correct": "B",
+    "image": "IMG_2177.jpg",
+    "imageDesc": "Imagen 3D de un coche verde circulando por una vía para automóviles con señal azul",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 17,
+    "preguntaId": "8508610",
+    "question": "En carreteras convencionales sin separación física de los dos sentidos de circulación, ¿cuál es la velocidad máxima a la que le está permitido circular a un vehículo derivado de turismo?",
+    "options": {
+     "A": "90 km/h.",
+     "B": "100 km/h.",
+     "C": "80 km/h."
+    },
+    "correct": "A",
+    "image": "IMG_2179.jpg",
+    "imageDesc": "Vehículo blanco derivado de turismo aparcado en una calle",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 18,
+    "preguntaId": "100057340",
+    "question": "¿Está permitida la circulación de cabezas de ganado, aisladas o en rebaño, por una carretera convencional?",
+    "options": {
+     "A": "Solo cuando no exista vía pecuaria practicable.",
+     "B": "Sí, aunque siempre deben circular en rebaño.",
+     "C": "No, en ningún caso."
+    },
+    "correct": "A",
+    "image": "IMG_2180.jpg",
+    "imageDesc": "Rebaño de ovejas junto a una carretera convencional",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 19,
+    "preguntaId": "85209437",
+    "question": "Esta señal, ¿prohíbe proseguir la marcha si no dispone de cadenas para nieve?",
+    "options": {
+     "A": "Sí, en cualquier caso.",
+     "B": "No, ya que esta señal sólo recomienda la utilización de cadenas.",
+     "C": "Sí, a no ser que disponga de otros dispositivos autorizados, igual de eficaces."
+    },
+    "correct": "C",
+    "image": "IMG_2181.jpg",
+    "imageDesc": "Señal azul circular de obligación: neumático con cadenas para nieve",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 20,
+    "preguntaId": "100087228",
+    "question": "En caso de accidente, el sistema de llamada e-Call, ¿avisa a los servicios de emergencia?",
+    "options": {
+     "A": "Sí, para que desde el 112 llamen al teléfono móvil del conductor del vehículo.",
+     "B": "No; lo que hace es facilitar los datos de los hospitales más próximos al lugar del accidente.",
+     "C": "Sí, para proporcionar una rápida asistencia y así reducir la gravedad de las lesiones."
+    },
+    "correct": "C",
+    "image": "IMG_2182.jpg",
+    "imageDesc": "Triángulo de emergencia rojo guardado en el interior de un vehículo",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 21,
+    "preguntaId": "7508513",
+    "question": "Al estacionar un vehículo con remolque en una pendiente ascendente, si no dispone de calzos, ¿qué debe hacer?",
+    "options": {
+     "A": "Apoyar una de las ruedas delanteras en el bordillo, orientada hacia el centro de la calzada.",
+     "B": "Utilizar como calzos elementos naturales, como piedras o maderos.",
+     "C": "Es suficiente que deje engranada la marcha atrás o la primera velocidad."
+    },
+    "correct": "A",
+    "image": "IMG_2183.jpg",
+    "imageDesc": "Coche blanco con remolque estacionado en una calle residencial",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 22,
+    "preguntaId": "100057931",
+    "question": "En una autopista, ¿cuál es la velocidad máxima a la que está permitido circular a una furgoneta que transporta mercancías?",
+    "options": {
+     "A": "90 km/h.",
+     "B": "100 km/h.",
+     "C": "120 km/h."
+    },
+    "correct": "A",
+    "image": "IMG_2184.jpg",
+    "imageDesc": "Furgoneta blanca circulando por una autopista",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 23,
+    "preguntaId": "90001418",
+    "question": "En esta vía de doble sentido, ¿es correcto adelantar por la derecha al tranvía que circula por el centro de la calzada?",
+    "options": {
+     "A": "No, se debe adelantar por el lado izquierdo.",
+     "B": "Sí.",
+     "C": "Solo cuando el tranvía se detenga en una parada señalizada."
+    },
+    "correct": "B",
+    "image": "IMG_2185.jpg",
+    "imageDesc": "Tranvía amarillo circulando por el centro de una calle urbana",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 24,
+    "preguntaId": "6018",
+    "question": "La probabilidad de que un accidente de tráfico sea mortal es mucho menor...",
+    "options": {
+     "A": "en un vehículo de cuatro ruedas que en un vehículo de tres ruedas.",
+     "B": "en un turismo que en un vehículo de dos ruedas.",
+     "C": "en un vehículo de dos ruedas que en un turismo."
+    },
+    "correct": "B",
+    "image": "IMG_2186.jpg",
+    "imageDesc": "Servicios de emergencia trasladando a una persona herida en camilla junto a una ambulancia",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 25,
+    "preguntaId": "100058402",
+    "question": "Si su turismo arrastra un remolque, ¿está obligado a llevar rueda de repuesto del remolque?",
+    "options": {
+     "A": "Sí.",
+     "B": "No.",
+     "C": "Solo si el remolque no es ligero."
+    },
+    "correct": "B",
+    "image": "IMG_2187.jpg",
+    "imageDesc": "Autocaravana circulando por una carretera vista desde el interior de un coche",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 26,
+    "preguntaId": "880681",
+    "question": "En un casco de protección de motorista, ¿qué tipo de pantalla es la más recomendable?",
+    "options": {
+     "A": "Una pantalla oscura.",
+     "B": "Una pantalla polarizada.",
+     "C": "Una pantalla antivaho."
+    },
+    "correct": "C",
+    "image": "IMG_2188.jpg",
+    "imageDesc": "Motorista con casco integral blanco en un entorno campestre",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 27,
+    "preguntaId": "852115132",
+    "question": "Algunas motocicletas, ¿pueden llevar sistemas de estabilidad de frenado o airbag?",
+    "options": {
+     "A": "Sólo las motocicletas de cilindrada igual o superior a 1.000 cc.",
+     "B": "No, estos sistemas sólo están disponibles para los turismos.",
+     "C": "Sí, para evitar accidentes o reducir la gravedad de las lesiones."
+    },
+    "correct": "C",
+    "image": "IMG_2189.jpg",
+    "imageDesc": "Varias motocicletas aparcadas en un área junto a árboles",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 28,
+    "preguntaId": "320147",
+    "question": "Una línea discontinua con trazos muy juntos, ¿qué indica?",
+    "options": {
+     "A": "La proximidad de un tramo peligroso.",
+     "B": "La proximidad de un carril para tráfico lento.",
+     "C": "Un carril especial."
+    },
+    "correct": "A",
+    "image": "IMG_2190.jpg",
+    "imageDesc": "Carretera de montaña con niebla y poca visibilidad",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 29,
+    "preguntaId": "90003091",
+    "question": "¿Está permitido parar o estacionar en un paso para peatones y en sus proximidades?",
+    "options": {
+     "A": "Sí, siempre.",
+     "B": "En el paso para peatones, no; pero en sus proximidades, sí.",
+     "C": "En el paso para peatones se puede parar y, en sus proximidades, se puede parar y estacionar."
+    },
+    "correct": "B",
+    "image": "IMG_2191.jpg",
+    "imageDesc": "Peatones cruzando por un paso de cebra en una avenida urbana",
+    "examWrongPick": null
+   },
+   {
+    "qNum": 30,
+    "preguntaId": "668155",
+    "question": "En una vía con dos carriles para cada sentido de la circulación, ¿está permitido adelantar en un cambio de rasante de visibilidad reducida?",
+    "options": {
+     "A": "No.",
+     "B": "Solo si ambos sentidos están claramente delimitados y no se invade el sentido contrario.",
+     "C": "Sí, moderando la velocidad."
+    },
+    "correct": "B",
+    "image": "IMG_2192.jpg",
+    "imageDesc": "Conductor al volante visto desde el interior del vehículo",
+    "examWrongPick": null
+   }
+  ]
+ }
+]

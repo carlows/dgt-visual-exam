@@ -1,0 +1,118 @@
+/* Página de tests: documento con scroll, no canvas */
+body.tests-page { overflow: auto; }
+body.tests-page #tests-app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.tests-header h1 { font-size: 26px; margin-bottom: 6px; }
+.tests-nav { display: flex; gap: 18px; margin-bottom: 22px; align-items: center; }
+.tests-nav a, .linklike {
+  background: none;
+  border: none;
+  color: #8fd0ff;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+}
+.tests-nav a:hover, .linklike:hover { text-decoration: underline; }
+
+/* Tarjetas de tests */
+#test-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.test-card {
+  background: #232748;
+  border: 1px solid #363c6b;
+  border-radius: 12px;
+  padding: 16px;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.test-card:hover { background: #2e3460; border-color: #5560a8; }
+.test-card .best { font-size: 12px; color: #9aa0c3; margin-top: 6px; }
+.test-card .best .pass { color: #6fe3a1; }
+.test-card .best .fail { color: #ff7b7b; }
+
+/* Test en curso */
+.quiz-top { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; flex-wrap: wrap; }
+#quiz-progress { font-size: 14px; color: #cfd6ff; }
+#quiz-dots { display: flex; gap: 4px; flex-wrap: wrap; }
+#quiz-dots span {
+  width: 14px; height: 14px;
+  border-radius: 4px;
+  background: #232748;
+  border: 1px solid #363c6b;
+  cursor: pointer;
+  font-size: 0;
+}
+#quiz-dots span.answered { background: #5560a8; }
+#quiz-dots span.current { outline: 2px solid #8fd0ff; }
+
+.quiz-body { display: flex; flex-direction: column; gap: 14px; }
+#q-figure { margin: 0; }
+#q-figure img {
+  max-width: 100%;
+  max-height: 42vh;
+  border-radius: 12px;
+  border: 1px solid #2e3250;
+  display: block;
+  margin: 0 auto;
+}
+#q-figure.hidden { display: none; }
+
+.quiz-panel h2 { font-size: 18px; line-height: 1.45; margin-bottom: 14px; }
+#q-options { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+#q-options button {
+  display: block; width: 100%; text-align: left;
+  background: #232748; color: #fff;
+  border: 1px solid #363c6b; border-radius: 10px;
+  padding: 13px 15px; font-size: 15px; line-height: 1.4; cursor: pointer;
+}
+#q-options button:hover { background: #2e3460; }
+#q-options button.selected { background: #2e3460; border-color: #8fd0ff; }
+#q-options button .key { font-weight: 700; color: #8fd0ff; margin-right: 8px; }
+
+.quiz-actions { display: flex; gap: 10px; }
+.quiz-actions button {
+  background: #232748; color: #fff;
+  border: 1px solid #363c6b; border-radius: 10px;
+  padding: 11px 18px; font-size: 14px; cursor: pointer;
+}
+.quiz-actions button:hover { background: #2e3460; }
+#btn-finish { background: #1d4a33; border-color: #2c7a50; }
+#btn-finish:hover { background: #276644; }
+
+/* Resultado / repaso */
+#result-title.pass { color: #6fe3a1; }
+#result-title.fail { color: #ff7b7b; }
+.review-item {
+  background: #16182b;
+  border: 1px solid #2e3250;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+.review-item img { max-width: 100%; max-height: 36vh; border-radius: 8px; margin-bottom: 10px; display: block; }
+.review-item h3 { font-size: 15px; line-height: 1.45; margin-bottom: 10px; }
+.review-item .opt { padding: 7px 10px; border-radius: 8px; font-size: 14px; line-height: 1.4; margin-bottom: 6px; }
+.review-item .opt.correct { background: rgba(111, 227, 161, 0.12); color: #6fe3a1; }
+.review-item .opt.picked-wrong { background: rgba(255, 123, 123, 0.12); color: #ff7b7b; }
+.review-item .meta { font-size: 12px; color: #9aa0c3; margin-top: 6px; }
+
+/* Estadísticas */
+.stats-block { margin-bottom: 26px; }
+.stats-block h2 { font-size: 17px; margin-bottom: 10px; }
+.stats-row {
+  display: flex; justify-content: space-between; gap: 10px;
+  padding: 8px 10px; border-bottom: 1px solid #2e3250; font-size: 14px;
+}
+.stats-row .bar { color: #ff7b7b; }
+
+@media (max-width: 640px) {
+  #q-figure img { max-height: 32vh; }
+  .quiz-panel h2 { font-size: 16px; }
+}

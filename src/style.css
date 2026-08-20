@@ -91,6 +91,7 @@ body {
 }
 
 .scenario-btn.back { background: transparent; border-style: dashed; }
+a.scenario-btn { text-decoration: none; }
 .scenario-btn.random .tag { color: #ffd479; }
 
 .scenario-btn, #options button, .actions button {

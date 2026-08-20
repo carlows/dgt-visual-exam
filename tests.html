@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tests DGT — Exámenes de autoescuela</title>
+  <link rel="stylesheet" href="/src/style.css" />
+  <link rel="stylesheet" href="/src/tests/tests.css" />
+</head>
+<body class="tests-page">
+  <div id="tests-app">
+    <!-- Lista de tests -->
+    <div id="test-list-view">
+      <header class="tests-header">
+        <h1>Tests de examen</h1>
+        <p class="subtitle">Los 10 tests de la autoescuela, con corrección al final y registro de fallos.</p>
+        <nav class="tests-nav">
+          <a href="./index.html">← Simulador 3D</a>
+          <button id="btn-stats" class="linklike">Mis estadísticas</button>
+        </nav>
+      </header>
+      <div id="test-cards"></div>
+    </div>
+
+    <!-- Test en curso -->
+    <div id="quiz-view" class="hidden">
+      <header class="quiz-top">
+        <button id="btn-quit" class="linklike">✕ Abandonar</button>
+        <div id="quiz-progress"></div>
+        <div id="quiz-dots"></div>
+      </header>
+      <div class="quiz-body">
+        <figure id="q-figure"><img id="q-image" alt="" /></figure>
+        <div class="quiz-panel">
+          <h2 id="q-text"></h2>
+          <div id="q-options"></div>
+          <div class="quiz-actions">
+            <button id="btn-prev">← Anterior</button>
+            <button id="btn-next-q">Siguiente →</button>
+            <button id="btn-finish" class="hidden">Corregir test</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resultado y repaso de falladas -->
+    <div id="result-view" class="hidden">
+      <header class="tests-header">
+        <h1 id="result-title"></h1>
+        <p id="result-summary" class="subtitle"></p>
+        <nav class="tests-nav">
+          <button id="btn-review-all" class="linklike">Ver todas</button>
+          <button id="btn-back-list" class="linklike">← Tests</button>
+        </nav>
+      </header>
+      <div id="review-list"></div>
+    </div>
+
+    <!-- Estadísticas de intentos -->
+    <div id="stats-view" class="hidden">
+      <header class="tests-header">
+        <h1>Mis estadísticas</h1>
+        <p class="subtitle" id="stats-summary"></p>
+        <nav class="tests-nav">
+          <button id="btn-stats-back" class="linklike">← Tests</button>
+          <button id="btn-export" class="linklike">Descargar attempts.json</button>
+        </nav>
+      </header>
+      <div id="stats-body"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/tests/main.js"></script>
+</body>
+</html>

@@ -190,6 +190,12 @@ function renderTemaMenu() {
   rand.innerHTML = `<span class="tag">Al azar</span><br>Situación aleatoria`;
   rand.addEventListener('click', () => loadScenario(Math.floor(Math.random() * SCENARIOS.length)));
   ui.list.appendChild(rand);
+
+  const tests = document.createElement('a');
+  tests.className = 'scenario-btn random';
+  tests.href = './tests.html';
+  tests.innerHTML = `<span class="tag">Exámenes</span><br>Tests de la autoescuela (30 preguntas)`;
+  ui.list.appendChild(tests);
 }
 
 function renderScenarioMenu(tema) {
