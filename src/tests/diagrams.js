@@ -217,9 +217,9 @@ const OVERHANG_ROWS = [
   },
   {
     icon: '🏍️', vehicle: 'Motos, ciclomotores y bicis (anchura < 1 m)',
-    front: 0.25, body: 2, rear: 0.25,
-    label: 'Delante y detrás: 0,25 m · Lateral: 0,50 m por lado',
-    detail: 'La carga puede sobresalir 0,25 m por cada extremo y hasta 0,50 m a cada lado del eje del vehículo.',
+    front: 0, body: 2, rear: 0.25,
+    label: 'Delante: nada · Detrás: 0,25 m · Lateral: 0,50 m por lado',
+    detail: 'Por delante la carga no puede sobresalir NADA; por detrás hasta 0,25 m, y lateralmente hasta 0,50 m a cada lado del eje del vehículo.',
   },
 ];
 
