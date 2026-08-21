@@ -3,29 +3,48 @@
 // RD 1514/2018 y RD 970/2020 para vías urbanas) y recomendaciones DGT.
 
 const SPEED_ROWS = [
-  {
-    vehicle: '🚗 Turismos y motocicletas',
-    note: 'También autocaravanas ≤ 3.500 kg y pick-up',
-    autopista: { max: 120 },
-    convencional: { max: 90 },
-  },
+  { vehicle: '🚗 Turismos', autopista: { max: 120 }, convencional: { max: 90 } },
+  { vehicle: '🏍️ Motocicletas', autopista: { max: 120 }, convencional: { max: 90 } },
+  { vehicle: '🚙 Autocaravanas ≤ 3.500 kg', autopista: { max: 120 }, convencional: { max: 90 } },
+  { vehicle: '🛻 Pick-up', autopista: { max: 120 }, convencional: { max: 90 } },
   {
     vehicle: '🚌 Autobuses',
     note: 'También derivados de turismo y mixtos adaptables',
     autopista: { max: 100 },
     convencional: { max: 80 },
   },
+  { vehicle: '🚚 Camiones y tractocamiones', autopista: { max: 90 }, convencional: { max: 80 } },
+  { vehicle: '🚐 Furgonetas', autopista: { max: 90 }, convencional: { max: 80 } },
   {
-    vehicle: '🚚 Camiones y furgonetas',
-    note: 'También articulados, con remolque y autocaravanas > 3.500 kg',
+    vehicle: '🚗➕ Automóviles con remolque',
+    note: 'También vehículos articulados',
     autopista: { max: 90 },
     convencional: { max: 80 },
   },
+  { vehicle: '🚙 Autocaravanas > 3.500 kg', autopista: { max: 90 }, convencional: { max: 80 } },
   {
     vehicle: '🛵 Ciclomotores',
     note: 'Prohibido circular por autopista y autovía',
     autopista: { banned: true },
     convencional: { max: 45 },
+  },
+  {
+    vehicle: '🚲 Bicicletas',
+    note: 'Prohibida la autopista; por autovía solo el arcén (mayores de 14 años y si no está prohibido). Pueden superar los 45 en descensos',
+    autopista: { banned: true },
+    convencional: { max: 45 },
+  },
+  {
+    vehicle: '🚜 Vehículos especiales',
+    note: 'Prohibida autopista/autovía si no pueden superar los 60 km/h. Sin ciertos requisitos (frenado, alumbrado…): 25 km/h',
+    autopista: { banned: true },
+    convencional: { max: 40 },
+  },
+  {
+    vehicle: '🛴 VMP (patinetes)',
+    note: 'Solo vías urbanas, máximo 25 km/h. Prohibidas travesías, interurbanas, autopistas y autovías',
+    autopista: { banned: true },
+    convencional: { banned: true },
   },
 ];
 
@@ -212,7 +231,7 @@ export function renderDiagrams(container) {
   html += '<div class="stats-block"><h2>Velocidades máximas fuera de poblado</h2>';
   html += '<div class="speed-table"><div class="speed-head"></div><div class="speed-head">Autopista / autovía</div><div class="speed-head">Carretera convencional</div>';
   for (const r of SPEED_ROWS) {
-    html += `<div class="speed-vehicle"><strong>${r.vehicle}</strong><span>${r.note}</span></div>`;
+    html += `<div class="speed-vehicle"><strong>${r.vehicle}</strong>${r.note ? `<span>${r.note}</span>` : ''}</div>`;
     html += `<div class="speed-cell">${sign(r.autopista)}</div>`;
     html += `<div class="speed-cell">${sign(r.convencional)}</div>`;
   }
