@@ -167,7 +167,28 @@ const ITV_ROWS = [
   },
 ];
 
-const LIGHT_LABELS = {
+// Carga sobresaliente (art. 15 RGC) — solo cargas indivisibles.
+// front/body/rear: proporciones para la barra visual.
+const OVERHANG_ROWS = [
+  {
+    icon: '🚗', vehicle: 'Turismos y vehículos ≤ 5 m',
+    front: 0, body: 3, rear: 1,
+    label: 'Hasta 1/3 de la longitud del vehículo',
+    detail: 'Un turismo de 4,5 m puede llevar carga sobresaliendo hasta 1,5 m. Lateralmente la carga no debe sobresalir nunca.',
+  },
+  {
+    icon: '🚛', vehicle: 'Camiones y vehículos > 5 m',
+    front: 2, body: 10, rear: 3,
+    label: 'Delante: 2 m · Detrás: 3 m',
+    detail: 'Límites fijos en metros, independientes de la longitud del vehículo.',
+  },
+  {
+    icon: '🏍️', vehicle: 'Motos, ciclomotores y bicis (anchura < 1 m)',
+    front: 0.25, body: 2, rear: 0.25,
+    label: 'Delante y detrás: 0,25 m · Lateral: 0,50 m por lado',
+    detail: 'La carga puede sobresalir 0,25 m por cada extremo y hasta 0,50 m a cada lado del eje del vehículo.',
+  },
+];
   posicion: { label: 'Posición', cls: 'chip-pos' },
   cruce: { label: 'Cruce (cortas)', cls: 'chip-cruce' },
   carretera: { label: 'Carretera (largas)', cls: 'chip-larga' },
@@ -230,6 +251,22 @@ export function renderDiagrams(container) {
   for (const v of VEHICLE_TYPES) {
     html += `<div class="light-card"><div class="light-title">${v.icon} ${v.title}</div><p>${v.detail}</p></div>`;
   }
+  html += '</div></div>';
+
+  // --- Carga sobresaliente -----------------------------------------------
+  html += '<div class="stats-block"><h2>Cuánto puede sobresalir la carga (solo cargas indivisibles)</h2><div class="urban-rows">';
+  for (const o of OVERHANG_ROWS) {
+    const total = o.front + o.body + o.rear;
+    const seg = (v, cls) => (v ? `<span class="load-seg ${cls}" style="flex:${v / total}"></span>` : '');
+    html += `<div class="load-card">
+      <div class="light-title">${o.icon} ${o.vehicle}</div>
+      <div class="load-bar">${seg(o.front, 'over')}${seg(o.body, 'body')}${seg(o.rear, 'over')}</div>
+      <div class="load-label">${o.label}</div>
+      <p>${o.detail}</p>
+    </div>`;
+  }
+  html += `<div class="light-card"><div class="light-title">⚠️ Señalización obligatoria</div>
+    <p>Si la carga sobresale por detrás: panel <strong>V-20</strong> (franjas rojas y blancas) en el extremo. Si ocupa todo el ancho: <strong>dos paneles</strong> formando una V invertida. De noche o con poca visibilidad, además una <strong>luz roja</strong>.</p></div>`;
   html += '</div></div>';
 
   // --- ITV ---------------------------------------------------------------

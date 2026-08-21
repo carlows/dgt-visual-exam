@@ -186,6 +186,21 @@ body.tests-page #tests-app {
 .chip-niebla { background: #45341d; color: #ffd479; }
 .chip-none { background: #2a2d45; color: #9aa0c3; }
 
+/* Carga sobresaliente: barra vehículo (sólida) + tramos de carga (rayados) */
+.load-card {
+  background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
+  padding: 14px;
+}
+.load-card p { font-size: 13px; color: #b9bfe0; line-height: 1.5; }
+.load-bar { display: flex; height: 26px; margin: 10px 0 6px; gap: 2px; }
+.load-seg { border-radius: 5px; }
+.load-seg.body { background: #3c4370; border: 1px solid #5560a8; }
+.load-seg.over {
+  background: repeating-linear-gradient(45deg, #cf2233 0 6px, #fff 6px 12px);
+  opacity: 0.85;
+}
+.load-label { font-size: 13px; font-weight: 600; color: #ffd479; margin-bottom: 6px; }
+
 /* ITV: vehículo a la izquierda, chips de plazos a la derecha */
 .itv-row { flex-wrap: wrap; }
 .itv-vehicle { min-width: 220px; font-weight: 600; }
