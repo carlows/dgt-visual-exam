@@ -189,6 +189,8 @@ const OVERHANG_ROWS = [
     detail: 'La carga puede sobresalir 0,25 m por cada extremo y hasta 0,50 m a cada lado del eje del vehículo.',
   },
 ];
+
+const LIGHT_LABELS = {
   posicion: { label: 'Posición', cls: 'chip-pos' },
   cruce: { label: 'Cruce (cortas)', cls: 'chip-cruce' },
   carretera: { label: 'Carretera (largas)', cls: 'chip-larga' },
