@@ -194,6 +194,53 @@ const ITV_ROWS = [
   },
 ];
 
+// Permiso por puntos: infracciones que restan puntos (Ley 18/2021,
+// en vigor desde marzo 2022), de más a menos graves.
+const POINTS_GROUPS = [
+  {
+    points: 6, tone: 'p6', title: 'Las más graves',
+    items: [
+      'Alcohol: superar el doble de la tasa (más de 0,50 mg/l en aire; noveles y profesionales más de 0,30)',
+      'Conducir con drogas en el organismo',
+      'Negarse a las pruebas de alcohol o drogas',
+      'Conducción temeraria, circular en sentido contrario o carreras ilegales',
+      'Sujetar el móvil con la mano mientras conduces (antes eran 3)',
+      'Llevar inhibidores de radar en el vehículo',
+      'Adelantar a ciclistas sin la separación mínima obligatoria',
+      'Los excesos de velocidad más altos del cuadro sancionador',
+    ],
+  },
+  {
+    points: 4, tone: 'p4', title: 'Muy graves',
+    items: [
+      'Alcohol entre 0,25 y 0,50 mg/l en aire (noveles y profesionales entre 0,15 y 0,30)',
+      'Saltarse un semáforo en rojo, un STOP o un ceda el paso',
+      'No respetar la prioridad de paso',
+      'Adelantar con peligro o entorpeciendo al contrario',
+      'No mantener la distancia de seguridad',
+      'No usar cinturón, casco o sistema de retención infantil (antes eran 3)',
+      'Arrojar a la vía objetos que puedan causar incendios o accidentes',
+      'Excesos de velocidad intermedios del cuadro sancionador',
+    ],
+  },
+  {
+    points: 3, tone: 'p3', title: 'Graves',
+    items: [
+      'Conducir usando auriculares (cascos)',
+      'Llevar detectores de radar (no confundir con inhibidores: 6)',
+      'Cambio de sentido antirreglamentario',
+      'Excesos de velocidad moderados del cuadro sancionador',
+    ],
+  },
+  {
+    points: 2, tone: 'p2', title: 'Las más leves con puntos',
+    items: [
+      'Los excesos de velocidad más bajos que ya detraen puntos (p. ej. ir a 71–80 km/h donde el límite es 50)',
+      'Un exceso pequeño (los primeros ~20 km/h según el límite) solo conlleva multa de 100 €, sin puntos',
+    ],
+  },
+];
+
 // Distancias de seguridad (art. 54 RGC; túneles; RD 518/2026 vulnerables)
 const SAFE_DISTANCES = [
   {
@@ -333,6 +380,16 @@ export function renderDiagrams(container) {
     html += `<div class="light-card"><div class="light-title">${v.icon} ${v.title}</div><p>${v.detail}</p></div>`;
   }
   html += '</div></div>';
+
+  // --- Permiso por puntos ----------------------------------------------------
+  html += '<div class="stats-block"><h2>Pérdida de puntos por infracciones</h2>';
+  html += '<div class="urban-row" style="margin-bottom:12px"><span class="sign emoji">🪪</span><span>Saldo inicial: <strong>12 puntos</strong> (8 para noveles). Máximo acumulable por buen comportamiento: <strong>15</strong>. Ojo: alcohol superior a 0,60 mg/l en aire, o exceder el límite en más de 60 km/h en ciudad / 80 km/h en interurbana, ya es <strong>delito</strong> (vía penal, no puntos).</span></div>';
+  for (const g of POINTS_GROUPS) {
+    html += `<div class="points-group ${g.tone}"><div class="points-head"><span class="points-badge">−${g.points}</span><strong>${g.title}</strong></div><ul>`;
+    for (const it of g.items) html += `<li>${it}</li>`;
+    html += '</ul></div>';
+  }
+  html += '</div>';
 
   // --- Distancias de seguridad ---------------------------------------------
   html += '<div class="stats-block"><h2>Distancias de seguridad</h2><div class="light-grid">';

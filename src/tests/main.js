@@ -74,6 +74,18 @@ let qIndex = 0;
 let startedAt = null;
 let hidePhotos = false;      // primer intento: la foto desvela la respuesta en verde
 let revealed = new Set();    // preguntas cuya foto se ha destapado a propósito
+let shuffles = [];           // orden barajado de las opciones por pregunta
+
+// Baraja el orden para que la posición de la opción no delate la respuesta
+// (en la foto la correcta siempre está en su posición original).
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 function startTest(t) {
   current = t;
@@ -82,6 +94,7 @@ function startTest(t) {
   startedAt = new Date();
   hidePhotos = !loadAttempts().some((a) => a.test === t.test);
   revealed = new Set();
+  shuffles = t.questions.map((q) => shuffle(Object.keys(q.options).filter((l) => q.options[l])));
   renderQuestion();
   showView('quiz');
 }
@@ -116,18 +129,19 @@ function renderQuestion() {
   $('q-text').textContent = `${q.qNum}. ${q.question}`;
   const opts = $('q-options');
   opts.innerHTML = '';
-  for (const [letter, text] of Object.entries(q.options)) {
-    if (!text) continue;
+  // Se muestran barajadas con letras A/B/C nuevas; internamente se guarda
+  // siempre la letra original (la que corrige y la que registra el intento)
+  shuffles[qIndex].forEach((origLetter, i) => {
     const btn = document.createElement('button');
-    btn.innerHTML = `<span class="key">${letter}</span>${text}`;
-    if (answers[qIndex] === letter) btn.classList.add('selected');
+    btn.innerHTML = `<span class="key">${['A', 'B', 'C'][i]}</span>${q.options[origLetter]}`;
+    if (answers[qIndex] === origLetter) btn.classList.add('selected');
     btn.addEventListener('click', () => {
-      answers[qIndex] = letter;
+      answers[qIndex] = origLetter;
       if (qIndex < current.questions.length - 1) { qIndex++; }
       renderQuestion();
     });
     opts.appendChild(btn);
-  }
+  });
 
   $('btn-prev').disabled = qIndex === 0;
   const answeredAll = answers.every(Boolean);
@@ -143,10 +157,9 @@ $('btn-quit').addEventListener('click', () => { if (confirm('¿Abandonar el test
 
 window.addEventListener('keydown', (e) => {
   if (views.quiz.classList.contains('hidden')) return;
-  const k = e.key.toLowerCase();
-  const letters = Object.keys(current.questions[qIndex].options);
-  if (letters.map((l) => l.toLowerCase()).includes(k)) {
-    answers[qIndex] = k.toUpperCase();
+  const idx = ['a', 'b', 'c'].indexOf(e.key.toLowerCase());
+  if (idx >= 0 && idx < shuffles[qIndex].length) {
+    answers[qIndex] = shuffles[qIndex][idx];
     if (qIndex < current.questions.length - 1) qIndex++;
     renderQuestion();
   }
