@@ -198,15 +198,21 @@ const ITV_ROWS = [
 // front/body/rear: proporciones para la barra visual.
 const OVERHANG_ROWS = [
   {
-    icon: '🚗', vehicle: 'Turismos y vehículos ≤ 5 m',
-    front: 0, body: 3, rear: 1,
-    label: 'Hasta 1/3 de la longitud del vehículo',
-    detail: 'Un turismo de 4,5 m puede llevar carga sobresaliendo hasta 1,5 m. Lateralmente la carga no debe sobresalir nunca.',
+    icon: '🚗', vehicle: 'Turismos (y demás vehículos NO de mercancías)',
+    front: 0, body: 10, rear: 1.5,
+    label: 'Solo por detrás: 10% de su longitud · 15% si la carga es indivisible',
+    detail: 'Un turismo de 4,5 m: 45 cm, o 67 cm si es indivisible (p. ej. una escalera). Nunca por delante ni lateralmente.',
   },
   {
-    icon: '🚛', vehicle: 'Camiones y vehículos > 5 m',
+    icon: '🚐', vehicle: 'Vehículos de mercancías ≤ 5 m (furgonetas)',
+    front: 0, body: 3, rear: 1,
+    label: 'Carga indivisible: hasta 1/3 de la longitud del vehículo',
+    detail: 'Lateralmente la carga no debe sobresalir.',
+  },
+  {
+    icon: '🚛', vehicle: 'Vehículos de mercancías > 5 m (camiones)',
     front: 2, body: 10, rear: 3,
-    label: 'Delante: 2 m · Detrás: 3 m',
+    label: 'Carga indivisible: 2 m por delante · 3 m por detrás',
     detail: 'Límites fijos en metros, independientes de la longitud del vehículo.',
   },
   {
