@@ -194,6 +194,45 @@ const ITV_ROWS = [
   },
 ];
 
+// Distancias de seguridad (art. 54 RGC; túneles; RD 518/2026 vulnerables)
+const SAFE_DISTANCES = [
+  {
+    icon: '📏', title: 'Regla general (todas las vías y vehículos)',
+    dist: 'Poder detenerse sin colisionar',
+    detail: 'Espacio libre que permita pararse ante un frenado brusco del que va delante. La DGT recomienda la regla de los 2 segundos (contar dos segundos desde que el precedente pasa un punto fijo).',
+  },
+  {
+    icon: '🚛', title: 'Camiones > 3.500 kg y conjuntos > 10 m (fuera de poblado)',
+    dist: '50 m',
+    detail: 'Separación mínima para que quien adelanta pueda intercalarse. NO se exige en poblado, donde está prohibido adelantar, con varios carriles por sentido o con tráfico saturado.',
+  },
+  {
+    icon: '🚇', title: 'Túneles y pasos inferiores (si no vas a adelantar)',
+    dist: '100 m o 4 s',
+    detail: 'Para vehículos de más de 3.500 kg: 150 m o 6 segundos.',
+  },
+  {
+    icon: '🚲', title: 'Ciclistas entre sí',
+    dist: 'Exentos',
+    detail: 'Los ciclistas pueden circular en grupo (pelotón) sin mantener estas separaciones; el resto de conductores debe extremar la atención con ellos.',
+  },
+  {
+    icon: '↪️', title: 'Adelantar a ciclistas, peatones o VMP (interurbana)',
+    dist: '1,5 m y −20 km/h',
+    detail: 'Separación lateral mínima de 1,5 m Y reducir al menos 20 km/h respecto al límite de la vía. Si hay varios carriles por sentido: cambio completo de carril obligatorio (RD 518/2026).',
+  },
+  {
+    icon: '🏙️', title: 'Detrás de un ciclista en ciudad (mismo carril)',
+    dist: '5 m',
+    detail: 'Separación mínima de 5 metros con el ciclista que te precede en zonas urbanas (nuevo, RD 518/2026).',
+  },
+  {
+    icon: '🅿️', title: 'Rebasar un vehículo inmovilizado',
+    dist: '1,5 m y −20 km/h',
+    detail: 'Al rebasar un vehículo detenido en la calzada: 1,5 m de separación lateral y reducir la velocidad al menos 20 km/h (RD 518/2026).',
+  },
+];
+
 // Carga sobresaliente (art. 15 RGC) — solo cargas indivisibles.
 // front/body/rear: proporciones para la barra visual.
 const OVERHANG_ROWS = [
@@ -292,6 +331,13 @@ export function renderDiagrams(container) {
   html += '<div class="stats-block"><h2>Tipos de vehículos</h2><div class="light-grid">';
   for (const v of VEHICLE_TYPES) {
     html += `<div class="light-card"><div class="light-title">${v.icon} ${v.title}</div><p>${v.detail}</p></div>`;
+  }
+  html += '</div></div>';
+
+  // --- Distancias de seguridad ---------------------------------------------
+  html += '<div class="stats-block"><h2>Distancias de seguridad</h2><div class="light-grid">';
+  for (const d of SAFE_DISTANCES) {
+    html += `<div class="light-card"><div class="light-title">${d.icon} ${d.title}</div><div class="light-chips"><span class="chip chip-dist">${d.dist}</span></div><p>${d.detail}</p></div>`;
   }
   html += '</div></div>';
 

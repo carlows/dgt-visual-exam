@@ -197,6 +197,7 @@ body.tests-page #tests-app {
 .chip-larga { background: #14442b; color: #6fe3a1; }
 .chip-niebla { background: #45341d; color: #ffd479; }
 .chip-none { background: #2a2d45; color: #9aa0c3; }
+.chip-dist { background: #14442b; color: #6fe3a1; font-size: 14px; }
 
 /* Carga sobresaliente: barra vehículo (sólida) + tramos de carga (rayados) */
 .load-card {
