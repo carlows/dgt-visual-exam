@@ -2,46 +2,44 @@
 // Fuente: Reglamento General de Circulación (art. 48 velocidades, tras
 // RD 1514/2018 y RD 970/2020 para vías urbanas) y recomendaciones DGT.
 
+// Cada fila es un grupo con el mismo límite; todos sus vehículos se muestran
+// con el mismo peso visual.
 const SPEED_ROWS = [
-  { vehicle: '🚗 Turismos', autopista: { max: 120 }, convencional: { max: 90 } },
-  { vehicle: '🏍️ Motocicletas', autopista: { max: 120 }, convencional: { max: 90 } },
-  { vehicle: '🚙 Autocaravanas ≤ 3.500 kg', autopista: { max: 120 }, convencional: { max: 90 } },
-  { vehicle: '🛻 Pick-up', autopista: { max: 120 }, convencional: { max: 90 } },
   {
-    vehicle: '🚌 Autobuses',
-    note: 'También derivados de turismo y mixtos adaptables',
+    members: ['🚗 Turismos', '🏍️ Motocicletas', '🚙 Autocaravanas ≤ 3.500 kg', '🛻 Pick-up'],
+    autopista: { max: 120 },
+    convencional: { max: 90 },
+  },
+  {
+    members: ['🚌 Autobuses', '🚕 Derivados de turismo', '🚑 Vehículos mixtos adaptables'],
     autopista: { max: 100 },
     convencional: { max: 80 },
   },
-  { vehicle: '🚚 Camiones y tractocamiones', autopista: { max: 90 }, convencional: { max: 80 } },
-  { vehicle: '🚐 Furgonetas', autopista: { max: 90 }, convencional: { max: 80 } },
   {
-    vehicle: '🚗➕ Automóviles con remolque',
-    note: 'También vehículos articulados',
+    members: ['🚚 Camiones y tractocamiones', '🚐 Furgonetas', '🚗➕ Automóviles con remolque', '🚛 Vehículos articulados', '🚙 Autocaravanas > 3.500 kg'],
     autopista: { max: 90 },
     convencional: { max: 80 },
   },
-  { vehicle: '🚙 Autocaravanas > 3.500 kg', autopista: { max: 90 }, convencional: { max: 80 } },
   {
-    vehicle: '🛵 Ciclomotores',
+    members: ['🛵 Ciclomotores'],
     note: 'Prohibido circular por autopista y autovía',
     autopista: { banned: true },
     convencional: { max: 45 },
   },
   {
-    vehicle: '🚲 Bicicletas',
-    note: 'Prohibida la autopista; por autovía solo el arcén (mayores de 14 años y si no está prohibido). Pueden superar los 45 en descensos',
+    members: ['🚲 Bicicletas'],
+    note: 'Prohibida la autopista; por autovía solo el arcén (mayores de 14 años y si no está prohibido). Pueden superar los 45 km/h en descensos',
     autopista: { banned: true },
     convencional: { max: 45 },
   },
   {
-    vehicle: '🚜 Vehículos especiales',
+    members: ['🚜 Vehículos especiales'],
     note: 'Prohibida autopista/autovía si no pueden superar los 60 km/h. Sin ciertos requisitos (frenado, alumbrado…): 25 km/h',
     autopista: { banned: true },
     convencional: { max: 40 },
   },
   {
-    vehicle: '🛴 VMP (patinetes)',
+    members: ['🛴 VMP (patinetes)'],
     note: 'Solo vías urbanas, máximo 25 km/h. Prohibidas travesías, interurbanas, autopistas y autovías',
     autopista: { banned: true },
     convencional: { banned: true },
@@ -52,6 +50,16 @@ const URBAN_ROWS = [
   { max: 20, desc: 'Calles de plataforma única (calzada y acera al mismo nivel)' },
   { max: 30, desc: 'Vías de un único carril por sentido' },
   { max: 50, desc: 'Vías de dos o más carriles por sentido (todos los vehículos)' },
+];
+
+// Límites en situaciones especiales (obras, carriles habilitados, etc.)
+const SPECIAL_ROWS = [
+  { sign: { max: 80 }, icon: '🏙️', desc: 'Autopistas y autovías que pasan por dentro de poblado: 80 km/h, salvo otra señal.' },
+  { sign: { max: 50 }, icon: '🛣️', desc: 'Travesías (tramo de carretera que cruza un poblado): 50 km/h genérica.' },
+  { sign: { max: 80 }, icon: '↔️', desc: 'Carril habilitado en sentido contrario al habitual (por fluidez, cono/baliza): máximo 80 km/h (o el señalizado si es menor), sin bajar de 60, y con la luz de cruce encendida.' },
+  { sign: null, icon: '🚧', desc: 'Obras: mandan las señales provisionales de fondo amarillo, que prevalecen sobre las señales fijas de la vía.' },
+  { sign: null, icon: '🚸', desc: 'Transporte escolar y de menores, y mercancías peligrosas: fuera de poblado circulan 10 km/h por debajo de la genérica de su vehículo.' },
+  { sign: null, icon: '🚫', desc: 'Adelantar NO permite superar el límite: la antigua excepción de +20 km/h en convencionales se eliminó en 2022.' },
 ];
 
 const MIN_RULES = [
@@ -231,7 +239,8 @@ export function renderDiagrams(container) {
   html += '<div class="stats-block"><h2>Velocidades máximas fuera de poblado</h2>';
   html += '<div class="speed-table"><div class="speed-head"></div><div class="speed-head">Autopista / autovía</div><div class="speed-head">Carretera convencional</div>';
   for (const r of SPEED_ROWS) {
-    html += `<div class="speed-vehicle"><strong>${r.vehicle}</strong>${r.note ? `<span>${r.note}</span>` : ''}</div>`;
+    const members = r.members.map((m) => `<span class="member">${m}</span>`).join('');
+    html += `<div class="speed-vehicle"><div class="members">${members}</div>${r.note ? `<span>${r.note}</span>` : ''}</div>`;
     html += `<div class="speed-cell">${sign(r.autopista)}</div>`;
     html += `<div class="speed-cell">${sign(r.convencional)}</div>`;
   }
@@ -240,6 +249,12 @@ export function renderDiagrams(container) {
   html += '<div class="stats-block"><h2>Velocidades en vías urbanas (todos los vehículos)</h2><div class="urban-rows">';
   for (const u of URBAN_ROWS) {
     html += `<div class="urban-row">${sign(u)}<span>${u.desc}</span></div>`;
+  }
+  html += '</div></div>';
+
+  html += '<div class="stats-block"><h2>Límites en situaciones especiales</h2><div class="urban-rows">';
+  for (const s of SPECIAL_ROWS) {
+    html += `<div class="urban-row">${s.sign ? sign(s.sign) : `<span class="sign emoji">${s.icon}</span>`}<span>${s.desc}</span></div>`;
   }
   html += '</div></div>';
 

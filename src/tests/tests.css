@@ -142,6 +142,7 @@ body.tests-page #tests-app {
 .sign.max { background: #fff; color: #111; border: 6px solid #cf2233; }
 .sign.min { background: #1e5bd6; color: #fff; border: 3px solid #fff; }
 .sign.banned { background: none; border: none; font-size: 42px; }
+.sign.emoji { background: none; border: none; font-size: 34px; }
 .sign.spacer { visibility: hidden; }
 
 .speed-table {
@@ -153,6 +154,17 @@ body.tests-page #tests-app {
 .speed-head { font-size: 13px; color: #8fd0ff; text-transform: uppercase; letter-spacing: 0.04em; text-align: center; }
 .speed-vehicle { font-size: 14px; line-height: 1.4; }
 .speed-vehicle span { display: block; font-size: 12px; color: #9aa0c3; }
+.speed-vehicle .members { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.speed-vehicle .member {
+  display: inline-block;
+  background: #232748;
+  border: 1px solid #363c6b;
+  border-radius: 999px;
+  padding: 4px 11px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
 .speed-cell {
   display: flex; justify-content: center;
   background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
