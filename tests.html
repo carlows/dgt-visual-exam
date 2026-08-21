@@ -17,6 +17,7 @@
         <nav class="tests-nav">
           <a href="./index.html">← Simulador 3D</a>
           <button id="btn-stats" class="linklike">Mis estadísticas</button>
+          <button id="btn-diagrams" class="linklike">Diagramas</button>
         </nav>
       </header>
       <div id="test-cards"></div>
@@ -30,7 +31,10 @@
         <div id="quiz-dots"></div>
       </header>
       <div class="quiz-body">
-        <figure id="q-figure"><img id="q-image" alt="" /></figure>
+        <figure id="q-figure">
+          <img id="q-image" alt="" />
+          <button id="btn-reveal" class="hidden">👁 Mostrar foto<br><small>ojo: la respuesta correcta aparece en verde</small></button>
+        </figure>
         <div class="quiz-panel">
           <h2 id="q-text"></h2>
           <div id="q-options"></div>
@@ -54,6 +58,18 @@
         </nav>
       </header>
       <div id="review-list"></div>
+    </div>
+
+    <!-- Diagramas de estudio -->
+    <div id="diagrams-view" class="hidden">
+      <header class="tests-header">
+        <h1>Diagramas</h1>
+        <p class="subtitle">Velocidades por vehículo y vía, y alumbrado según la situación.</p>
+        <nav class="tests-nav">
+          <button id="btn-diagrams-back" class="linklike">← Tests</button>
+        </nav>
+      </header>
+      <div id="diagrams-body"></div>
     </div>
 
     <!-- Estadísticas de intentos -->

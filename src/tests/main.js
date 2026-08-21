@@ -1,4 +1,5 @@
 import TESTS from '../data/tests.json';
+import { renderDiagrams } from './diagrams.js';
 
 const IMG_BASE = `${import.meta.env.BASE_URL}exam-images/`;
 const STORAGE_KEY = 'dgt-test-attempts';
@@ -9,6 +10,7 @@ const views = {
   quiz: $('quiz-view'),
   result: $('result-view'),
   stats: $('stats-view'),
+  diagrams: $('diagrams-view'),
 };
 
 function showView(name) {
@@ -70,12 +72,16 @@ let current = null;   // test en curso
 let answers = [];     // letra elegida por pregunta (o null)
 let qIndex = 0;
 let startedAt = null;
+let hidePhotos = false;      // primer intento: la foto desvela la respuesta en verde
+let revealed = new Set();    // preguntas cuya foto se ha destapado a propósito
 
 function startTest(t) {
   current = t;
   answers = new Array(t.questions.length).fill(null);
   qIndex = 0;
   startedAt = new Date();
+  hidePhotos = !loadAttempts().some((a) => a.test === t.test);
+  revealed = new Set();
   renderQuestion();
   showView('quiz');
 }
@@ -95,9 +101,14 @@ function renderQuestion() {
   });
 
   const fig = $('q-figure');
+  const img = $('q-image');
+  const reveal = $('btn-reveal');
   if (q.image) {
-    $('q-image').src = IMG_BASE + q.image;
     fig.classList.remove('hidden');
+    const hide = hidePhotos && !revealed.has(qIndex);
+    img.classList.toggle('hidden', hide);
+    reveal.classList.toggle('hidden', !hide);
+    img.src = hide ? '' : IMG_BASE + q.image;
   } else {
     fig.classList.add('hidden');
   }
@@ -123,6 +134,8 @@ function renderQuestion() {
   $('btn-finish').classList.toggle('hidden', !answeredAll && qIndex < current.questions.length - 1);
   $('btn-next-q').classList.toggle('hidden', qIndex === current.questions.length - 1);
 }
+
+$('btn-reveal').addEventListener('click', () => { revealed.add(qIndex); renderQuestion(); });
 
 $('btn-prev').addEventListener('click', () => { if (qIndex > 0) { qIndex--; renderQuestion(); } });
 $('btn-next-q').addEventListener('click', () => { if (qIndex < current.questions.length - 1) { qIndex++; renderQuestion(); } });
@@ -228,6 +241,8 @@ function escapeHtml(s) {
 
 $('btn-stats').addEventListener('click', renderStats);
 $('btn-stats-back').addEventListener('click', renderList);
+$('btn-diagrams').addEventListener('click', () => { renderDiagrams($('diagrams-body')); showView('diagrams'); });
+$('btn-diagrams-back').addEventListener('click', renderList);
 $('btn-export').addEventListener('click', () => {
   const blob = new Blob([JSON.stringify(loadAttempts(), null, 2)], { type: 'application/json' });
   const a = document.createElement('a');

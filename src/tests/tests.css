@@ -112,7 +112,84 @@ body.tests-page #tests-app {
 }
 .stats-row .bar { color: #ff7b7b; }
 
+/* Foto oculta en el primer intento (la captura desvela la respuesta en verde) */
+#btn-reveal {
+  display: block;
+  margin: 0 auto;
+  background: #232748;
+  color: #cfd6ff;
+  border: 1px dashed #5560a8;
+  border-radius: 12px;
+  padding: 18px 26px;
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+#btn-reveal small { color: #9aa0c3; }
+#btn-reveal:hover { background: #2e3460; }
+
+/* Diagramas: señales de velocidad */
+.sign {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px; height: 58px;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 19px;
+  flex-shrink: 0;
+}
+.sign.max { background: #fff; color: #111; border: 6px solid #cf2233; }
+.sign.min { background: #1e5bd6; color: #fff; border: 3px solid #fff; }
+.sign.banned { background: none; border: none; font-size: 42px; }
+.sign.spacer { visibility: hidden; }
+
+.speed-table {
+  display: grid;
+  grid-template-columns: 1fr 150px 150px;
+  gap: 8px 10px;
+  align-items: center;
+}
+.speed-head { font-size: 13px; color: #8fd0ff; text-transform: uppercase; letter-spacing: 0.04em; text-align: center; }
+.speed-vehicle { font-size: 14px; line-height: 1.4; }
+.speed-vehicle span { display: block; font-size: 12px; color: #9aa0c3; }
+.speed-cell {
+  display: flex; justify-content: center;
+  background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
+  padding: 10px 0;
+}
+
+.urban-rows { display: flex; flex-direction: column; gap: 10px; }
+.urban-row {
+  display: flex; align-items: center; gap: 14px;
+  background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
+  padding: 10px 14px; font-size: 14px; line-height: 1.45;
+}
+
+/* Diagramas: alumbrado */
+.light-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.light-card {
+  background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
+  padding: 14px;
+}
+.light-title { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.light-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.light-card p { font-size: 13px; color: #b9bfe0; line-height: 1.5; }
+
+.chip {
+  font-size: 12px; font-weight: 600;
+  padding: 4px 10px; border-radius: 999px;
+}
+.chip-pos { background: #3a3f1d; color: #e8f08a; }
+.chip-cruce { background: #1d3a4a; color: #8fd0ff; }
+.chip-larga { background: #14442b; color: #6fe3a1; }
+.chip-niebla { background: #45341d; color: #ffd479; }
+.chip-none { background: #2a2d45; color: #9aa0c3; }
+
 @media (max-width: 640px) {
   #q-figure img { max-height: 32vh; }
   .quiz-panel h2 { font-size: 16px; }
+  .speed-table { grid-template-columns: 1fr 92px 92px; }
+  .sign { width: 48px; height: 48px; font-size: 16px; }
+  .sign.max { border-width: 5px; }
 }
