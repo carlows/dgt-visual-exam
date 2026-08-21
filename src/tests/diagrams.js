@@ -82,7 +82,7 @@ const LIGHT_SITUATIONS = [
     icon: '🏍️',
     title: 'Motocicletas',
     lights: ['cruce'],
-    detail: 'Cruce siempre encendido, de día y de noche.',
+    detail: 'Cruce siempre encendido, también de día. De noche, las mismas reglas que un turismo: largas en interurbana sin iluminar, cruce al cruzarte con alguien.',
   },
   {
     icon: '🅿️',
@@ -95,6 +95,75 @@ const LIGHT_SITUATIONS = [
     title: 'Si te deslumbran',
     lights: [],
     detail: 'Reduce la velocidad e incluso detente si es necesario; nunca respondas deslumbrando tú.',
+  },
+];
+
+// Retrovisores obligatorios (Reglamento General de Vehículos)
+const MIRROR_ROWS = [
+  {
+    icon: '🚗', vehicle: 'Turismos',
+    mirrors: ['Interior', 'Exterior izquierdo'],
+    detail: 'El exterior derecho es obligatorio solo si el interior no permite ver bien hacia atrás (p. ej. luneta tapada o remolque).',
+  },
+  {
+    icon: '🏍️', vehicle: 'Motocicletas',
+    mirrors: ['Exterior izquierdo'],
+    detail: 'Si por construcción puede superar los 100 km/h, obligatorios los DOS exteriores (izquierdo y derecho).',
+  },
+  {
+    icon: '🛵', vehicle: 'Ciclomotores',
+    mirrors: ['Exterior izquierdo'],
+    detail: 'Basta con el retrovisor izquierdo.',
+  },
+  {
+    icon: '🚚', vehicle: 'Camiones y furgonetas',
+    mirrors: ['Exterior izquierdo', 'Exterior derecho'],
+    detail: 'Dos exteriores siempre: la carga o la carrocería impiden usar el interior.',
+  },
+  {
+    icon: '🚌', vehicle: 'Autobuses',
+    mirrors: ['Exterior izquierdo', 'Exterior derecho'],
+    detail: 'Dos exteriores siempre.',
+  },
+];
+
+// Clasificación de vehículos (definiciones que caen en examen)
+const VEHICLE_TYPES = [
+  { icon: '🛴', title: 'VMP (patinete eléctrico)', detail: 'Una plaza, entre 6 y 25 km/h. Prohibido en travesías, interurbanas, autopistas, autovías y túneles urbanos.' },
+  { icon: '🛵', title: 'Ciclomotor', detail: '2 o 3 ruedas con motor ≤ 50 cm³ y velocidad ≤ 45 km/h (también cuadriciclos ligeros). NO es una motocicleta y NO puede circular por autopista ni autovía.' },
+  { icon: '🏍️', title: 'Motocicleta', detail: 'Dos ruedas (con o sin sidecar), cilindrada > 50 cm³ o velocidad > 45 km/h.' },
+  { icon: '🚗', title: 'Turismo', detail: 'Automóvil destinado al transporte de personas con un máximo de 9 plazas incluida la del conductor.' },
+  { icon: '🚌', title: 'Autobús', detail: 'Más de 9 plazas incluida la del conductor.' },
+  { icon: '🚐', title: 'Furgoneta / camión ligero', detail: 'Transporte de mercancías con MMA ≤ 3.500 kg. Por encima de 3.500 kg es un camión.' },
+  { icon: '🚛', title: 'Vehículo articulado', detail: 'Tractocamión + semirremolque. Si es un automóvil que arrastra un remolque: tren de carretera.' },
+  { icon: '🚜', title: 'Vehículo especial', detail: 'Obras, servicios o agrícola (tractor). Velocidad genérica máxima: 40 km/h (25 km/h sin ciertos requisitos).' },
+];
+
+// Plazos de ITV por antigüedad del vehículo
+const ITV_ROWS = [
+  {
+    icon: '🚗', vehicle: 'Turismos particulares',
+    periods: [['0–4 años', 'exento'], ['4–10 años', 'cada 2 años'], ['+10 años', 'cada año']],
+  },
+  {
+    icon: '🏍️', vehicle: 'Motocicletas',
+    periods: [['0–4 años', 'exento'], ['+4 años', 'cada 2 años']],
+  },
+  {
+    icon: '🛵', vehicle: 'Ciclomotores',
+    periods: [['0–3 años', 'exento'], ['+3 años', 'cada 2 años']],
+  },
+  {
+    icon: '🚐', vehicle: 'Furgonetas (mercancías ≤ 3.500 kg)',
+    periods: [['0–2 años', 'exento'], ['2–6 años', 'cada 2 años'], ['6–10 años', 'cada año'], ['+10 años', 'cada 6 meses']],
+  },
+  {
+    icon: '🚛', vehicle: 'Camiones (> 3.500 kg)',
+    periods: [['0–10 años', 'cada año'], ['+10 años', 'cada 6 meses']],
+  },
+  {
+    icon: '🚌', vehicle: 'Autobuses',
+    periods: [['0–5 años', 'cada año'], ['+5 años', 'cada 6 meses']],
   },
 ];
 
@@ -148,7 +217,32 @@ export function renderDiagrams(container) {
   }
   html += '</div></div>';
 
-  html += '<p class="subtitle">Genéricas del Reglamento General de Circulación; una señal concreta siempre manda sobre estos valores.</p>';
+  // --- Retrovisores ----------------------------------------------------------
+  html += '<div class="stats-block"><h2>Espejos retrovisores obligatorios</h2><div class="light-grid">';
+  for (const m of MIRROR_ROWS) {
+    const chips = m.mirrors.map((x) => `<span class="chip chip-cruce">${x}</span>`).join('');
+    html += `<div class="light-card"><div class="light-title">${m.icon} ${m.vehicle}</div><div class="light-chips">${chips}</div><p>${m.detail}</p></div>`;
+  }
+  html += '</div></div>';
+
+  // --- Tipos de vehículos ----------------------------------------------------
+  html += '<div class="stats-block"><h2>Tipos de vehículos</h2><div class="light-grid">';
+  for (const v of VEHICLE_TYPES) {
+    html += `<div class="light-card"><div class="light-title">${v.icon} ${v.title}</div><p>${v.detail}</p></div>`;
+  }
+  html += '</div></div>';
+
+  // --- ITV ---------------------------------------------------------------
+  html += '<div class="stats-block"><h2>Plazos de la ITV (por antigüedad)</h2><div class="urban-rows">';
+  for (const r of ITV_ROWS) {
+    const chips = r.periods
+      .map(([age, freq]) => `<span class="chip ${freq === 'exento' ? 'chip-none' : freq === 'cada 6 meses' ? 'chip-niebla' : 'chip-cruce'}">${age}: ${freq}</span>`)
+      .join('');
+    html += `<div class="urban-row itv-row"><span class="itv-vehicle">${r.icon} ${r.vehicle}</span><span class="light-chips">${chips}</span></div>`;
+  }
+  html += '</div></div>';
+
+  html += '<p class="subtitle">Genéricas del Reglamento General de Circulación y de Vehículos; una señal concreta siempre manda sobre estos valores.</p>';
 
   container.innerHTML = html;
 }

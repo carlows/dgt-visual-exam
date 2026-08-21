@@ -186,10 +186,15 @@ body.tests-page #tests-app {
 .chip-niebla { background: #45341d; color: #ffd479; }
 .chip-none { background: #2a2d45; color: #9aa0c3; }
 
+/* ITV: vehículo a la izquierda, chips de plazos a la derecha */
+.itv-row { flex-wrap: wrap; }
+.itv-vehicle { min-width: 220px; font-weight: 600; }
+
 @media (max-width: 640px) {
   #q-figure img { max-height: 32vh; }
   .quiz-panel h2 { font-size: 16px; }
   .speed-table { grid-template-columns: 1fr 92px 92px; }
   .sign { width: 48px; height: 48px; font-size: 16px; }
   .sign.max { border-width: 5px; }
+  .itv-vehicle { min-width: 100%; }
 }
