@@ -166,7 +166,7 @@ body.tests-page #tests-app {
   color: #fff;
 }
 .speed-cell {
-  display: flex; justify-content: center;
+  display: flex; justify-content: center; gap: 8px;
   background: #16182b; border: 1px solid #2e3250; border-radius: 12px;
   padding: 10px 0;
 }
@@ -240,6 +240,9 @@ body.tests-page #tests-app {
 }
 .load-label { font-size: 13px; font-weight: 600; color: #ffd479; margin-bottom: 6px; }
 
+/* Notas al pie de tablas */
+.table-note { font-size: 12px; color: #9aa0c3; margin-top: 8px; line-height: 1.5; }
+
 /* ITV: vehículo a la izquierda, chips de plazos a la derecha */
 .itv-row { flex-wrap: wrap; }
 .itv-vehicle { min-width: 220px; font-weight: 600; }
@@ -247,7 +250,7 @@ body.tests-page #tests-app {
 @media (max-width: 640px) {
   #q-figure img { max-height: 32vh; }
   .quiz-panel h2 { font-size: 16px; }
-  .speed-table { grid-template-columns: 1fr 92px 92px; }
+  .speed-table { grid-template-columns: 1fr 108px 108px; }
   .sign { width: 48px; height: 48px; font-size: 16px; }
   .sign.max { border-width: 5px; }
   .itv-vehicle { min-width: 100%; }

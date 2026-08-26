@@ -6,19 +6,20 @@
 // con el mismo peso visual.
 const SPEED_ROWS = [
   {
-    members: ['🚗 Turismos', '🏍️ Motocicletas', '🚙 Autocaravanas ≤ 3.500 kg', '🛻 Pick-up'],
-    autopista: { max: 120 },
-    convencional: { max: 90 },
+    members: ['🚗 Turismos', '🏍️ Motocicletas', '🛺 Tres ruedas asimilados a motocicleta', '🚙 Autocaravanas ≤ 3.500 kg', '🛻 Pick-up'],
+    autopista: { max: 120, min: 60 },
+    convencional: { max: 90, min: 45 },
+    note: '(1) En convencionales con separación física de los sentidos, el titular de la vía puede fijar 100 km/h para este grupo',
   },
   {
-    members: ['🚌 Autobuses', '🚕 Derivados de turismo', '🚑 Vehículos mixtos adaptables'],
-    autopista: { max: 100 },
-    convencional: { max: 80 },
+    members: ['🚌 Autobuses', '🚕 Vehículos derivados de turismo', '🚑 Vehículos mixtos adaptables'],
+    autopista: { max: 100, min: 60 },
+    convencional: { max: 90, min: 45 },
   },
   {
-    members: ['🚚 Camiones y tractocamiones', '🚐 Furgonetas', '🚗➕ Automóviles con remolque', '🚛 Vehículos articulados', '🚙 Autocaravanas > 3.500 kg'],
-    autopista: { max: 90 },
-    convencional: { max: 80 },
+    members: ['🚚 Camiones', '🚛 Tractocamiones', '🚐 Furgonetas', '🚙 Autocaravanas > 3.500 kg', '🚗➕ Automóviles con remolque', '🚛 Vehículos articulados', '🔧 Resto de vehículos'],
+    autopista: { max: 90, min: 60 },
+    convencional: { max: 80, min: 40 },
   },
   {
     members: ['🛵 Ciclomotores'],
@@ -64,7 +65,7 @@ const SPECIAL_ROWS = [
 
 const MIN_RULES = [
   { sign: { min: 60 }, desc: 'Velocidad mínima en autopista y autovía: 60 km/h' },
-  { sign: null, desc: 'Regla general: no circular por debajo de la mitad de la velocidad genérica de la vía (convencional 45 km/h, urbana 25 km/h), salvo adelantamiento o causa justificada' },
+  { sign: null, desc: 'Regla general: no circular por debajo de la mitad de la velocidad genérica del vehículo en esa vía (convencional 45 km/h para turismos y autobuses, 40 km/h para camiones; urbana 25 km/h), salvo adelantamiento o causa justificada' },
 ];
 
 // luces: pos = posición, cruce, carretera (largas), antiN-del, antiN-tras
@@ -319,16 +320,18 @@ const LIGHT_LABELS = {
 function sign(cell) {
   if (!cell) return '';
   if (cell.banned) return '<span class="sign banned" title="Prohibido">⛔</span>';
-  if (cell.max != null) return `<span class="sign max">${cell.max}</span>`;
-  if (cell.min != null) return `<span class="sign min">${cell.min}</span>`;
-  return '';
+  let out = '';
+  if (cell.max != null) out += `<span class="sign max" title="Máxima">${cell.max}</span>`;
+  if (cell.min != null) out += `<span class="sign min" title="Mínima">${cell.min}</span>`;
+  return out;
 }
 
 export function renderDiagrams(container) {
   let html = '';
 
   // --- Velocidades -----------------------------------------------------------
-  html += '<div class="stats-block"><h2>Velocidades máximas fuera de poblado</h2>';
+  html += '<div class="stats-block"><h2>Velocidades máximas y mínimas fuera de poblado</h2>';
+  html += '<p class="subtitle" style="margin-bottom:12px"><span class="sign max" style="width:30px;height:30px;font-size:12px;border-width:4px">90</span> máxima &nbsp; <span class="sign min" style="width:30px;height:30px;font-size:12px">45</span> mínima</p>';
   html += '<div class="speed-table"><div class="speed-head"></div><div class="speed-head">Autopista / autovía</div><div class="speed-head">Carretera convencional</div>';
   for (const r of SPEED_ROWS) {
     const members = r.members.map((m) => `<span class="member">${m}</span>`).join('');
@@ -336,7 +339,10 @@ export function renderDiagrams(container) {
     html += `<div class="speed-cell">${sign(r.autopista)}</div>`;
     html += `<div class="speed-cell">${sign(r.convencional)}</div>`;
   }
-  html += '</div></div>';
+  html += '</div>';
+  html += '<p class="table-note">• Vías sin pavimentar: máximo 30 km/h para todos los vehículos.</p>';
+  html += '<p class="table-note">• La mínima genérica es la mitad de la máxima de la vía; en autopista y autovía nunca menos de 60 km/h.</p>';
+  html += '</div>';
 
   html += '<div class="stats-block"><h2>Velocidades en vías urbanas (todos los vehículos)</h2><div class="urban-rows">';
   for (const u of URBAN_ROWS) {
