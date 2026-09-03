@@ -57,7 +57,7 @@ const URBAN_ROWS = [
 const SPECIAL_ROWS = [
   { sign: { max: 80 }, icon: '🏙️', desc: 'Autopistas y autovías que pasan por dentro de poblado: 80 km/h, salvo otra señal.' },
   { sign: { max: 50 }, icon: '🛣️', desc: 'Travesías (tramo de carretera que cruza un poblado): 50 km/h genérica.' },
-  { sign: { max: 80 }, icon: '↔️', desc: 'Carril habilitado en sentido contrario al habitual (por fluidez, cono/baliza): máximo 80 km/h (o el señalizado si es menor), sin bajar de 60, y con la luz de cruce encendida.' },
+  { sign: { max: 80 }, icon: '↔️', desc: 'Carril habilitado en sentido contrario al habitual (por fluidez): SOLO pueden usarlo turismos y motocicletas SIN remolque, a máximo 80 km/h (o el señalizado), sin bajar de 60 y con el cruce encendido.' },
   { sign: null, icon: '🚧', desc: 'Obras: mandan las señales provisionales de fondo amarillo, que prevalecen sobre las señales fijas de la vía.' },
   { sign: null, icon: '🚸', desc: 'Transporte escolar y de menores, y mercancías peligrosas: fuera de poblado circulan 10 km/h por debajo de la genérica de su vehículo.' },
   { sign: null, icon: '🚫', desc: 'Adelantar NO permite superar el límite: la antigua excepción de +20 km/h en convencionales se eliminó en 2022.' },
@@ -84,15 +84,33 @@ const LIGHT_SITUATIONS = [
   },
   {
     icon: '🚇',
-    title: 'Túneles y pasos inferiores',
+    title: 'Túnel o vía SUFICIENTEMENTE iluminada',
     lights: ['cruce'],
-    detail: 'Cruce obligatorio también de día, esté o no iluminado el túnel.',
+    detail: 'Posición + cruce, también de día en túneles y pasos inferiores.',
+  },
+  {
+    icon: '🕳️',
+    title: 'Túnel o vía interurbana INSUFICIENTEMENTE iluminada a más de 40 km/h',
+    lights: ['carretera'],
+    detail: 'Es OBLIGATORIO llevar las largas si circulas a más de 40 km/h y no deslumbras a nadie (a 80 km/h el cruce no ilumina lo que necesitas para detenerte). Puedes llevar largas y cruce a la vez.',
+  },
+  {
+    icon: '🌆',
+    title: 'Vía urbana o travesía insuficientemente iluminada',
+    lights: ['posicion', 'cruce'],
+    detail: 'De noche: posición + cruce. Las largas están prohibidas en travesías y vías urbanas.',
   },
   {
     icon: '🌫️',
-    title: 'Niebla, lluvia intensa o nevada',
-    lights: ['cruce', 'antiniebla-del'],
-    detail: 'Cruce y/o antiniebla delantera. La antiniebla trasera SOLO con niebla densa, lluvia muy intensa o nevada intensa (deslumbra si la usas sin motivo).',
+    title: 'Niebla ESPESA, lluvia muy intensa o nevada intensa',
+    lights: ['posicion', 'cruce', 'antiniebla-del'],
+    detail: 'Posición + cruce (o antiniebla delantera, o ambas) y antiniebla trasera OBLIGATORIA. Es el único caso en que se usa la antiniebla trasera; fuera de él deslumbra y está prohibida.',
+  },
+  {
+    icon: '🌁',
+    title: 'Niebla ligera, lluvia, nevada ligera o nube de polvo',
+    lights: ['antiniebla-del'],
+    detail: 'Antiniebla delantera únicamente; si el vehículo no la lleva, posición y al menos el cruce. Antiniebla trasera NO. La antiniebla delantera también se permite en tramos estrechos (calzada ≤ 6,50 m) con muchas curvas señalizadas, incluso sin niebla.',
   },
   {
     icon: '🌅',
@@ -123,6 +141,30 @@ const LIGHT_SITUATIONS = [
     title: 'Si te deslumbran',
     lights: [],
     detail: 'Reduce la velocidad e incluso detente si es necesario; nunca respondas deslumbrando tú.',
+  },
+  {
+    icon: '🚏',
+    title: 'Estacionado',
+    lights: ['posicion'],
+    detail: 'De noche en travesía o vía insuficientemente iluminada: posición (o estacionamiento, o las dos de posición del lado de la calzada). En vía urbana bien iluminada o de día: ninguna. PROHIBIDO dejar las largas con el vehículo parado o estacionado.',
+  },
+  {
+    icon: '⏱️',
+    title: 'Detenido más de 2 minutos en túnel o paso inferior',
+    lights: ['posicion'],
+    detail: 'Apagar el motor y mantener encendidas las luces de posición.',
+  },
+  {
+    icon: '📏',
+    title: 'Vehículos de más de 2,10 m de anchura',
+    lights: ['posicion'],
+    detail: 'Luces de gálibo junto con las de posición siempre que el alumbrado sea obligatorio; en túneles, incluso de día.',
+  },
+  {
+    icon: '💡',
+    title: 'Ráfagas',
+    lights: [],
+    detail: 'Alternar corto y largo alcance sin deslumbrar sirve para advertir tu presencia (a quien se incorpora) o tu intención de adelantar fuera de poblado (el claxon, solo excepcionalmente fuera de poblado).',
   },
 ];
 
@@ -227,7 +269,7 @@ const POINTS_GROUPS = [
   {
     points: 3, tone: 'p3', title: 'Graves',
     items: [
-      'Conducir usando auriculares (cascos)',
+      'Conducir usando auriculares (cascos), o llevar el móvil sujeto entre el casco y la cabeza en moto (sujetarlo con la mano son 6)',
       'Llevar detectores de radar (no confundir con inhibidores: 6)',
       'Cambio de sentido antirreglamentario',
       'Excesos de velocidad moderados del cuadro sancionador',
@@ -252,12 +294,17 @@ const SAFE_DISTANCES = [
   {
     icon: '🚛', title: 'Camiones > 3.500 kg y conjuntos > 10 m (fuera de poblado)',
     dist: '50 m',
-    detail: 'Separación mínima para que quien adelanta pueda intercalarse. NO se exige en poblado, donde está prohibido adelantar, con varios carriles por sentido o con tráfico saturado.',
+    detail: 'Separación mínima para que quien adelanta pueda intercalarse. OJO, pregunta trampa: un camión de 3.000 kg NO está obligado a los 50 m — le basta la regla general. No se exige en poblado, donde está prohibido adelantar, con varios carriles por sentido o con tráfico saturado.',
+  },
+  {
+    icon: '🤝', title: 'Dejar hueco para que otros adelanten',
+    dist: 'Carreteras de 1 carril por sentido',
+    detail: 'Todo conductor debe dejar espacio para que quien le adelante pueda intercalarse — solo en carreteras de un carril por sentido; no aplica en poblado ni donde está prohibido adelantar.',
   },
   {
     icon: '🚇', title: 'Túneles y pasos inferiores (si no vas a adelantar)',
     dist: '100 m o 4 s',
-    detail: 'Para vehículos de más de 3.500 kg: 150 m o 6 segundos.',
+    detail: 'Vale para turismos, motos y conjuntos de menos de 3.500 kg. Para vehículos de más de 3.500 kg: 150 m o 6 segundos. Detenido por la circulación: lo más lejos posible del de delante.',
   },
   {
     icon: '🚲', title: 'Ciclistas entre sí',
@@ -293,7 +340,7 @@ const OVERHANG_ROWS = [
   {
     icon: '🚐', vehicle: 'Vehículos de mercancías ≤ 5 m (furgonetas)',
     front: 0, body: 3, rear: 1,
-    label: 'Carga indivisible: hasta 1/3 de la longitud del vehículo',
+    label: 'Carga indivisible: hasta 1/3 de la longitud por cada extremo (delante y detrás)',
     detail: 'Lateralmente la carga no debe sobresalir.',
   },
   {
@@ -389,7 +436,7 @@ export function renderDiagrams(container) {
 
   // --- Permiso por puntos ----------------------------------------------------
   html += '<div class="stats-block"><h2>Pérdida de puntos por infracciones</h2>';
-  html += '<div class="urban-row" style="margin-bottom:12px"><span class="sign emoji">🪪</span><span>Saldo inicial: <strong>12 puntos</strong> (8 para noveles). Máximo acumulable por buen comportamiento: <strong>15</strong>. Ojo: alcohol superior a 0,60 mg/l en aire, o exceder el límite en más de 60 km/h en ciudad / 80 km/h en interurbana, ya es <strong>delito</strong> (vía penal, no puntos).</span></div>';
+  html += '<div class="urban-row" style="margin-bottom:12px"><span class="sign emoji">🪪</span><span>Saldo inicial: <strong>12 puntos</strong> (8 para noveles). Máximo acumulable por buen comportamiento: <strong>15</strong>. Perder todo el saldo supone la <strong>pérdida de vigencia</strong> del permiso. Ojo: alcohol superior a 0,60 mg/l en aire, o exceder el límite en más de 60 km/h en ciudad / 80 km/h en interurbana, ya es <strong>delito</strong> (vía penal, no puntos).</span></div>';
   for (const g of POINTS_GROUPS) {
     html += `<div class="points-group ${g.tone}"><div class="points-head"><span class="points-badge">−${g.points}</span><strong>${g.title}</strong></div><ul>`;
     for (const it of g.items) html += `<li>${it}</li>`;
@@ -417,7 +464,7 @@ export function renderDiagrams(container) {
     </div>`;
   }
   html += `<div class="light-card"><div class="light-title">⚠️ Señalización obligatoria</div>
-    <p>Si la carga sobresale por detrás: panel <strong>V-20</strong> (franjas rojas y blancas) en el extremo. Si ocupa todo el ancho: <strong>dos paneles</strong> formando una V invertida. De noche o con poca visibilidad, además una <strong>luz roja</strong>.</p></div>`;
+    <p>Si sobresale por detrás: panel <strong>V-20</strong> (franjas rojas y blancas) en el extremo — el panel solo es obligatorio cuando sobresale por detrás. Si ocupa todo el ancho: <strong>dos paneles</strong> en V invertida. De noche o con poca visibilidad: además una <strong>luz roja</strong> detrás, y una <strong>luz blanca</strong> si sobresale por delante. La parte saliente siempre protegida para reducir los efectos de un roce o choque.</p></div>`;
   html += '</div></div>';
 
   // --- ITV ---------------------------------------------------------------
